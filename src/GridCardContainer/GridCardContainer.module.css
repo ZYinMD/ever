@@ -1,0 +1,14 @@
+.hackBorder {
+  align-self: center;
+  border-left: 1px solid white; /* to cover the left border of the left-most cards */
+}
+
+.gridCardContainer {
+  background-color: white;
+  display: grid;
+  grid-auto-rows: 90px;
+  grid-template-columns: 313px 313px 313px 313px;
+  margin-left: -1px;
+  position: relative;
+  z-index: -1;
+}

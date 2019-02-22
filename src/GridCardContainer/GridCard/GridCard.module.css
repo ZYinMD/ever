@@ -1,0 +1,37 @@
+.gridCard {
+  background-color: white;
+  font-family: Lato, 'Segoe UI', sans-serif;
+  font-size: 16px;
+  align-self: center;
+  height: 50px;
+  border-left: 1px solid #CCCCCF;
+  display: grid;
+  grid-template-columns:78px auto;
+  grid-template-rows: 25px 25px;
+  grid-template-areas:
+    "icon title"
+    "icon text";
+}
+
+.icon {
+  background-color:#EBEBEC;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  grid-area: icon;
+  place-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  align-self: end;
+  grid-area: title;
+}
+
+.text {
+  align-self: start;
+  grid-area: text;
+}
