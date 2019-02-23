@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import style from './GridCard.module.css';
+import style from './GridCard.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default class GridCard extends PureComponent {
@@ -13,6 +13,6 @@ export default class GridCard extends PureComponent {
           <span className={style.title}>{title}</span>
           <span className={style.text}>{text}</span>
         </div>
-    )
+    );
   }
 }

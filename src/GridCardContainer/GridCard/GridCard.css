@@ -28,10 +28,12 @@
 
 .title {
   align-self: end;
+  justify-self: start;
   grid-area: title;
 }
 
 .text {
   align-self: start;
+  justify-self: start;
   grid-area: text;
 }

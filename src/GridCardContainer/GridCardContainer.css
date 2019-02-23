@@ -1,3 +1,8 @@
+.centerChild {
+  display: flex;
+  flex-direction: column;
+}
+
 .hackBorder {
   align-self: center;
   border-left: 1px solid white; /* to cover the left border of the left-most cards */
