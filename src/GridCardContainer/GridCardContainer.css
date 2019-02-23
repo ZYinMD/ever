@@ -6,10 +6,12 @@
 .hackBorder {
   align-self: center;
   border-left: 1px solid white; /* to cover the left border of the left-most cards */
+  border-radius: 5px;
 }
 
 .gridCardContainer {
   background-color: white;
+  border-radius: 5px;
   display: grid;
   grid-auto-rows: 90px;
   grid-template-columns: 313px 313px 313px 313px;
