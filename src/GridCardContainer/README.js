@@ -1,4 +1,7 @@
 /* Z
+
+This component is maintained by Zhi, if you need more complicated functionality, he would love to add it for you.
+
 to try it out:
   1. import this file:
     import README from '......./src/components/GridCardContainer/README.js';
@@ -7,8 +10,6 @@ to try it out:
       <README />
     );
 
-Known issues:
-  The whole grid may or may not be perfectly centered to the screen due to the floating black bar on the left. Fix it yourself.
 */
 
 import React, { PureComponent } from 'react';
@@ -21,12 +22,12 @@ export default class README extends PureComponent {
     return (
       <GridCardContainer>
         <GridCard icon={faUserMd} title='Degree' body ='MD'/>
-        <GridCard icon={faUserMd} title='Degree' body ='loreml loreml loreml loreml loreml loreml loreml loreml loreml loreml '/>
         <GridCard icon={faUserMd} title='Degree' body ='MD'/>
         <GridCard icon={faUserMd} title='Degree' body ='MD'/>
         <GridCard icon={faUserMd} title='Degree' body ='MD'/>
         <GridCard icon={faUserMd} title='Degree' body ='MD'/>
         <GridCard icon={faUserMd} title='Degree' body ='MD'/>
+        <GridCard icon={faUserMd} title='Degree' body ='This guy has a very very very long degree'/>
         <GridCard icon={faUserMd} title='Degree' body ='MD'/>
         <GridCard icon={faUserMd} title='Degree' body ='MD'/>
         <GridCard icon={faUserMd} title='Degree' body ='MD'/>
