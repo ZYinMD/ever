@@ -20,17 +20,17 @@ export default class README extends PureComponent {
   render() {
     return (
       <GridCardContainer>
-        <GridCard icon={faUserMd} title='Degree' text ='MD'/>
-        <GridCard icon={faUserMd} title='Degree' text ='MD'/>
-        <GridCard icon={faUserMd} title='Degree' text ='MD'/>
-        <GridCard icon={faUserMd} title='Degree' text ='MD'/>
-        <GridCard icon={faUserMd} title='Degree' text ='MD'/>
-        <GridCard icon={faUserMd} title='Degree' text ='MD'/>
-        <GridCard icon={faUserMd} title='Degree' text ='MD'/>
-        <GridCard icon={faUserMd} title='Degree' text ='MD'/>
-        <GridCard icon={faUserMd} title='Degree' text ='MD'/>
-        <GridCard icon={faUserMd} title='Degree' text ='MD'/>
-        <GridCard icon={faUserMd} title='Degree' text ='MD'/>
+        <GridCard icon={faUserMd} title='Degree' body ='MD'/>
+        <GridCard icon={faUserMd} title='Degree' body ='loreml loreml loreml loreml loreml loreml loreml loreml loreml loreml '/>
+        <GridCard icon={faUserMd} title='Degree' body ='MD'/>
+        <GridCard icon={faUserMd} title='Degree' body ='MD'/>
+        <GridCard icon={faUserMd} title='Degree' body ='MD'/>
+        <GridCard icon={faUserMd} title='Degree' body ='MD'/>
+        <GridCard icon={faUserMd} title='Degree' body ='MD'/>
+        <GridCard icon={faUserMd} title='Degree' body ='MD'/>
+        <GridCard icon={faUserMd} title='Degree' body ='MD'/>
+        <GridCard icon={faUserMd} title='Degree' body ='MD'/>
+        <GridCard icon={faUserMd} title='Degree' body ='MD'/>
       </GridCardContainer>
     );
   }

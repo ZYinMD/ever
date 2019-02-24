@@ -4,14 +4,20 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default class GridCard extends PureComponent {
   render() {
-    const {icon, title, text} = this.props;
+    const {icon, title, body} = this.props;
     return (
         <div className={style.gridCard}>
-          <figure className={style.icon}>
-            <FontAwesomeIcon icon={icon}/>
-          </figure>
-          <span className={style.title}>{title}</span>
-          <span className={style.text}>{text}</span>
+          <div className={style.left}>
+            <figure>
+              <div className={style.icon}>
+                <FontAwesomeIcon icon={icon}/>
+              </div>
+            </figure>
+          </div>
+          <div className={style.right}>
+            <p className={style.title}>{title}</p>
+            <p className={style.body}>{body}</p>
+          </div>
         </div>
     );
   }
