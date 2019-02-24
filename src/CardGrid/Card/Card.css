@@ -1,4 +1,4 @@
-.gridCard {
+.card {
   background-color: white;
   display: grid;
     grid-template-columns: 78px auto;

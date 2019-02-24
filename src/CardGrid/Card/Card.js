@@ -1,12 +1,12 @@
 import React, { PureComponent } from 'react';
-import styles from './GridCard.css';
+import styles from './Card.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-export default class GridCard extends PureComponent {
+export default class Card extends PureComponent {
   render() {
     const {icon, title, body} = this.props;
     return (
-        <div className={styles.gridCard}>
+        <div className={styles.card}>
           <div className={styles.left}>
             <figure>
               <div className={styles.icon}>
