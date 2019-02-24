@@ -1,6 +1,6 @@
 /* Z
 
-This component is maintained by Zhi, if you need more complicated functionality, he would love to add it for you.
+This component is maintained by Zhi, if you need more complicated functionality, he'd be happy to build it for you.
 
 to try it out:
   1. import this file:
