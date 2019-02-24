@@ -11,15 +11,12 @@ To try it out:
 
 To use:
   Just do something similar as the example code below.
-  Card takes 2 props:
-    title: the card's title
-    body: text displayed under the title
+  Card takes 2 props, title and body, both strings.
   Each card will display an icon, which is determined by the title. Please refer to '.Card/iconLookup.js' . Icon will be empty if it's not there.
 */
 
 import React, { PureComponent } from 'react';
-import CardGrid from '.';
-import Card from './Card';
+import { CardGrid, Card } from '../CardGrid';
 
 export default class README extends PureComponent {
   render() {

@@ -19,4 +19,6 @@
   margin-left: -1px;
   position: relative;
   z-index: -1;
+  font-family: Lato, BlinkMacSystemFont, "Segoe UI", Helvetica, Roboto,
+    sans-serif;
 }
