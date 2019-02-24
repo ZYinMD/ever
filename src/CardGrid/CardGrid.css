@@ -15,7 +15,6 @@
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
   display: grid;
   grid-auto-rows: 90px;
-  /* grid-template-columns: 313px 313px 313px 313px; */
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-left: -1px;
   position: relative;
