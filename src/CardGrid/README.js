@@ -1,7 +1,7 @@
 /* Z
 This component is maintained by Zhi, if you need more complicated functionality, he'd be happy to build it for you.
 
-To try it out:
+To test it out:
   1. import this file:
     import README from '......./src/components/CardGrid/README.js';
   2. render it:
@@ -10,9 +10,9 @@ To try it out:
     );
 
 To use:
-  Just do something similar as the example code below.
   Card takes 2 props, title and body, both strings.
   Each card will display an icon, which is determined by the title you provide. Please refer to '.Card/iconLookup.js' . Icon will be empty if it's not there.
+  See example below.
 */
 
 import React, { PureComponent } from 'react';
