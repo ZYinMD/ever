@@ -1,10 +1,12 @@
 import React, { PureComponent } from 'react';
 import styles from './Card.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import iconLookup from './iconLookup.js';
 
 export default class Card extends PureComponent {
   render() {
-    const {icon, title, body} = this.props;
+    const {title, body} = this.props;
+    const icon = iconLookup[title];
     return (
         <div className={styles.card}>
           <div className={styles.left}>

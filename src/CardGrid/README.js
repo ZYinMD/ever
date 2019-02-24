@@ -1,5 +1,4 @@
 /* Z
-
 This component is maintained by Zhi, if you need more complicated functionality, he'd be happy to build it for you.
 
 To try it out:
@@ -10,32 +9,36 @@ To try it out:
       <README />
     );
 
+To use:
+  Just do something similar as the example code below.
+  Card takes 2 props:
+    title: the card's title
+    body: text displayed under the title
+  Each card will display an icon, which is determined by the title. Please refer to '.Card/iconLookup.js' . Icon will be empty if it's not there.
 */
 
 import React, { PureComponent } from 'react';
-import CardGrid from './CardGrid.js';
-import Card from './Card/Card.js';
-import { faUserMd } from 'fa5-pro-light';
+import CardGrid from '.';
+import Card from './Card';
 
 export default class README extends PureComponent {
   render() {
     return (
-      <>
-      <br/>
+      <div style={{paddingTop: '20px'}}>
         <CardGrid>
-          <Card icon={faUserMd} title='Degree' body ='MD'/>
-          <Card icon={faUserMd} title='Degree' body ='MD'/>
-          <Card icon={faUserMd} title='Degree' body ='MD'/>
-          <Card icon={faUserMd} title='Degree' body ='MD'/>
-          <Card icon={faUserMd} title='Degree' body ='MD'/>
-          <Card icon={faUserMd} title='Degree' body ='MD'/>
-          <Card icon={faUserMd} title='Degree' body ='This guy has a very very very long degree'/>
-          <Card icon={faUserMd} title='Degree' body ='MD'/>
-          <Card icon={faUserMd} title='Degree' body ='MD'/>
-          <Card icon={faUserMd} title='Degree' body ='MD'/>
-          <Card icon={faUserMd} title='Degree' body ='MD'/>
+          <Card title='Degree' body ='MD'/>
+          <Card title='Gender' body ='Male'/>
+          <Card title='Eat' body ='A lot of things'/>
+          <Card title='Get Up At' body ='5AM'/>
+          <Card title='Allergies' body ='None'/>
+          <Card title='Degree' body ='This guy has a very very  long degree'/>
+          <Card title='Gender' body ='Male'/>
+          <Card title='Eat' body ='A lot of things'/>
+          <Card title='Get Up At' body ='5AM'/>
+          <Card title='Allergies' body ='None'/>
+          <Card title='Charging' body ='Yes!'/>
         </CardGrid>
-      </>
+      </div>
     );
   }
 }
