@@ -2,6 +2,7 @@
   background-color: white;
   display: grid;
     grid-template-columns: 78px auto;
+  border-radius: 5px;
 }
 
 .left {
