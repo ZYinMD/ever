@@ -1,5 +1,5 @@
 /*Z
-This component is maintained my Zhi. Expandable rows will be implemented soon.
+Expandable rows will be implemented soon.
 
 To test it out:
   1. import this file:

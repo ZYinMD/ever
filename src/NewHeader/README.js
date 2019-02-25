@@ -1,5 +1,4 @@
 /*Z
-
 To test it out:
   1. import this file:
     import README from '......./src/components/NewHeader/README.js';
@@ -11,11 +10,13 @@ To test it out:
 To use:
   Props of <NewHeader>:
     name:
-      string, provider's name
+      string, provider's name on the top left corner
     category:
       string, the subtitle underneath the name
     topBorderColor(optional):
       the color of the top header of the horizontal blue bar (it's different on each node), default to #6FC391
+    onClickDropdown:
+      function, what happens when dropdown button gets clicked
     button1(optional):
       fa identifier, the first glyph to the right of the dropdown button, default to none
     button2(optional):
@@ -29,12 +30,12 @@ To use:
     text:
       string, the text showing on the tab
     payload(optional):
-      when this tab is clicked, will dispatch a payload to redux, if omitted, if omitted, will default to {
-        type: 'CHANGE_CURRENT_TAB',
-        payload: {this.props.text}
+      a redux payload, when this tab is clicked, will dispatch the payload, with action.type being 'CHANGE_CURRENT_TAB'.
+      If omitted, will default to {
+        payload: this.props.text
       }
     onClick(optional):
-      what happens when this tab is clicked. If this props.onClick and props.payload are provided together, payload will be ignored
+      function, what happens when this tab is clicked. If this props.onClick and props.payload are provided together, payload will be ignored
     active(optional):
       boolean, whether this tab is currently active. Default to false
 

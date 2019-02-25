@@ -1,6 +1,4 @@
 /* Z
-This component is maintained by Zhi, if you need more complicated functionality, he'd be happy to build it for you.
-
 To test it out:
   1. import this file:
     import README from '......./src/components/CardGrid/README.js';
