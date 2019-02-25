@@ -1,0 +1,73 @@
+.blueBar {
+  font-family: Lato, BlinkMacSystemFont, "Segoe UI", Helvetica, Roboto, sans-serif;
+  color: white;
+  background-color: #02a5b4;
+
+  width: 100%;
+  height: 40px;
+  border-top: 5px solid #6FC391;
+  display: grid;
+    align-items: center;
+    grid-template-columns:[icon] 50px [text] max-content [dropdown] 40px [button1] 40px [button2] 25px [nav] auto;
+}
+
+.icon,
+.text,
+.dropdown {
+  background-color: #0097A7;
+  height: 40px;
+  display: grid;
+    place-items: center;
+}
+
+.icon {
+  grid-column: icon;
+  font-size: 20px;
+  padding-left: 6px;
+  color: #B2EBF2;
+}
+
+.text {
+  grid-column: text;
+  grid-template-rows: 5fr 4fr;
+  justify-items: start;
+  width: max-content;
+}
+
+.name {
+  font-size: 14px;
+  align-self: end;
+}
+
+.category {
+  font-size: 11px;
+  color: #B2EBF2;
+  align-self: start;
+}
+
+.dropdown {
+  font-size: 15px;
+  color: #80DEEA;
+}
+
+.dropdown {
+  grid-column: dropdown;
+}
+
+.button1,
+.button2 {
+  display: grid;
+  place-items: center;
+}
+
+.button1 {
+  grid-column: button1;
+}
+
+.button2 {
+  grid-column: button2;
+}
+
+.nav {
+  grid-column: nav;
+}

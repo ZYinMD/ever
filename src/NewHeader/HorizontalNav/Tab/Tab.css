@@ -1,0 +1,12 @@
+.tab {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 15px;
+  border-bottom: 5px solid #d3f6fc;
+  box-sizing: border-box
+}
+
+.tab:hover {
+  background-color: rgb(50, 179, 196);
+}
