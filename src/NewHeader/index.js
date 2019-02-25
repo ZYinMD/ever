@@ -17,10 +17,10 @@ const Header = ({ name, category, topBorderColor, children, button1, button2, on
         <FontAwesomeIcon icon={faChevronCircleDown} />
       </div>
       <div className={styles.button1}>
-        <FontAwesomeIcon icon={button1} onclick={onClickButton1} />
+        <FontAwesomeIcon icon={button1} onClick={onClickButton1} />
       </div>
       <div className={styles.button2}>
-        <FontAwesomeIcon icon={button2} onclick={onClickButton2} />
+        <FontAwesomeIcon icon={button2} onClick={onClickButton2} />
       </div>
       <div className={styles.nav}>
         {children}
