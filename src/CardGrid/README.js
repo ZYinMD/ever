@@ -8,9 +8,20 @@ To test it out:
     );
 
 To use:
-  Card takes 2 props, title and body, both strings.
-  Each card will display an icon, which is determined by the title you provide. Please refer to '.Card/iconLookup.js' . Icon will be empty if it's not there.
-  See example below.
+  Props of <Table />:
+    numCol(optional)
+    How many columns you want the grid to have, e.g. <Table numCol={3}/>
+    Default to 4 if omitted
+  Props of <Card />
+    title:
+      string, the title displayed on the card
+    body:
+      string, the text underneath the title
+  The icon on the card:
+    Each card will display an icon, which is determined by the title you provide.
+    See '.Card/iconLookup.js' for details. Icon will be empty if it's not there.
+
+    Grid example below.
 */
 
 import React, { PureComponent } from 'react';

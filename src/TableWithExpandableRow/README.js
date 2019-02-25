@@ -13,8 +13,8 @@ To use:
   Props of <Table>:
     props.propotion (optional):
       An array of fractions describing how you want column widths to be devided, for instance <Table proportion={[3, 1, 1, 5]}.
-      Default to automatic if omited.
-  Props of <Tr/>:
+      Default to automatic if omitted.
+  Props of <Tr />:
     props.data:
       An object or an array, containing your text for this row.
       Key names will be ignored if it's an object.
