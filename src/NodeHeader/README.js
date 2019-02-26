@@ -38,7 +38,6 @@ To use:
 
 import React, { PureComponent } from 'react';
 import { NodeHeader, HorizontalNav, Tab } from './index.js';
-import { faInfoCircle, faAddressBook } from 'fa5-pro-light';
 
 export default class README extends PureComponent {
   render() {
