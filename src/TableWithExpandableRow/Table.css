@@ -6,7 +6,7 @@
 
 .table {
   border-collapse:separate;
-  width: 1256px;
+  width: 100%;
   border-spacing: 0 5px;
   font-family: Lato, BlinkMacSystemFont, "Segoe UI", Helvetica, Roboto, sans-serif;
 }
