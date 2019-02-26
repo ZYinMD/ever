@@ -1,38 +1,41 @@
 import React, { PureComponent } from 'react'
 import styles from './AccordionBar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlusCircle, faMinusCircle } from 'fa5-pro-light';
+import { faPlusCircle, faChevronDown, faChevronUp } from 'fa5-pro-light';
 
-export default class AccordionBar extends PureComponent {
+class AccordionBar extends PureComponent {
 
-  renderButton() {
-    const { button, onExpand, onCollapse }= this.props;
-    switch (button) {
-      case '+':
-        return (
-          <div className={styles.button} onClick={onExpand}>
-            <FontAwesomeIcon icon={faPlusCircle}/>
-          </div>
-        );
-      case '-':
-        return (
-          <div className={styles.button} onClick={onCollapse}>
-            <FontAwesomeIcon icon={faMinusCircle}/>
-          </div>
-        );
-      default:
-        return null;
-    }
-  }
+  state = {
+    isCollapsed: false
+  };
+
+  toggleCollapse = () => {
+    this.setState({isCollapsed: !this.state.isCollapsed});
+  };
 
   render() {
-    return (
-      <div className={styles.accordionBar}>
-        <h3 className={styles.text}>
-          {this.props.text}
-        </h3>
-        {this.renderButton()}
+    const { text, plain, onClickPlusButton, children }= this.props;
+    const down = <FontAwesomeIcon icon={faChevronDown} className={styles.chevron} onClick={this.toggleCollapse}/>;
+    const up = <FontAwesomeIcon icon={faChevronUp} className={styles.chevron} onClick={this.toggleCollapse}/>;
+    const plus = <FontAwesomeIcon icon={faPlusCircle} className={styles.plusbutton} onClick={onClickPlusButton}/>;
+
+    if (plain) {
+      return (
+        <div className={styles.accordionBar}>
+          <h3 className={styles.text}>{text}{onClickPlusButton ? plus : null }</h3>
+        </div>
+      )
+    } else return (
+      <div className={styles.container}>
+        <div className={styles.accordionBar}>
+          <h3 className={styles.text}>{text}{onClickPlusButton ? plus : null }</h3>  {this.state.isCollapsed ? up : down}
+        </div>
+          {this.state.isCollapsed ?
+          <hr /> : children
+          }
       </div>
     )
   }
 }
+
+export default AccordionBar;

@@ -1,4 +1,6 @@
 /*Z
+Warning: if you mutate a prop, this component may not re-render (to reflect the change), because the creator is a fan of overkill.
+
 To test it out:
   1. import this file:
     import README from '......./src/components/NodeHeader/README.js';

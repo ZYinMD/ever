@@ -1,7 +1,20 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container hr {
+  display: block;
+  color: #444;
+  margin: 10px 0 18px 0;
+}
+
 .accordionBar {
   display: flex;
-  align-items: center;
-  margin: 22px 0 13px 0;
+    align-items: center;
+    justify-content: space-between;
+  margin: 22px 6px 13px 1px;
 }
 
 .text {
@@ -11,10 +24,16 @@
   margin: 0 10px 0 0;
 }
 
-.button {
+.plusbutton {
   font-size: 20px;
   color: #1976D2;
+  cursor: pointer;
   position: relative;
-    top: 2.5px;
+    top: 1px;
+  margin-left: 10px;
+}
+
+.chevron {
+  font-size: 17px;
   cursor: pointer;
 }

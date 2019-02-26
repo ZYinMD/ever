@@ -5,6 +5,7 @@ import AccordionBar from '../AccordionBar';
 import { CardGrid, Card } from '../CardGrid';
 import { Table, Tr } from '../TableWithExpandableRow';
 import { mockHeader, mockData } from '../TableWithExpandableRow/mockData';
+import AccordionREADME from '../AccordionBar/README.js';
 
 class ProviderProfile extends PureComponent {
   render() {
@@ -24,9 +25,9 @@ class ProviderProfile extends PureComponent {
               <Tab text={'Quality Program'} onClick={() => {alert('You clicked Quality Program');}}/>
               <Tab text={'Additional Info'} onClick={() => {alert('You clicked Additional Info');}}/>
             </HorizontalNav>
-          </NodeHeader>
+        </NodeHeader>
           <div className={styles.nonFluidContainer}>
-            <AccordionBar text='General Information'/>
+            <AccordionBar plain text='General Information' />
             <CardGrid>
               <Card title='Degree' body ='MD'/>
               <Card title='Gender' body ='Male'/>
@@ -40,18 +41,20 @@ class ProviderProfile extends PureComponent {
               <Card title='Allergies' body ='None'/>
               <Card title='Charging' body ='Yes!'/>
             </CardGrid>
-            <AccordionBar text='Specialty Information'/>
-            <Table>
-              <thead>
-                <Tr data={mockHeader}/>
-              </thead>
-              <tbody>
-                <Tr data={mockData[0]}/>
-                <Tr data={mockData[1]}/>
-                <Tr data={mockData[2]}/>
-                <Tr data={mockData[3]}/>
-              </tbody>
-            </Table>
+            <AccordionBar plain text='Specialty Information'>
+              <Table>
+                <thead>
+                  <Tr data={mockHeader}/>
+                </thead>
+                <tbody>
+                  <Tr data={mockData[0]}/>
+                  <Tr data={mockData[1]}/>
+                  <Tr data={mockData[2]}/>
+                  <Tr data={mockData[3]}/>
+                </tbody>
+              </Table>
+            </AccordionBar>
+          <AccordionREADME/>
           </div>
       </div>
     );
