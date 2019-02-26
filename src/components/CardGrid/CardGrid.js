@@ -14,11 +14,9 @@ export default class CardGrid extends PureComponent {
     }
 
     return (
-      <div className={styles.centerChild}>
-        <div className={styles.hackBorder}>
-          <div className={styles.cardGrid} style={forceNumCol}>
-            {this.props.children}
-          </div>
+      <div className={styles.hackBorder}>
+        <div className={styles.cardGrid} style={forceNumCol}>
+          {this.props.children}
         </div>
       </div>
     );

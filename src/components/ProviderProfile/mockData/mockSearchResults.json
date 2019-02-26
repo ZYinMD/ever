@@ -1,0 +1,3411 @@
+[ {
+  "providerId" : 10086812,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "FOWLER",
+  "firstName" : "JEANNINE",
+  "middleName" : "M",
+  "degreeName" : "OD",
+  "taxId" : "xxxxx9864",
+  "taxIdType" : "SSN",
+  "displayName" : "FOWLER, JEANNINE M, OD",
+  "formattedTaxId" : "xxx-xx-9864",
+  "lowerLastName" : "fowler",
+  "lowerFirstName" : "jeannine",
+  "fbNumbers" : [ {
+    "number" : "10000"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1376563460"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "OP3888",
+    "expired" : "Y"
+  }, {
+    "number" : "OPC3888"
+  } ]
+}, {
+  "providerId" : 10093551,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "CARBONELL",
+  "firstName" : "SHEILA",
+  "middleName" : "I",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx5096",
+  "taxIdType" : "SSN",
+  "displayName" : "CARBONELL, SHEILA I, MD",
+  "formattedTaxId" : "xxx-xx-5096",
+  "lowerLastName" : "carbonell",
+  "lowerFirstName" : "sheila",
+  "fbNumbers" : [ {
+    "number" : "10002"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1245291426"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME96216",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10086974,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Burns-Legros",
+  "firstName" : "Denise",
+  "degreeName" : "OD",
+  "taxId" : "xxxxx4131",
+  "taxIdType" : "SSN",
+  "displayName" : "Burns-Legros, Denise, OD",
+  "formattedTaxId" : "xxx-xx-4131",
+  "lowerLastName" : "burns-legros",
+  "lowerFirstName" : "denise",
+  "fbNumbers" : [ {
+    "number" : "10003"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1730297185"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "OP4006",
+    "expired" : "Y"
+  }, {
+    "number" : "OPC4006",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10087040,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "NELSON",
+  "firstName" : "KATHRYN",
+  "middleName" : "D",
+  "degreeName" : "OD",
+  "taxId" : "xxxxx0572",
+  "taxIdType" : "SSN",
+  "displayName" : "NELSON, KATHRYN D, OD",
+  "formattedTaxId" : "xxx-xx-0572",
+  "lowerLastName" : "nelson",
+  "lowerFirstName" : "kathryn",
+  "fbNumbers" : [ {
+    "number" : "10004"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "OP3929",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10086247,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Pedroletti",
+  "firstName" : "Carolina",
+  "degreeName" : "OD",
+  "taxId" : "xxxxx1125",
+  "taxIdType" : "SSN",
+  "displayName" : "Pedroletti, Carolina, OD",
+  "formattedTaxId" : "xxx-xx-1125",
+  "lowerLastName" : "pedroletti",
+  "lowerFirstName" : "carolina",
+  "fbNumbers" : [ {
+    "number" : "10006"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1659389005"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "OP4050",
+    "expired" : "Y"
+  }, {
+    "number" : "OPC4050",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10086261,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "MCCONNELL",
+  "firstName" : "LAURIE",
+  "middleName" : "S",
+  "degreeName" : "OD",
+  "taxId" : "xxxxx7843",
+  "taxIdType" : "SSN",
+  "displayName" : "MCCONNELL, LAURIE S, OD",
+  "formattedTaxId" : "xxx-xx-7843",
+  "lowerLastName" : "mcconnell",
+  "lowerFirstName" : "laurie",
+  "fbNumbers" : [ {
+    "number" : "10007"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1912919994"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "OPC3604"
+  } ]
+}, {
+  "providerId" : 10085402,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Judd",
+  "firstName" : "Thomas",
+  "middleName" : "A",
+  "degreeName" : "OD",
+  "taxId" : "xxxxx9175",
+  "taxIdType" : "SSN",
+  "displayName" : "Judd, Thomas A, OD",
+  "formattedTaxId" : "xxx-xx-9175",
+  "lowerLastName" : "judd",
+  "lowerFirstName" : "thomas",
+  "fbNumbers" : [ {
+    "number" : "10008"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1487615704"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "OP4141",
+    "expired" : "Y"
+  }, {
+    "number" : "OPC4141"
+  } ]
+}, {
+  "providerId" : 10085403,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "COOPER",
+  "firstName" : "JOHN",
+  "middleName" : "T",
+  "degreeName" : "OD",
+  "taxId" : "xxxxx9030",
+  "taxIdType" : "SSN",
+  "displayName" : "COOPER, JOHN T, OD",
+  "formattedTaxId" : "xxx-xx-9030",
+  "lowerLastName" : "cooper",
+  "lowerFirstName" : "john",
+  "fbNumbers" : [ {
+    "number" : "10009",
+    "expired" : "Y"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1821032012"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "OS2443",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10086075,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Ellison",
+  "firstName" : "Donald",
+  "middleName" : "F",
+  "degreeName" : "OD",
+  "taxId" : "xxxxx2917",
+  "taxIdType" : "SSN",
+  "displayName" : "Ellison, Donald F, OD",
+  "formattedTaxId" : "xxx-xx-2917",
+  "lowerLastName" : "ellison",
+  "lowerFirstName" : "donald",
+  "fbNumbers" : [ {
+    "number" : "10010"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1659486363"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "OP4124",
+    "expired" : "Y"
+  }, {
+    "number" : "OPC4124",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10085443,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Maggiore",
+  "firstName" : "Rhiannon",
+  "middleName" : "L",
+  "degreeName" : "OD",
+  "taxId" : "xxxxx5067",
+  "taxIdType" : "SSN",
+  "displayName" : "Maggiore, Rhiannon L, OD",
+  "formattedTaxId" : "xxx-xx-5067",
+  "lowerLastName" : "maggiore",
+  "lowerFirstName" : "rhiannon",
+  "fbNumbers" : [ {
+    "number" : "10011"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1750391926"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "OP4150",
+    "expired" : "Y"
+  }, {
+    "number" : "OPC4150",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10085450,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "GRILLO",
+  "firstName" : "TERESA",
+  "middleName" : "M",
+  "degreeName" : "OD",
+  "taxId" : "xxxxx0238",
+  "taxIdType" : "SSN",
+  "displayName" : "GRILLO, TERESA M, OD",
+  "formattedTaxId" : "xxx-xx-0238",
+  "lowerLastName" : "grillo",
+  "lowerFirstName" : "teresa",
+  "fbNumbers" : [ {
+    "number" : "10012"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1134234735"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "OP3474",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10085535,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "RAGOZZINO",
+  "firstName" : "AMY",
+  "middleName" : "S",
+  "degreeName" : "OD",
+  "taxId" : "xxxxx9134",
+  "taxIdType" : "SSN",
+  "displayName" : "RAGOZZINO, AMY S, OD",
+  "formattedTaxId" : "xxx-xx-9134",
+  "lowerLastName" : "ragozzino",
+  "lowerFirstName" : "amy",
+  "fbNumbers" : [ {
+    "number" : "10013"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1174578454"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "OP4087",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10085573,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Kalfayan",
+  "firstName" : "Nona",
+  "degreeName" : "OD",
+  "taxId" : "xxxxx3067",
+  "taxIdType" : "SSN",
+  "displayName" : "Kalfayan, Nona, OD",
+  "formattedTaxId" : "xxx-xx-3067",
+  "lowerLastName" : "kalfayan",
+  "lowerFirstName" : "nona",
+  "fbNumbers" : [ {
+    "number" : "10014"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1952354573"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "OPC4031",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10023601,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "STEPHENS",
+  "firstName" : "HINSON",
+  "middleName" : "L",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx2494",
+  "taxIdType" : "SSN",
+  "displayName" : "STEPHENS, HINSON L, MD",
+  "formattedTaxId" : "xxx-xx-2494",
+  "lowerLastName" : "stephens",
+  "lowerFirstName" : "hinson",
+  "fbNumbers" : [ {
+    "number" : "10017"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME9390",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10046030,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Casta",
+  "firstName" : "Briseida",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx2405",
+  "taxIdType" : "SSN",
+  "displayName" : "Casta, Briseida, MD",
+  "formattedTaxId" : "xxx-xx-2405",
+  "lowerLastName" : "casta",
+  "lowerFirstName" : "briseida",
+  "fbNumbers" : [ {
+    "number" : "10018"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1376531566"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME74512",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10048485,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "TORRES",
+  "firstName" : "EDUARDO",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx1169",
+  "taxIdType" : "SSN",
+  "displayName" : "TORRES, EDUARDO, MD",
+  "formattedTaxId" : "xxx-xx-1169",
+  "lowerLastName" : "torres",
+  "lowerFirstName" : "eduardo",
+  "fbNumbers" : [ {
+    "number" : "10021"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1679553606"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME83977"
+  } ]
+}, {
+  "providerId" : 10019145,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Thompson",
+  "firstName" : "William",
+  "middleName" : "R",
+  "suffixName" : "JR",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx4594",
+  "taxIdType" : "SSN",
+  "displayName" : "Thompson JR, William R, MD",
+  "formattedTaxId" : "xxx-xx-4594",
+  "lowerLastName" : "thompson",
+  "lowerFirstName" : "william",
+  "fbNumbers" : [ {
+    "number" : "10023"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1013985035"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME12468",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10043969,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "ALVARADO",
+  "firstName" : "CARLOS",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx6449",
+  "taxIdType" : "SSN",
+  "displayName" : "ALVARADO, CARLOS, MD",
+  "formattedTaxId" : "xxx-xx-6449",
+  "lowerLastName" : "alvarado",
+  "lowerFirstName" : "carlos",
+  "fbNumbers" : [ {
+    "number" : "10024",
+    "expired" : "Y"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1679572903"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME83893",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10041178,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "VEERENDRA BABU",
+  "firstName" : "BADAVANAHALLI",
+  "middleName" : "R",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx1820",
+  "taxIdType" : "SSN",
+  "displayName" : "VEERENDRA BABU, BADAVANAHALLI R, MD",
+  "formattedTaxId" : "xxx-xx-1820",
+  "lowerLastName" : "veerendra babu",
+  "lowerFirstName" : "badavanahalli",
+  "fbNumbers" : [ {
+    "number" : "10025"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003992850"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME74937",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10008484,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "BLACK",
+  "firstName" : "CRAIG",
+  "middleName" : "S",
+  "degreeName" : "DO",
+  "taxId" : "xxxxx8254",
+  "taxIdType" : "SSN",
+  "displayName" : "BLACK, CRAIG S, DO",
+  "formattedTaxId" : "xxx-xx-8254",
+  "lowerLastName" : "black",
+  "lowerFirstName" : "craig",
+  "fbNumbers" : [ {
+    "number" : "10026"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1689652232"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "OS8513",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10010960,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "LIEBERMAN",
+  "firstName" : "DEBORAH",
+  "middleName" : "M",
+  "degreeName" : "DO",
+  "taxId" : "xxxxx0763",
+  "taxIdType" : "SSN",
+  "displayName" : "LIEBERMAN, DEBORAH M, DO",
+  "formattedTaxId" : "xxx-xx-0763",
+  "lowerLastName" : "lieberman",
+  "lowerFirstName" : "deborah",
+  "fbNumbers" : [ {
+    "number" : "10027"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1174502041"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "OS8578",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10048233,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "ROUHANI",
+  "firstName" : "MAZYAR",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx1397",
+  "taxIdType" : "SSN",
+  "displayName" : "ROUHANI, MAZYAR, MD",
+  "formattedTaxId" : "xxx-xx-1397",
+  "lowerLastName" : "rouhani",
+  "lowerFirstName" : "mazyar",
+  "fbNumbers" : [ {
+    "number" : "10028"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1780663492"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME83806",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10032307,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Thole",
+  "firstName" : "Heather",
+  "middleName" : "S",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx3081",
+  "taxIdType" : "SSN",
+  "displayName" : "Thole, Heather S, MD",
+  "formattedTaxId" : "xxx-xx-3081",
+  "lowerLastName" : "thole",
+  "lowerFirstName" : "heather",
+  "fbNumbers" : [ {
+    "number" : "10029"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1033107388"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME82918",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10046888,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "DELGADO",
+  "firstName" : "ALAIN",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx5533",
+  "taxIdType" : "SSN",
+  "displayName" : "DELGADO, ALAIN, MD",
+  "formattedTaxId" : "xxx-xx-5533",
+  "lowerLastName" : "delgado",
+  "lowerFirstName" : "alain",
+  "fbNumbers" : [ {
+    "number" : "10031"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1053365916"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME84127",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10012421,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "RAMOS",
+  "firstName" : "LUIS",
+  "middleName" : "G",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx6620",
+  "taxIdType" : "SSN",
+  "displayName" : "RAMOS, LUIS G, MD",
+  "formattedTaxId" : "xxx-xx-6620",
+  "lowerLastName" : "ramos",
+  "lowerFirstName" : "luis",
+  "fbNumbers" : [ {
+    "number" : "10032"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1235101486"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME78186"
+  } ]
+}, {
+  "providerId" : 10044404,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "LYON",
+  "firstName" : "KENT",
+  "middleName" : "J",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx9802",
+  "taxIdType" : "SSN",
+  "displayName" : "LYON, KENT J, MD",
+  "formattedTaxId" : "xxx-xx-9802",
+  "lowerLastName" : "lyon",
+  "lowerFirstName" : "kent",
+  "fbNumbers" : [ {
+    "number" : "10033"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1063476364"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME122457",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10018497,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "ROHAIDY",
+  "firstName" : "HAYDEE",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx6803",
+  "taxIdType" : "SSN",
+  "displayName" : "ROHAIDY, HAYDEE, MD",
+  "formattedTaxId" : "xxx-xx-6803",
+  "lowerLastName" : "rohaidy",
+  "lowerFirstName" : "haydee",
+  "fbNumbers" : [ {
+    "number" : "10034"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME82230",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10040985,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "FINDEISS",
+  "firstName" : "JAMES",
+  "middleName" : "C",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx3882",
+  "taxIdType" : "SSN",
+  "displayName" : "FINDEISS, JAMES C, MD",
+  "formattedTaxId" : "xxx-xx-3882",
+  "lowerLastName" : "findeiss",
+  "lowerFirstName" : "james",
+  "fbNumbers" : [ {
+    "number" : "10037"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME15050",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10000936,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "WELTMAN",
+  "firstName" : "ELIZABETH",
+  "middleName" : "A",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx3976",
+  "taxIdType" : "SSN",
+  "displayName" : "WELTMAN, ELIZABETH A, MD",
+  "formattedTaxId" : "xxx-xx-3976",
+  "lowerLastName" : "weltman",
+  "lowerFirstName" : "elizabeth",
+  "fbNumbers" : [ {
+    "number" : "10038",
+    "expired" : "Y"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1144270182"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME84350",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10019647,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Traveria",
+  "firstName" : "Alejandro",
+  "middleName" : "I",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx0665",
+  "taxIdType" : "SSN",
+  "displayName" : "Traveria, Alejandro I, MD",
+  "formattedTaxId" : "xxx-xx-0665",
+  "lowerLastName" : "traveria",
+  "lowerFirstName" : "alejandro",
+  "fbNumbers" : [ {
+    "number" : "10039"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1972571156"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME81715",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 20122742,
+  "payloadId" : 0,
+  "category" : "Group",
+  "organizationName" : "Natalia Harvey",
+  "taxId" : "769425203",
+  "taxIdType" : "EIN",
+  "displayName" : "Natalia Harvey",
+  "formattedTaxId" : "76-9425203",
+  "lowerOrgName" : "natalia harvey",
+  "fbNumbers" : [ {
+    "number" : "1003A"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1497156160"
+  } ]
+}, {
+  "providerId" : 10009345,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "FIELDS",
+  "firstName" : "SCOTT",
+  "middleName" : "G",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx0705",
+  "taxIdType" : "SSN",
+  "displayName" : "FIELDS, SCOTT G, MD",
+  "formattedTaxId" : "xxx-xx-0705",
+  "lowerLastName" : "fields",
+  "lowerFirstName" : "scott",
+  "fbNumbers" : [ {
+    "number" : "10041",
+    "expired" : "Y"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1609825033"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME84227",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10024643,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Martin",
+  "firstName" : "James",
+  "middleName" : "A",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx1225",
+  "taxIdType" : "SSN",
+  "displayName" : "Martin, James A, MD",
+  "formattedTaxId" : "xxx-xx-1225",
+  "lowerLastName" : "martin",
+  "lowerFirstName" : "james",
+  "fbNumbers" : [ {
+    "number" : "10042",
+    "expired" : "Y"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1407825946"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME16207"
+  } ]
+}, {
+  "providerId" : 10040575,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "SAYLER",
+  "firstName" : "OSBEY",
+  "middleName" : "L",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx2187",
+  "taxIdType" : "SSN",
+  "displayName" : "SAYLER, OSBEY L, MD",
+  "formattedTaxId" : "xxx-xx-2187",
+  "lowerLastName" : "sayler",
+  "lowerFirstName" : "osbey",
+  "fbNumbers" : [ {
+    "number" : "10043"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME18472",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10029266,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "ROTHBERG",
+  "firstName" : "MARTIN",
+  "middleName" : "P",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx4778",
+  "taxIdType" : "SSN",
+  "displayName" : "ROTHBERG, MARTIN P, MD",
+  "formattedTaxId" : "xxx-xx-4778",
+  "lowerLastName" : "rothberg",
+  "lowerFirstName" : "martin",
+  "fbNumbers" : [ {
+    "number" : "10044"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1275532269"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME14724",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10039599,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "COOK",
+  "firstName" : "THOMAS",
+  "middleName" : "L",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx7775",
+  "taxIdType" : "SSN",
+  "displayName" : "COOK, THOMAS L, MD",
+  "formattedTaxId" : "xxx-xx-7775",
+  "lowerLastName" : "cook",
+  "lowerFirstName" : "thomas",
+  "fbNumbers" : [ {
+    "number" : "10045"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1831180702"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME17696",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10041153,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "PAL",
+  "firstName" : "TUYA",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx8696",
+  "taxIdType" : "SSN",
+  "displayName" : "PAL, TUYA, MD",
+  "formattedTaxId" : "xxx-xx-8696",
+  "lowerLastName" : "pal",
+  "lowerFirstName" : "tuya",
+  "fbNumbers" : [ {
+    "number" : "10046",
+    "expired" : "Y"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1205859113"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME85399"
+  } ]
+}, {
+  "providerId" : 10001800,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "RATHORE",
+  "firstName" : "SUMRA",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx5868",
+  "taxIdType" : "SSN",
+  "displayName" : "RATHORE, SUMRA, MD",
+  "formattedTaxId" : "xxx-xx-5868",
+  "lowerLastName" : "rathore",
+  "lowerFirstName" : "sumra",
+  "fbNumbers" : [ {
+    "number" : "10047"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1760440481"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME71280",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10043448,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "WANG",
+  "firstName" : "HERBERT",
+  "middleName" : "L",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx5713",
+  "taxIdType" : "SSN",
+  "displayName" : "WANG, HERBERT L, MD",
+  "formattedTaxId" : "xxx-xx-5713",
+  "lowerLastName" : "wang",
+  "lowerFirstName" : "herbert",
+  "fbNumbers" : [ {
+    "number" : "10048"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1699746081"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME82901",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10003632,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "ROSENTHAL",
+  "firstName" : "SAMUEL",
+  "middleName" : "G",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx8614",
+  "taxIdType" : "SSN",
+  "displayName" : "ROSENTHAL, SAMUEL G, MD",
+  "formattedTaxId" : "xxx-xx-8614",
+  "lowerLastName" : "rosenthal",
+  "lowerFirstName" : "samuel",
+  "fbNumbers" : [ {
+    "number" : "10049",
+    "expired" : "Y"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1437285236"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME19313",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10083089,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "YOHANNES ELLIOTT",
+  "firstName" : "FITSUM",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx7808",
+  "taxIdType" : "SSN",
+  "displayName" : "YOHANNES ELLIOTT, FITSUM, MD",
+  "formattedTaxId" : "xxx-xx-7808",
+  "lowerLastName" : "yohannes elliott",
+  "lowerFirstName" : "fitsum",
+  "fbNumbers" : [ {
+    "number" : "10050"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1982660106"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME92187",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10047834,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "RIVABEM",
+  "firstName" : "FERNANDO",
+  "middleName" : "V",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx3383",
+  "taxIdType" : "SSN",
+  "displayName" : "RIVABEM, FERNANDO V, MD",
+  "formattedTaxId" : "xxx-xx-3383",
+  "lowerLastName" : "rivabem",
+  "lowerFirstName" : "fernando",
+  "fbNumbers" : [ {
+    "number" : "10051"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1386687630"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME79774",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10000406,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "PADMANABHAN",
+  "firstName" : "JAYALAKSHMI",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx6342",
+  "taxIdType" : "SSN",
+  "displayName" : "PADMANABHAN, JAYALAKSHMI, MD",
+  "formattedTaxId" : "xxx-xx-6342",
+  "lowerLastName" : "padmanabhan",
+  "lowerFirstName" : "jayalakshmi",
+  "fbNumbers" : [ {
+    "number" : "10052",
+    "expired" : "Y"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1386645778"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME19491",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10041394,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "FROUD",
+  "firstName" : "TATIANA",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx2361",
+  "taxIdType" : "SSN",
+  "displayName" : "FROUD, TATIANA, MD",
+  "formattedTaxId" : "xxx-xx-2361",
+  "lowerLastName" : "froud",
+  "lowerFirstName" : "tatiana",
+  "fbNumbers" : [ {
+    "number" : "10054"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1083679591"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME83341",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10003623,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "CHARLES",
+  "firstName" : "LEROY",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx4351",
+  "taxIdType" : "SSN",
+  "displayName" : "CHARLES, LEROY, MD",
+  "formattedTaxId" : "xxx-xx-4351",
+  "lowerLastName" : "charles",
+  "lowerFirstName" : "leroy",
+  "fbNumbers" : [ {
+    "number" : "10055"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1043284425"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME83408",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10047067,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "FERNANDEZ",
+  "firstName" : "ANGEL",
+  "middleName" : "O",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx6866",
+  "taxIdType" : "SSN",
+  "displayName" : "FERNANDEZ, ANGEL O, MD",
+  "formattedTaxId" : "xxx-xx-6866",
+  "lowerLastName" : "fernandez",
+  "lowerFirstName" : "angel",
+  "fbNumbers" : [ {
+    "number" : "10057"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1699704684"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME80089",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10003755,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "ROS CARRETERO",
+  "firstName" : "JUAN",
+  "middleName" : "P",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx4985",
+  "taxIdType" : "SSN",
+  "displayName" : "ROS CARRETERO, JUAN P, MD",
+  "formattedTaxId" : "xxx-xx-4985",
+  "lowerLastName" : "ros carretero",
+  "lowerFirstName" : "juan",
+  "fbNumbers" : [ {
+    "number" : "10059"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1427001502"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME68749"
+  } ]
+}, {
+  "providerId" : 10008715,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "NATOW",
+  "firstName" : "STEVEN",
+  "middleName" : "J",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx2507",
+  "taxIdType" : "SSN",
+  "displayName" : "NATOW, STEVEN J, MD",
+  "formattedTaxId" : "xxx-xx-2507",
+  "lowerLastName" : "natow",
+  "lowerFirstName" : "steven",
+  "fbNumbers" : [ {
+    "number" : "10060"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1609866987"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME83239",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10030982,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Pickens",
+  "firstName" : "Brian",
+  "middleName" : "E",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx3683",
+  "taxIdType" : "SSN",
+  "displayName" : "Pickens, Brian E, MD",
+  "formattedTaxId" : "xxx-xx-3683",
+  "lowerLastName" : "pickens",
+  "lowerFirstName" : "brian",
+  "fbNumbers" : [ {
+    "number" : "10061"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1093712895"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME79664",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10025788,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Spearman",
+  "firstName" : "Dan",
+  "middleName" : "R",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx0555",
+  "taxIdType" : "SSN",
+  "displayName" : "Spearman, Dan R, MD",
+  "formattedTaxId" : "xxx-xx-0555",
+  "lowerLastName" : "spearman",
+  "lowerFirstName" : "dan",
+  "fbNumbers" : [ {
+    "number" : "10064"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1962475905"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME20998",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10020807,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Cartee",
+  "firstName" : "Wayne",
+  "middleName" : "D",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx6879",
+  "taxIdType" : "SSN",
+  "displayName" : "Cartee, Wayne D, MD",
+  "formattedTaxId" : "xxx-xx-6879",
+  "lowerLastName" : "cartee",
+  "lowerFirstName" : "wayne",
+  "fbNumbers" : [ {
+    "number" : "10065"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1871697169"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME22270",
+    "expired" : "Y"
+  }, {
+    "number" : "13764",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10038095,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "NAKHLEH",
+  "firstName" : "RAOUF",
+  "middleName" : "E",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx7114",
+  "taxIdType" : "SSN",
+  "displayName" : "NAKHLEH, RAOUF E, MD",
+  "formattedTaxId" : "xxx-xx-7114",
+  "lowerLastName" : "nakhleh",
+  "lowerFirstName" : "raouf",
+  "fbNumbers" : [ {
+    "number" : "10066"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1215927132"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME84266",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10045556,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "SAKALOSKY",
+  "firstName" : "PAMELA",
+  "middleName" : "E",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx0355",
+  "taxIdType" : "SSN",
+  "displayName" : "SAKALOSKY, PAMELA E, MD",
+  "formattedTaxId" : "xxx-xx-0355",
+  "lowerLastName" : "sakalosky",
+  "lowerFirstName" : "pamela",
+  "fbNumbers" : [ {
+    "number" : "10067"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1831162148"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME79519",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10005234,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "MANDEL",
+  "firstName" : "WILLIAM",
+  "middleName" : "S",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx8109",
+  "taxIdType" : "SSN",
+  "displayName" : "MANDEL, WILLIAM S, MD",
+  "formattedTaxId" : "xxx-xx-8109",
+  "lowerLastName" : "mandel",
+  "lowerFirstName" : "william",
+  "fbNumbers" : [ {
+    "number" : "10069",
+    "expired" : "Y"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1699873992"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME27731",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10005405,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Sami",
+  "firstName" : "Muhammad",
+  "middleName" : "K",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx3002",
+  "taxIdType" : "SSN",
+  "displayName" : "Sami, Muhammad K, MD",
+  "formattedTaxId" : "xxx-xx-3002",
+  "lowerLastName" : "sami",
+  "lowerFirstName" : "muhammad",
+  "fbNumbers" : [ {
+    "number" : "10070"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1649230962"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME82213",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10035647,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "ESQUIVIA MUNOZ",
+  "firstName" : "CARLOS",
+  "middleName" : "L",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx8767",
+  "taxIdType" : "SSN",
+  "displayName" : "ESQUIVIA MUNOZ, CARLOS L, MD",
+  "formattedTaxId" : "xxx-xx-8767",
+  "lowerLastName" : "esquivia munoz",
+  "lowerFirstName" : "carlos",
+  "fbNumbers" : [ {
+    "number" : "10071",
+    "expired" : "Y"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1437206836"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME21696",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10044202,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "MAZER",
+  "firstName" : "STEPHEN",
+  "middleName" : "B",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx8637",
+  "taxIdType" : "SSN",
+  "displayName" : "MAZER, STEPHEN B, MD",
+  "formattedTaxId" : "xxx-xx-8637",
+  "lowerLastName" : "mazer",
+  "lowerFirstName" : "stephen",
+  "fbNumbers" : [ {
+    "number" : "10072",
+    "expired" : "Y"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1437257243"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME28141",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10024808,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Arnold",
+  "firstName" : "John",
+  "middleName" : "P",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx1534",
+  "taxIdType" : "SSN",
+  "displayName" : "Arnold, John P, MD",
+  "formattedTaxId" : "xxx-xx-1534",
+  "lowerLastName" : "arnold",
+  "lowerFirstName" : "john",
+  "fbNumbers" : [ {
+    "number" : "10074"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1477511574"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME27859",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10020389,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "HARRIS",
+  "firstName" : "CLARENCE",
+  "middleName" : "M",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx0981",
+  "taxIdType" : "SSN",
+  "displayName" : "HARRIS, CLARENCE M, MD",
+  "formattedTaxId" : "xxx-xx-0981",
+  "lowerLastName" : "harris",
+  "lowerFirstName" : "clarence",
+  "fbNumbers" : [ {
+    "number" : "10075"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1275598526"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME15120"
+  } ]
+}, {
+  "providerId" : 10033357,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "SIMMONS",
+  "firstName" : "RICHARD",
+  "middleName" : "L",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx3204",
+  "taxIdType" : "SSN",
+  "displayName" : "SIMMONS, RICHARD L, MD",
+  "formattedTaxId" : "xxx-xx-3204",
+  "lowerLastName" : "simmons",
+  "lowerFirstName" : "richard",
+  "fbNumbers" : [ {
+    "number" : "10076"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1336240688"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME20415",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10044386,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "JARCZYK",
+  "firstName" : "PAUL",
+  "middleName" : "A",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx0894",
+  "taxIdType" : "SSN",
+  "displayName" : "JARCZYK, PAUL A, MD",
+  "formattedTaxId" : "xxx-xx-0894",
+  "lowerLastName" : "jarczyk",
+  "lowerFirstName" : "paul",
+  "fbNumbers" : [ {
+    "number" : "10078"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1952322125"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME30683",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10001092,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "SALEHI",
+  "firstName" : "SUSAN",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx3166",
+  "taxIdType" : "SSN",
+  "displayName" : "SALEHI, SUSAN, MD",
+  "formattedTaxId" : "xxx-xx-3166",
+  "lowerLastName" : "salehi",
+  "lowerFirstName" : "susan",
+  "fbNumbers" : [ {
+    "number" : "10079"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1912960121"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME46259",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10021529,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "McCauley",
+  "firstName" : "Richard",
+  "middleName" : "A",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx7209",
+  "taxIdType" : "SSN",
+  "displayName" : "McCauley, Richard A, MD",
+  "formattedTaxId" : "xxx-xx-7209",
+  "lowerLastName" : "mccauley",
+  "lowerFirstName" : "richard",
+  "fbNumbers" : [ {
+    "number" : "10081"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1710949748"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME32868",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10032231,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "WEISS",
+  "firstName" : "DAVID",
+  "middleName" : "W",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx4654",
+  "taxIdType" : "SSN",
+  "displayName" : "WEISS, DAVID W, MD",
+  "formattedTaxId" : "xxx-xx-4654",
+  "lowerLastName" : "weiss",
+  "lowerFirstName" : "david",
+  "fbNumbers" : [ {
+    "number" : "10082"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1619963568"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME46322",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10004978,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Rumalla",
+  "firstName" : "Ashwin",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx4010",
+  "taxIdType" : "SSN",
+  "displayName" : "Rumalla, Ashwin, MD",
+  "formattedTaxId" : "xxx-xx-4010",
+  "lowerLastName" : "rumalla",
+  "lowerFirstName" : "ashwin",
+  "fbNumbers" : [ {
+    "number" : "10083"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1790721165"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME84488",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10038007,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Amin",
+  "firstName" : "Kamalesh",
+  "middleName" : "A",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx9450",
+  "taxIdType" : "SSN",
+  "displayName" : "Amin, Kamalesh A, MD",
+  "formattedTaxId" : "xxx-xx-9450",
+  "lowerLastName" : "amin",
+  "lowerFirstName" : "kamalesh",
+  "fbNumbers" : [ {
+    "number" : "10086"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1427047133"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME55210",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10044092,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "WEILAND",
+  "firstName" : "DOUGLAS",
+  "middleName" : "J",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx2022",
+  "taxIdType" : "SSN",
+  "displayName" : "WEILAND, DOUGLAS J, MD",
+  "formattedTaxId" : "xxx-xx-2022",
+  "lowerLastName" : "weiland",
+  "lowerFirstName" : "douglas",
+  "fbNumbers" : [ {
+    "number" : "10087"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME55424",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10093605,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Guerrier",
+  "firstName" : "Kris",
+  "middleName" : "M",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx8433",
+  "taxIdType" : "SSN",
+  "displayName" : "Guerrier, Kris M, MD",
+  "formattedTaxId" : "xxx-xx-8433",
+  "lowerLastName" : "guerrier",
+  "lowerFirstName" : "kris",
+  "fbNumbers" : [ {
+    "number" : "10088"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1649451568"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME100402",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10016022,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "SINGH",
+  "firstName" : "HARDEEP",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx7462",
+  "taxIdType" : "SSN",
+  "displayName" : "SINGH, HARDEEP, MD",
+  "formattedTaxId" : "xxx-xx-7462",
+  "lowerLastName" : "singh",
+  "lowerFirstName" : "hardeep",
+  "fbNumbers" : [ {
+    "number" : "10089"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1386708675"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME55193",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10045047,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Ayala",
+  "firstName" : "Ricardo",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx2044",
+  "taxIdType" : "SSN",
+  "displayName" : "Ayala, Ricardo, MD",
+  "formattedTaxId" : "xxx-xx-2044",
+  "lowerLastName" : "ayala",
+  "lowerFirstName" : "ricardo",
+  "fbNumbers" : [ {
+    "number" : "10090"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1699742767"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME56053",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10028800,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Fernandez",
+  "firstName" : "Luis",
+  "middleName" : "F",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx6046",
+  "taxIdType" : "SSN",
+  "displayName" : "Fernandez, Luis F, MD",
+  "formattedTaxId" : "xxx-xx-6046",
+  "lowerLastName" : "fernandez",
+  "lowerFirstName" : "luis",
+  "fbNumbers" : [ {
+    "number" : "10091"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1932190394"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME56435"
+  } ]
+}, {
+  "providerId" : 10029048,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "GARCIA",
+  "firstName" : "EDUARDO",
+  "middleName" : "A",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx0926",
+  "taxIdType" : "SSN",
+  "displayName" : "GARCIA, EDUARDO A, MD",
+  "formattedTaxId" : "xxx-xx-0926",
+  "lowerLastName" : "garcia",
+  "lowerFirstName" : "eduardo",
+  "fbNumbers" : [ {
+    "number" : "10092"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1982611398"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME56437",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10033089,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Douglas",
+  "firstName" : "Bradley",
+  "middleName" : "S",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx3060",
+  "taxIdType" : "SSN",
+  "displayName" : "Douglas, Bradley S, MD",
+  "formattedTaxId" : "xxx-xx-3060",
+  "lowerLastName" : "douglas",
+  "lowerFirstName" : "bradley",
+  "fbNumbers" : [ {
+    "number" : "10093"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1295742369"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME57241",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10093606,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Wong",
+  "firstName" : "Lawrence",
+  "middleName" : "K",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx6161",
+  "taxIdType" : "SSN",
+  "displayName" : "Wong, Lawrence K, MD",
+  "formattedTaxId" : "xxx-xx-6161",
+  "lowerLastName" : "wong",
+  "lowerFirstName" : "lawrence",
+  "fbNumbers" : [ {
+    "number" : "10094"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1295930659"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME99695",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10044330,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "WALKER",
+  "firstName" : "ERIK",
+  "middleName" : "C",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx3319",
+  "taxIdType" : "SSN",
+  "displayName" : "WALKER, ERIK C, MD",
+  "formattedTaxId" : "xxx-xx-3319",
+  "lowerLastName" : "walker",
+  "lowerFirstName" : "erik",
+  "fbNumbers" : [ {
+    "number" : "10095"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1710977954"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME43711",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10012293,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "AXEL",
+  "firstName" : "JONATHAN",
+  "middleName" : "P",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx5734",
+  "taxIdType" : "SSN",
+  "displayName" : "AXEL, JONATHAN P, MD",
+  "formattedTaxId" : "xxx-xx-5734",
+  "lowerLastName" : "axel",
+  "lowerFirstName" : "jonathan",
+  "fbNumbers" : [ {
+    "number" : "10096"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1013082635"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME49689",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10005266,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "DRISCOLL",
+  "firstName" : "KAREN",
+  "middleName" : "E",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx9545",
+  "taxIdType" : "SSN",
+  "displayName" : "DRISCOLL, KAREN E, MD",
+  "formattedTaxId" : "xxx-xx-9545",
+  "lowerLastName" : "driscoll",
+  "lowerFirstName" : "karen",
+  "fbNumbers" : [ {
+    "number" : "10098"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1174517429"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME50975",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10032989,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Weigand",
+  "firstName" : "Frederick",
+  "middleName" : "J",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx8871",
+  "taxIdType" : "SSN",
+  "displayName" : "Weigand, Frederick J, MD",
+  "formattedTaxId" : "xxx-xx-8871",
+  "lowerLastName" : "weigand",
+  "lowerFirstName" : "frederick",
+  "fbNumbers" : [ {
+    "number" : "64212"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003000522"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME13473",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10108887,
+  "payloadId" : 0,
+  "category" : "Supplier Individual",
+  "lastName" : "HERNANDEZ",
+  "firstName" : "OTNIEL",
+  "degreeName" : "ARNP",
+  "taxId" : "xxxxx9160",
+  "taxIdType" : "SSN",
+  "displayName" : "HERNANDEZ, OTNIEL, ARNP",
+  "formattedTaxId" : "xxx-xx-9160",
+  "lowerLastName" : "hernandez",
+  "lowerFirstName" : "otniel",
+  "fbNumbers" : [ {
+    "number" : "Y04R1"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003000720"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ARNP3081082",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10121331,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "WOLSKI",
+  "firstName" : "MICHAL",
+  "middleName" : "J",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx5145",
+  "taxIdType" : "SSN",
+  "displayName" : "WOLSKI, MICHAL J, MD",
+  "formattedTaxId" : "xxx-xx-5145",
+  "lowerLastName" : "wolski",
+  "lowerFirstName" : "michal",
+  "fbNumbers" : [ {
+    "number" : "14L48",
+    "expired" : "Y"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003001462"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME112431",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10142414,
+  "payloadId" : 0,
+  "category" : "Supplier Individual",
+  "lastName" : "TROST",
+  "firstName" : "JENNIFER",
+  "middleName" : "D",
+  "degreeName" : "ARNP",
+  "taxId" : "xxxxx2835",
+  "taxIdType" : "SSN",
+  "displayName" : "TROST, JENNIFER D, ARNP",
+  "formattedTaxId" : "xxx-xx-2835",
+  "lowerLastName" : "trost",
+  "lowerFirstName" : "jennifer",
+  "fbNumbers" : [ {
+    "number" : "Y0R0N",
+    "expired" : "Y"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003001686"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ARNP9337862",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10113986,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "JONES",
+  "firstName" : "JACLYN",
+  "degreeName" : "DO",
+  "taxId" : "xxxxx6043",
+  "taxIdType" : "SSN",
+  "displayName" : "JONES, JACLYN, DO",
+  "formattedTaxId" : "xxx-xx-6043",
+  "lowerLastName" : "jones",
+  "lowerFirstName" : "jaclyn",
+  "fbNumbers" : [ {
+    "number" : "14F0H",
+    "expired" : "Y"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003001785"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "OS11340",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10082713,
+  "payloadId" : 0,
+  "category" : "Supplier Individual",
+  "lastName" : "OUANO",
+  "firstName" : "MAY",
+  "middleName" : "A",
+  "degreeName" : "RPT",
+  "taxId" : "xxxxx2301",
+  "taxIdType" : "SSN",
+  "displayName" : "OUANO, MAY A, RPT",
+  "formattedTaxId" : "xxx-xx-2301",
+  "lowerLastName" : "ouano",
+  "lowerFirstName" : "may",
+  "fbNumbers" : [ {
+    "number" : "Y079C"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003002056"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "PT773",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 20086329,
+  "payloadId" : 0,
+  "category" : "Group",
+  "organizationName" : "MOBILE PHYSICIANS SERVICES PA",
+  "taxId" : "204278037",
+  "taxIdType" : "EIN",
+  "displayName" : "MOBILE PHYSICIANS SERVICES PA",
+  "formattedTaxId" : "20-4278037",
+  "lowerOrgName" : "mobile physicians services pa",
+  "fbNumbers" : [ {
+    "number" : "000MQ"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003002759"
+  } ]
+}, {
+  "providerId" : 20119025,
+  "payloadId" : 0,
+  "category" : "Supplier Business",
+  "organizationName" : "DO NOT USE - Mobile Physician Services PA",
+  "taxId" : "204278037",
+  "taxIdType" : "EIN",
+  "displayName" : "DO NOT USE - Mobile Physician Services PA",
+  "formattedTaxId" : "20-4278037",
+  "lowerOrgName" : "do not use - mobile physician services pa",
+  "npiNumbers" : [ {
+    "number" : "1003002759"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ARNP9242290"
+  } ]
+}, {
+  "providerId" : 20119024,
+  "payloadId" : 0,
+  "category" : "Supplier Business",
+  "organizationName" : "DO NOT USE - Mobile Physician Services PA",
+  "taxId" : "204278037",
+  "taxIdType" : "EIN",
+  "displayName" : "DO NOT USE - Mobile Physician Services PA",
+  "formattedTaxId" : "20-4278037",
+  "lowerOrgName" : "do not use - mobile physician services pa",
+  "npiNumbers" : [ {
+    "number" : "1003002759"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ARNP9242290"
+  } ]
+}, {
+  "providerId" : 10094404,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "IGLESIAS",
+  "firstName" : "NAYVIS",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx1541",
+  "taxIdType" : "SSN",
+  "displayName" : "IGLESIAS, NAYVIS, MD",
+  "formattedTaxId" : "xxx-xx-1541",
+  "lowerLastName" : "iglesias",
+  "lowerFirstName" : "nayvis",
+  "fbNumbers" : [ {
+    "number" : "90102"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003002817"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME102265",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 20087764,
+  "payloadId" : 0,
+  "category" : "Group",
+  "organizationName" : "RONDA FUCHS PSYD PA",
+  "taxId" : "650863212",
+  "taxIdType" : "EIN",
+  "displayName" : "RONDA FUCHS PSYD PA",
+  "formattedTaxId" : "65-0863212",
+  "lowerOrgName" : "ronda fuchs psyd pa",
+  "fbNumbers" : [ {
+    "number" : "96ZZT"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003003286"
+  } ]
+}, {
+  "providerId" : 20082357,
+  "payloadId" : 0,
+  "category" : "Group",
+  "organizationName" : "MARIA J PRIETO",
+  "taxId" : "900218300",
+  "taxIdType" : "EIN",
+  "displayName" : "MARIA J PRIETO",
+  "formattedTaxId" : "90-0218300",
+  "lowerOrgName" : "maria j prieto",
+  "fbNumbers" : [ {
+    "number" : "NPKQ0"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003003302"
+  } ]
+}, {
+  "providerId" : 20096326,
+  "payloadId" : 0,
+  "category" : "Group",
+  "organizationName" : "MEDICAL CONSULTING CENTER INC",
+  "taxId" : "205053886",
+  "taxIdType" : "EIN",
+  "displayName" : "MEDICAL CONSULTING CENTER INC",
+  "formattedTaxId" : "20-5053886",
+  "lowerOrgName" : "medical consulting center inc",
+  "fbNumbers" : [ {
+    "number" : "000J9",
+    "expired" : "Y"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003004029"
+  } ]
+}, {
+  "providerId" : 20117848,
+  "payloadId" : 0,
+  "category" : "Group",
+  "organizationName" : "VINCENZO NOVARA MD PA",
+  "taxId" : "204734313",
+  "taxIdType" : "EIN",
+  "displayName" : "VINCENZO NOVARA MD PA",
+  "formattedTaxId" : "20-4734313",
+  "lowerOrgName" : "vincenzo novara md pa",
+  "fbNumbers" : [ {
+    "number" : "00AA9"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003004276"
+  } ]
+}, {
+  "providerId" : 20074501,
+  "payloadId" : 0,
+  "category" : "Group",
+  "organizationName" : "SALCINES DMD AND GOMARA DMDPA",
+  "taxId" : "650443940",
+  "taxIdType" : "EIN",
+  "displayName" : "SALCINES DMD AND GOMARA DMDPA",
+  "formattedTaxId" : "65-0443940",
+  "lowerOrgName" : "salcines dmd and gomara dmdpa",
+  "fbNumbers" : [ {
+    "number" : "003K8"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003004300"
+  }, {
+    "number" : "1972513133"
+  } ]
+}, {
+  "providerId" : 10153458,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Ruiter",
+  "firstName" : "Todd",
+  "degreeName" : "DO",
+  "taxId" : "xxxxx0573",
+  "taxIdType" : "SSN",
+  "displayName" : "Ruiter, Todd, DO",
+  "formattedTaxId" : "xxx-xx-0573",
+  "lowerLastName" : "ruiter",
+  "lowerFirstName" : "todd",
+  "fbNumbers" : [ {
+    "number" : "KE7LG",
+    "expired" : "Y"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003004326"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "OS14238",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 20076692,
+  "payloadId" : 0,
+  "category" : "Group",
+  "organizationName" : "JENNINE CABANELLAS",
+  "taxId" : "461284086",
+  "taxIdType" : "EIN",
+  "displayName" : "JENNINE CABANELLAS",
+  "formattedTaxId" : "46-1284086",
+  "lowerOrgName" : "jennine cabanellas",
+  "fbNumbers" : [ {
+    "number" : "UIUZ5"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003004540"
+  } ]
+}, {
+  "providerId" : 10051037,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Cabanellas",
+  "firstName" : "Jennine",
+  "middleName" : "M",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx0491",
+  "taxIdType" : "SSN",
+  "displayName" : "Cabanellas, Jennine M, MD",
+  "formattedTaxId" : "xxx-xx-0491",
+  "lowerLastName" : "cabanellas",
+  "lowerFirstName" : "jennine",
+  "fbNumbers" : [ {
+    "number" : "57762"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003004540"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME83781",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10110570,
+  "payloadId" : 0,
+  "category" : "Supplier Individual",
+  "lastName" : "OSETSKY",
+  "firstName" : "JOANNE",
+  "middleName" : "L",
+  "degreeName" : "ARNP",
+  "taxId" : "xxxxx2200",
+  "taxIdType" : "SSN",
+  "displayName" : "OSETSKY, JOANNE L, ARNP",
+  "formattedTaxId" : "xxx-xx-2200",
+  "lowerLastName" : "osetsky",
+  "lowerFirstName" : "joanne",
+  "fbNumbers" : [ {
+    "number" : "Y05QE",
+    "expired" : "Y"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003004573"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ARNP2791032",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 20092097,
+  "payloadId" : 0,
+  "category" : "Supplier Business",
+  "organizationName" : "ANESTHESIA ASSOCIATES OF CAPE CORAL",
+  "taxId" : "261136367",
+  "taxIdType" : "EIN",
+  "displayName" : "ANESTHESIA ASSOCIATES OF CAPE CORAL",
+  "formattedTaxId" : "26-1136367",
+  "lowerOrgName" : "anesthesia associates of cape coral",
+  "fbNumbers" : [ {
+    "number" : "G9067"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003004581"
+  } ]
+}, {
+  "providerId" : 10133835,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "FRIEDMAN",
+  "firstName" : "DEBBIE",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx3517",
+  "taxIdType" : "SSN",
+  "displayName" : "FRIEDMAN, DEBBIE, MD",
+  "formattedTaxId" : "xxx-xx-3517",
+  "lowerLastName" : "friedman",
+  "lowerFirstName" : "debbie",
+  "fbNumbers" : [ {
+    "number" : "14VP3"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003004656"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME119401",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10037280,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "DIAMOND",
+  "firstName" : "MARY",
+  "middleName" : "B",
+  "taxId" : "xxxxx0348",
+  "taxIdType" : "SSN",
+  "displayName" : "DIAMOND, MARY B",
+  "formattedTaxId" : "xxx-xx-0348",
+  "lowerLastName" : "diamond",
+  "lowerFirstName" : "mary",
+  "fbNumbers" : [ {
+    "number" : "75437",
+    "expired" : "Y"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003004763",
+    "expired" : "Y"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "PY3406",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 20071491,
+  "payloadId" : 0,
+  "category" : "Group",
+  "organizationName" : "THE DERMATOLOGY CENTER",
+  "taxId" : "593578042",
+  "taxIdType" : "EIN",
+  "displayName" : "THE DERMATOLOGY CENTER",
+  "formattedTaxId" : "59-3578042",
+  "lowerOrgName" : "the dermatology center",
+  "fbNumbers" : [ {
+    "number" : "0001W"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003004862"
+  }, {
+    "number" : "1992728802"
+  }, {
+    "number" : "1114354362"
+  } ]
+}, {
+  "providerId" : 10095504,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Girgis Hanna",
+  "firstName" : "Nadine",
+  "degreeName" : "OD",
+  "taxId" : "xxxxx8963",
+  "taxIdType" : "SSN",
+  "displayName" : "Girgis Hanna, Nadine, OD",
+  "formattedTaxId" : "xxx-xx-8963",
+  "lowerLastName" : "girgis hanna",
+  "lowerFirstName" : "nadine",
+  "fbNumbers" : [ {
+    "number" : "19403"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003004870"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "OP4221",
+    "expired" : "Y"
+  }, {
+    "number" : "OPC4221",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 20021763,
+  "payloadId" : 0,
+  "category" : "Supplier Business",
+  "organizationName" : "DONALD L SMITHA",
+  "taxId" : "592098464",
+  "taxIdType" : "EIN",
+  "displayName" : "DONALD L SMITHA",
+  "formattedTaxId" : "59-2098464",
+  "lowerOrgName" : "donald l smitha",
+  "fbNumbers" : [ {
+    "number" : "M0681"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003005299"
+  } ]
+}, {
+  "providerId" : 20083208,
+  "payloadId" : 0,
+  "category" : "Group",
+  "organizationName" : "A BETTER VUE EYE PHYSICIANS",
+  "taxId" : "260393015",
+  "taxIdType" : "EIN",
+  "displayName" : "A BETTER VUE EYE PHYSICIANS",
+  "formattedTaxId" : "26-0393015",
+  "lowerOrgName" : "a better vue eye physicians",
+  "fbNumbers" : [ {
+    "number" : "99972"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003005356"
+  } ]
+}, {
+  "providerId" : 10106973,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "PALASZEWSKI",
+  "firstName" : "DAWN",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx3710",
+  "taxIdType" : "SSN",
+  "displayName" : "PALASZEWSKI, DAWN, MD",
+  "formattedTaxId" : "xxx-xx-3710",
+  "lowerLastName" : "palaszewski",
+  "lowerFirstName" : "dawn",
+  "fbNumbers" : [ {
+    "number" : "149JT"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003005810"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME107136",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10072959,
+  "payloadId" : 0,
+  "category" : "Supplier Individual",
+  "lastName" : "WEIBEL",
+  "firstName" : "CATHERINE",
+  "middleName" : "A",
+  "degreeName" : "RPT",
+  "taxId" : "xxxxx8280",
+  "taxIdType" : "SSN",
+  "displayName" : "WEIBEL, CATHERINE A, RPT",
+  "formattedTaxId" : "xxx-xx-8280",
+  "lowerLastName" : "weibel",
+  "lowerFirstName" : "catherine",
+  "fbNumbers" : [ {
+    "number" : "Y0005"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003006073"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "PT18784",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 20062764,
+  "payloadId" : 0,
+  "category" : "Group",
+  "organizationName" : "INVISION EYE CARE",
+  "taxId" : "593366224",
+  "taxIdType" : "EIN",
+  "displayName" : "INVISION EYE CARE",
+  "formattedTaxId" : "59-3366224",
+  "lowerOrgName" : "invision eye care",
+  "fbNumbers" : [ {
+    "number" : "W7MUQ"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003006123"
+  } ]
+}, {
+  "providerId" : 10099374,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Quinonez",
+  "firstName" : "Alner",
+  "middleName" : "M",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx3696",
+  "taxIdType" : "SSN",
+  "displayName" : "Quinonez, Alner M, MD",
+  "formattedTaxId" : "xxx-xx-3696",
+  "lowerLastName" : "quinonez",
+  "lowerFirstName" : "alner",
+  "fbNumbers" : [ {
+    "number" : "145SS"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003006552"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME104019",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10023093,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "KANE",
+  "firstName" : "FREDERICK",
+  "degreeName" : "DMD",
+  "taxId" : "xxxxx4821",
+  "taxIdType" : "SSN",
+  "displayName" : "KANE, FREDERICK, DMD",
+  "formattedTaxId" : "xxx-xx-4821",
+  "lowerLastName" : "kane",
+  "lowerFirstName" : "frederick",
+  "fbNumbers" : [ {
+    "number" : "63869"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003006750"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "DN11624",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10089857,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "DANGER",
+  "firstName" : "EDDYME",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx2990",
+  "taxIdType" : "SSN",
+  "displayName" : "DANGER, EDDYME, MD",
+  "formattedTaxId" : "xxx-xx-2990",
+  "lowerLastName" : "danger",
+  "lowerFirstName" : "eddyme",
+  "fbNumbers" : [ {
+    "number" : "05313"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003006776"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME97346",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 20090495,
+  "payloadId" : 0,
+  "category" : "Group",
+  "organizationName" : "THE FAMILY PRACTICE",
+  "taxId" : "202401152",
+  "taxIdType" : "EIN",
+  "displayName" : "THE FAMILY PRACTICE",
+  "formattedTaxId" : "20-2401152",
+  "lowerOrgName" : "the family practice",
+  "fbNumbers" : [ {
+    "number" : "72300",
+    "expired" : "Y"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003007014"
+  } ]
+}, {
+  "providerId" : 10091186,
+  "payloadId" : 0,
+  "category" : "Supplier Individual",
+  "lastName" : "OPPENHEIMER",
+  "firstName" : "FRANCES",
+  "middleName" : "L",
+  "degreeName" : "LMT",
+  "taxId" : "xxxxx9231",
+  "taxIdType" : "SSN",
+  "displayName" : "OPPENHEIMER, FRANCES L, LMT",
+  "formattedTaxId" : "xxx-xx-9231",
+  "lowerLastName" : "oppenheimer",
+  "lowerFirstName" : "frances",
+  "fbNumbers" : [ {
+    "number" : "C6740"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003007832"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "MA51037",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 20072010,
+  "payloadId" : 0,
+  "category" : "Group",
+  "organizationName" : "VENICE DERMATOLOGY CLINIC PA",
+  "taxId" : "651143063",
+  "taxIdType" : "EIN",
+  "displayName" : "VENICE DERMATOLOGY CLINIC PA",
+  "formattedTaxId" : "65-1143063",
+  "lowerOrgName" : "venice dermatology clinic pa",
+  "fbNumbers" : [ {
+    "number" : "0LT2N"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003007840"
+  } ]
+}, {
+  "providerId" : 20074452,
+  "payloadId" : 0,
+  "category" : "Supplier Business",
+  "organizationName" : "MED SERVE OF DADE COUNTY INC",
+  "taxId" : "161654987",
+  "taxIdType" : "EIN",
+  "displayName" : "MED SERVE OF DADE COUNTY INC",
+  "formattedTaxId" : "16-1654987",
+  "lowerOrgName" : "med serve of dade county inc",
+  "fbNumbers" : [ {
+    "number" : "Y912T"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003008129"
+  } ]
+}, {
+  "providerId" : 10089991,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "CUARTAS",
+  "firstName" : "SANDRA",
+  "middleName" : "P",
+  "degreeName" : "DDS",
+  "taxId" : "xxxxx7639",
+  "taxIdType" : "SSN",
+  "displayName" : "CUARTAS, SANDRA P, DDS",
+  "formattedTaxId" : "xxx-xx-7639",
+  "lowerLastName" : "cuartas",
+  "lowerFirstName" : "sandra",
+  "fbNumbers" : [ {
+    "number" : "67080"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003008418"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "DN18113"
+  } ]
+}, {
+  "providerId" : 10092334,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "SONG",
+  "firstName" : "ESTHER",
+  "middleName" : "S",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx0029",
+  "taxIdType" : "SSN",
+  "displayName" : "SONG, ESTHER S, MD",
+  "formattedTaxId" : "xxx-xx-0029",
+  "lowerLastName" : "song",
+  "lowerFirstName" : "esther",
+  "fbNumbers" : [ {
+    "number" : "44306"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003008467"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME100991",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10134859,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "SABODASH",
+  "firstName" : "VALERIY",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx9851",
+  "taxIdType" : "SSN",
+  "displayName" : "SABODASH, VALERIY, MD",
+  "formattedTaxId" : "xxx-xx-9851",
+  "lowerLastName" : "sabodash",
+  "lowerFirstName" : "valeriy",
+  "fbNumbers" : [ {
+    "number" : "14Y4X"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003008533"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME119014",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 20094091,
+  "payloadId" : 0,
+  "category" : "Group",
+  "organizationName" : "TEDDY R BLAND",
+  "taxId" : "261219149",
+  "taxIdType" : "EIN",
+  "displayName" : "TEDDY R BLAND",
+  "formattedTaxId" : "26-1219149",
+  "lowerOrgName" : "teddy r bland",
+  "fbNumbers" : [ {
+    "number" : "GB98R"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003008723"
+  } ]
+}, {
+  "providerId" : 10107065,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "BLAND",
+  "firstName" : "TEDDY",
+  "middleName" : "R",
+  "suffixName" : "JR",
+  "degreeName" : "DDS",
+  "taxId" : "xxxxx6711",
+  "taxIdType" : "SSN",
+  "displayName" : "BLAND JR, TEDDY R, DDS",
+  "formattedTaxId" : "xxx-xx-6711",
+  "lowerLastName" : "bland",
+  "lowerFirstName" : "teddy",
+  "fbNumbers" : [ {
+    "number" : "630NE"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003008723"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "DN17164",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10103154,
+  "payloadId" : 0,
+  "category" : "Supplier Individual",
+  "lastName" : "ROBINSON",
+  "firstName" : "ANN",
+  "middleName" : "L",
+  "degreeName" : "PA",
+  "taxId" : "xxxxx2188",
+  "taxIdType" : "SSN",
+  "displayName" : "ROBINSON, ANN L, PA",
+  "formattedTaxId" : "xxx-xx-2188",
+  "lowerLastName" : "robinson",
+  "lowerFirstName" : "ann",
+  "fbNumbers" : [ {
+    "number" : "Y03ND"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003008954"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "PA9104198",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 20073991,
+  "payloadId" : 0,
+  "category" : "Group",
+  "organizationName" : "DIGESTIVE HEALTH PHYSICIANS OF CENTRAL FL",
+  "taxId" : "202136347",
+  "taxIdType" : "EIN",
+  "displayName" : "DIGESTIVE HEALTH PHYSICIANS OF CENTRAL FL",
+  "formattedTaxId" : "20-2136347",
+  "lowerOrgName" : "digestive health physicians of central fl",
+  "fbNumbers" : [ {
+    "number" : "ILOMG"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003009093"
+  } ]
+}, {
+  "providerId" : 10073134,
+  "payloadId" : 0,
+  "category" : "Supplier Individual",
+  "lastName" : "PILOTO BAKER",
+  "firstName" : "ISA",
+  "degreeName" : "LCSW",
+  "taxId" : "xxxxx7873",
+  "taxIdType" : "SSN",
+  "displayName" : "PILOTO BAKER, ISA, LCSW",
+  "formattedTaxId" : "xxx-xx-7873",
+  "lowerLastName" : "piloto baker",
+  "lowerFirstName" : "isa",
+  "fbNumbers" : [ {
+    "number" : "Z1532"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003009101"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "SW5394",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10107692,
+  "payloadId" : 0,
+  "category" : "Supplier Individual",
+  "lastName" : "SPRAGG",
+  "firstName" : "CHERYL",
+  "degreeName" : "PA",
+  "taxId" : "xxxxx6414",
+  "taxIdType" : "SSN",
+  "displayName" : "SPRAGG, CHERYL, PA",
+  "formattedTaxId" : "xxx-xx-6414",
+  "lowerLastName" : "spragg",
+  "lowerFirstName" : "cheryl",
+  "fbNumbers" : [ {
+    "number" : "Y04YJ"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003009176"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "PA105543",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10075080,
+  "payloadId" : 0,
+  "category" : "Supplier Individual",
+  "lastName" : "GREENE",
+  "firstName" : "KAREN",
+  "middleName" : "A",
+  "degreeName" : "RN",
+  "taxId" : "xxxxx4105",
+  "taxIdType" : "SSN",
+  "displayName" : "GREENE, KAREN A, RN",
+  "formattedTaxId" : "xxx-xx-4105",
+  "lowerLastName" : "greene",
+  "lowerFirstName" : "karen",
+  "fbNumbers" : [ {
+    "number" : "Y051Z"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003009341"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "RN525052",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10151240,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Volk",
+  "firstName" : "Jill",
+  "degreeName" : "DO",
+  "taxId" : "xxxxx0735",
+  "taxIdType" : "SSN",
+  "displayName" : "Volk, Jill, DO",
+  "formattedTaxId" : "xxx-xx-0735",
+  "lowerLastName" : "volk",
+  "lowerFirstName" : "jill",
+  "fbNumbers" : [ {
+    "number" : "LS6QI"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003009804"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "OS13975"
+  } ]
+}, {
+  "providerId" : 10108018,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Dunn",
+  "firstName" : "Grace",
+  "middleName" : "E",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx5824",
+  "taxIdType" : "SSN",
+  "displayName" : "Dunn, Grace E, MD",
+  "formattedTaxId" : "xxx-xx-5824",
+  "lowerLastName" : "dunn",
+  "lowerFirstName" : "grace",
+  "fbNumbers" : [ {
+    "number" : "148ZL"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003009853"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME104728",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10114360,
+  "payloadId" : 0,
+  "category" : "Supplier Individual",
+  "lastName" : "BOWMAN",
+  "firstName" : "KRISTIN",
+  "degreeName" : "SPA",
+  "taxId" : "xxxxx3958",
+  "taxIdType" : "SSN",
+  "displayName" : "BOWMAN, KRISTIN, SPA",
+  "formattedTaxId" : "xxx-xx-3958",
+  "lowerLastName" : "bowman",
+  "lowerFirstName" : "kristin",
+  "fbNumbers" : [ {
+    "number" : "S00K7"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003009887"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "SA9817",
+    "expired" : "Y"
+  }, {
+    "number" : "1-14-16729",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10049944,
+  "payloadId" : 0,
+  "category" : "Supplier Individual",
+  "lastName" : "JACKSON",
+  "firstName" : "KEITH",
+  "middleName" : "R",
+  "degreeName" : "OT",
+  "taxId" : "xxxxx1260",
+  "taxIdType" : "SSN",
+  "displayName" : "JACKSON, KEITH R, OT",
+  "formattedTaxId" : "xxx-xx-1260",
+  "lowerLastName" : "jackson",
+  "lowerFirstName" : "keith",
+  "fbNumbers" : [ {
+    "number" : "Z9250"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003009937"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "OT9471",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 20124127,
+  "payloadId" : 0,
+  "category" : "Supplier Business",
+  "organizationName" : "Publix Pharmacy 1152",
+  "taxId" : "590324412",
+  "taxIdType" : "EIN",
+  "displayName" : "Publix Pharmacy 1152",
+  "formattedTaxId" : "59-0324412",
+  "lowerOrgName" : "publix pharmacy 1152",
+  "fbNumbers" : [ {
+    "number" : "LB5RL"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003010208"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "PH0022790"
+  } ]
+}, {
+  "providerId" : 10043899,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "HASAN",
+  "firstName" : "ANTHONY",
+  "middleName" : "T",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx4452",
+  "taxIdType" : "SSN",
+  "displayName" : "HASAN, ANTHONY T, MD",
+  "formattedTaxId" : "xxx-xx-4452",
+  "lowerLastName" : "hasan",
+  "lowerFirstName" : "anthony",
+  "fbNumbers" : [ {
+    "number" : "51074",
+    "expired" : "Y"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003010216"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME78230",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10111756,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "SMITH",
+  "firstName" : "WILLIAM",
+  "middleName" : "B",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx7177",
+  "taxIdType" : "SSN",
+  "displayName" : "SMITH, WILLIAM B, MD",
+  "formattedTaxId" : "xxx-xx-7177",
+  "lowerLastName" : "smith",
+  "lowerFirstName" : "william",
+  "fbNumbers" : [ {
+    "number" : "14C57"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003010299"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME108965",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10117804,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "STONE",
+  "firstName" : "JENNIFER",
+  "middleName" : "L",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx2208",
+  "taxIdType" : "SSN",
+  "displayName" : "STONE, JENNIFER L, MD",
+  "formattedTaxId" : "xxx-xx-2208",
+  "lowerLastName" : "stone",
+  "lowerFirstName" : "jennifer",
+  "fbNumbers" : [ {
+    "number" : "14K3K"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003010307"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME111724",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10142804,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Shaya",
+  "firstName" : "Wissam",
+  "middleName" : "M",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx9541",
+  "taxIdType" : "SSN",
+  "displayName" : "Shaya, Wissam M, MD",
+  "formattedTaxId" : "xxx-xx-9541",
+  "lowerLastName" : "shaya",
+  "lowerFirstName" : "wissam",
+  "fbNumbers" : [ {
+    "number" : "150SV"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003010349"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME123703",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 20089784,
+  "payloadId" : 0,
+  "category" : "Group",
+  "organizationName" : "MARTIN ROCHE",
+  "taxId" : "042489011",
+  "taxIdType" : "EIN",
+  "displayName" : "MARTIN ROCHE",
+  "formattedTaxId" : "04-2489011",
+  "lowerOrgName" : "martin roche",
+  "fbNumbers" : [ {
+    "number" : "9N60P"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003010380"
+  } ]
+}, {
+  "providerId" : 10091735,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "HOWE",
+  "firstName" : "ANTHONY",
+  "middleName" : "E",
+  "degreeName" : "DC",
+  "taxId" : "xxxxx3995",
+  "taxIdType" : "SSN",
+  "displayName" : "HOWE, ANTHONY E, DC",
+  "formattedTaxId" : "xxx-xx-3995",
+  "lowerLastName" : "howe",
+  "lowerFirstName" : "anthony",
+  "fbNumbers" : [ {
+    "number" : "64208"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003010471"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "CH9358",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10143976,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "JOHNSON",
+  "firstName" : "BRADLEY",
+  "middleName" : "T",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx4442",
+  "taxIdType" : "SSN",
+  "displayName" : "JOHNSON, BRADLEY T, MD",
+  "formattedTaxId" : "xxx-xx-4442",
+  "lowerLastName" : "johnson",
+  "lowerFirstName" : "bradley",
+  "fbNumbers" : [ {
+    "number" : "R7VRL"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003010596"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "2013015493",
+    "expired" : "Y"
+  }, {
+    "number" : "ME132490",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10092167,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "KAHLON",
+  "firstName" : "SUMMERPAL",
+  "middleName" : "S",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx6333",
+  "taxIdType" : "SSN",
+  "displayName" : "KAHLON, SUMMERPAL S, MD",
+  "formattedTaxId" : "xxx-xx-6333",
+  "lowerLastName" : "kahlon",
+  "lowerFirstName" : "summerpal",
+  "fbNumbers" : [ {
+    "number" : "41111"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003010679"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME101801",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10154042,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "SOKOLICH",
+  "firstName" : "JULIO",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx7602",
+  "taxIdType" : "SSN",
+  "displayName" : "SOKOLICH, JULIO, MD",
+  "formattedTaxId" : "xxx-xx-7602",
+  "lowerLastName" : "sokolich",
+  "lowerFirstName" : "julio",
+  "fbNumbers" : [ {
+    "number" : "KACR2"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003010794"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME104563",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10106178,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "INSANA",
+  "firstName" : "ANTONINO",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx1096",
+  "taxIdType" : "SSN",
+  "displayName" : "INSANA, ANTONINO, MD",
+  "formattedTaxId" : "xxx-xx-1096",
+  "lowerLastName" : "insana",
+  "lowerFirstName" : "antonino",
+  "fbNumbers" : [ {
+    "number" : "148A3"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003010844"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME106755",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10090906,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Kennedy",
+  "firstName" : "Stephen",
+  "middleName" : "R",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx8886",
+  "taxIdType" : "SSN",
+  "displayName" : "Kennedy, Stephen R, MD",
+  "formattedTaxId" : "xxx-xx-8886",
+  "lowerLastName" : "kennedy",
+  "lowerFirstName" : "stephen",
+  "fbNumbers" : [ {
+    "number" : "81039"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003010984"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME98966",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10110162,
+  "payloadId" : 0,
+  "category" : "Supplier Individual",
+  "lastName" : "STANDHART",
+  "firstName" : "PHILIP",
+  "middleName" : "L",
+  "degreeName" : "PT",
+  "taxId" : "xxxxx1736",
+  "taxIdType" : "SSN",
+  "displayName" : "STANDHART, PHILIP L, PT",
+  "formattedTaxId" : "xxx-xx-1736",
+  "lowerLastName" : "standhart",
+  "lowerFirstName" : "philip",
+  "fbNumbers" : [ {
+    "number" : "Y05NN"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003011107"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "PT25476",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10126854,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Jimenez",
+  "firstName" : "Lincoln",
+  "middleName" : "M",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx4058",
+  "taxIdType" : "SSN",
+  "displayName" : "Jimenez, Lincoln M, MD",
+  "formattedTaxId" : "xxx-xx-4058",
+  "lowerLastName" : "jimenez",
+  "lowerFirstName" : "lincoln",
+  "fbNumbers" : [ {
+    "number" : "14RF7"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003011339"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME116162",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10104790,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "KEITH",
+  "firstName" : "BAHAREH",
+  "middleName" : "E",
+  "degreeName" : "DO",
+  "taxId" : "xxxxx8181",
+  "taxIdType" : "SSN",
+  "displayName" : "KEITH, BAHAREH E, DO",
+  "formattedTaxId" : "xxx-xx-8181",
+  "lowerLastName" : "keith",
+  "lowerFirstName" : "bahareh",
+  "fbNumbers" : [ {
+    "number" : "148K3"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003011735"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "OS10957",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10142277,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Stevens Spader",
+  "firstName" : "Heather",
+  "middleName" : "S",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx9977",
+  "taxIdType" : "SSN",
+  "displayName" : "Stevens Spader, Heather S, MD",
+  "formattedTaxId" : "xxx-xx-9977",
+  "lowerLastName" : "stevens spader",
+  "lowerFirstName" : "heather",
+  "fbNumbers" : [ {
+    "number" : "150WW"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003012188"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME123879",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10119569,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "GAPONIUK",
+  "firstName" : "MARK",
+  "degreeName" : "DMD",
+  "taxId" : "xxxxx3127",
+  "taxIdType" : "SSN",
+  "displayName" : "GAPONIUK, MARK, DMD",
+  "formattedTaxId" : "xxx-xx-3127",
+  "lowerLastName" : "gaponiuk",
+  "lowerFirstName" : "mark",
+  "fbNumbers" : [ {
+    "number" : "6315V"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003012212"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "DN22364"
+  }, {
+    "number" : "DS031205L",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10136856,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "Mazloom",
+  "firstName" : "Narges",
+  "degreeName" : "DO",
+  "taxId" : "xxxxx5318",
+  "taxIdType" : "SSN",
+  "displayName" : "Mazloom, Narges, DO",
+  "formattedTaxId" : "xxx-xx-5318",
+  "lowerLastName" : "mazloom",
+  "lowerFirstName" : "narges",
+  "fbNumbers" : [ {
+    "number" : "151H2"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003012642"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "OS13202",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10090922,
+  "payloadId" : 0,
+  "category" : "Supplier Individual",
+  "lastName" : "DORON",
+  "firstName" : "ORLY",
+  "degreeName" : "LCSW",
+  "taxId" : "xxxxx3481",
+  "taxIdType" : "SSN",
+  "displayName" : "DORON, ORLY, LCSW",
+  "formattedTaxId" : "xxx-xx-3481",
+  "lowerLastName" : "doron",
+  "lowerFirstName" : "orly",
+  "fbNumbers" : [ {
+    "number" : "Z140E"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003012717"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "SW7848"
+  } ]
+}, {
+  "providerId" : 20065322,
+  "payloadId" : 0,
+  "category" : "Group",
+  "organizationName" : "OSCAR LORET DE MOLA MD",
+  "taxId" : "650469332",
+  "taxIdType" : "EIN",
+  "displayName" : "OSCAR LORET DE MOLA MD",
+  "formattedTaxId" : "65-0469332",
+  "lowerOrgName" : "oscar loret de mola md",
+  "fbNumbers" : [ {
+    "number" : "1K21J"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003012741"
+  } ]
+}, {
+  "providerId" : 10107020,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "OSLEBER",
+  "firstName" : "MICHAEL",
+  "middleName" : "F",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx6089",
+  "taxIdType" : "SSN",
+  "displayName" : "OSLEBER, MICHAEL F, MD",
+  "formattedTaxId" : "xxx-xx-6089",
+  "lowerLastName" : "osleber",
+  "lowerFirstName" : "michael",
+  "fbNumbers" : [ {
+    "number" : "149NY"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003013384"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME106814",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10058632,
+  "payloadId" : 0,
+  "category" : "Supplier Individual",
+  "lastName" : "BLOCK",
+  "firstName" : "JOANNE",
+  "middleName" : "L",
+  "degreeName" : "LCSW",
+  "taxId" : "xxxxx7931",
+  "taxIdType" : "SSN",
+  "displayName" : "BLOCK, JOANNE L, LCSW",
+  "formattedTaxId" : "xxx-xx-7931",
+  "lowerLastName" : "block",
+  "lowerFirstName" : "joanne",
+  "fbNumbers" : [ {
+    "number" : "Z0961"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003013475"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "SW148",
+    "expired" : "Y"
+  } ]
+}, {
+  "providerId" : 10121725,
+  "payloadId" : 0,
+  "category" : "Professional",
+  "lastName" : "SAWYER",
+  "firstName" : "KEVIN",
+  "middleName" : "J",
+  "degreeName" : "MD",
+  "taxId" : "xxxxx2029",
+  "taxIdType" : "SSN",
+  "displayName" : "SAWYER, KEVIN J, MD",
+  "formattedTaxId" : "xxx-xx-2029",
+  "lowerLastName" : "sawyer",
+  "lowerFirstName" : "kevin",
+  "fbNumbers" : [ {
+    "number" : "14KR6"
+  } ],
+  "npiNumbers" : [ {
+    "number" : "1003013848"
+  } ],
+  "licenseNumbers" : [ {
+    "number" : "ME112475",
+    "expired" : "Y"
+  } ]
+} ]

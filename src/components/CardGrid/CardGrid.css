@@ -1,22 +1,11 @@
-.centerChild,
 .hackBorder,
 .cardGrid {
   width: 100%;
 }
 
-.centerChild {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  z-index: 10;
-}
-
 .hackBorder {
-  border-left: 1px solid blue; /* to cover the left border of the left-most cards */
+  border-left: 1px solid white; /* to cover the left border of the left-most cards */
   border-radius: 5px;
-  position: relative;
-  z-index: 5;
 }
 
 .cardGrid {
@@ -27,5 +16,5 @@
     grid-template-columns: repeat(auto-fit, minmax(253px, 1fr));
   position: relative;
   left: -1px;
-
+  z-index: -1;
 }

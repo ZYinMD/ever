@@ -1,0 +1,13 @@
+.centerChild {
+  padding-left: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family:  Lato, Roboto, "Segoe UI", Helvetica, sans-serif;
+
+}
+
+.nonFluidContainer {
+  width: 95%;
+  max-width: 1256px;
+}
