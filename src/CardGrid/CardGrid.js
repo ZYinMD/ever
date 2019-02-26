@@ -7,11 +7,16 @@ import styles from './CardGrid.css';
 
 export default class CardGrid extends PureComponent {
   render() {
-    const numCol = this.props.numCol || 4;
+    const numCol = this.props.numCol;
+    const forceNumCol = {};
+    if (numCol) {
+      forceNumCol.gridTemplateColumns = `repeat(${numCol}, 1fr)`;
+    }
+
     return (
       <div className={styles.centerChild}>
         <div className={styles.hackBorder}>
-          <div className={styles.cardGrid} style={{gridTemplateColumns: `repeat(${numCol}, 1fr)`}}>
+          <div className={styles.cardGrid} style={forceNumCol}>
             {this.props.children}
           </div>
         </div>

@@ -1,3 +1,9 @@
+.centerChild,
+.hackBorder,
+.cardGrid {
+  width: 100%;
+}
+
 .centerChild {
   display: flex;
   flex-direction: column;
@@ -10,13 +16,13 @@
 }
 
 .cardGrid {
+  font-family: Lato, BlinkMacSystemFont, "Segoe UI", Helvetica, Roboto, sans-serif;
   background-color: white;
   border-radius: 5px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
   display: grid;
-  grid-auto-rows: 90px;
+    grid-template-columns: repeat(auto-fit, minmax(253px, 1fr));
   margin-left: -1px;
   position: relative;
   z-index: -1;
-  font-family: Lato, BlinkMacSystemFont, "Segoe UI", Helvetica, Roboto, sans-serif;
 }
