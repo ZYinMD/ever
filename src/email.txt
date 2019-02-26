@@ -1,0 +1,32 @@
+email to Tim:
+
+Hi Tim,
+
+When putting together the mock page, I made some tweaks to the components. Shouldn't affect how you call them, expect:
+
+Breaking Changes on how to import the header:
+  from
+    import NewHeader from '....src/components/NewHeader';
+  to
+    import { NodeHeader } from '....src/components/NodeHeader';
+  SO BOTH NAME CHANGE (from NewHeader to NodeHeader) AND CURLY BRACE CHANGE
+
+Possible breaking change on the table:
+  in Table.css:
+    from
+      .table {width: 1256px;}
+    to
+      .table {width: 100%;}`
+    Now needs your own parent container to restrain width
+    e.g.
+    .containerForWholePageExceptNodeHeaderWhichGoesAcross {
+      width: 95%;
+      max-width: 1256px;
+    }
+
+New behavior of CardGrid:
+  If no numCol is specified, will response to screen width and wraps around.
+  Also provide your own parent container to restrain width, otherwise may display 5 columns
+
+Some dead code I want to delete but don't want to mess with your work:
+  In TableWithExpandableRow/Tr/Tr.js, there'are 2 lines of dead code that bothers me, I want to delete them but fear that you already made changes in that file, so I'll refrain until you finish working on the table

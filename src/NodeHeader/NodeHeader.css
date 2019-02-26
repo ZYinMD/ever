@@ -18,7 +18,6 @@
 }
 
 .nodeHeader {
-  background-color: #00acc1;
   border-top: 5px solid #6FC391;
 }
 
@@ -28,10 +27,17 @@
   background-color: #0097A7;
 }
 
+.button1,
+.button2,
+.nav {
+  background-color: #00acc1;
+}
+
 /* alignment↓ */
 .nodeHeader {
   width: 100%;
   height: 40px;
+  box-sizing: border-box;
   display: grid;
     align-items: center;
     grid-template-columns:[icon] 50px [text] max-content [dropdown] 43px [button1] 40px [button2] 25px [nav] auto;
@@ -108,9 +114,4 @@
 .button1,
 .button2 {
   cursor: pointer;
-}
-
-/* other↓ */
-.nodeHeader {
-  font-family: Lato, BlinkMacSystemFont, "Segoe UI", Helvetica, Roboto, sans-serif;
 }

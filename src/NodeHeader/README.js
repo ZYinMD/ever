@@ -37,7 +37,7 @@ To use:
 */
 
 import React, { PureComponent } from 'react';
-import { NodeHeader, HorizontalNav, Tab } from './index.js';
+import NodeHeader, { HorizontalNav, Tab } from '../NodeHeader';
 
 export default class README extends PureComponent {
   render() {
@@ -52,11 +52,11 @@ export default class README extends PureComponent {
         <HorizontalNav>
           <Tab text={'Professional Info'} />
           <Tab text={'License / Cert & Other Identifiers'} active/>
-          <Tab text={'Education Info'} onClick={() => {console.log('You clicked Education Info')}}/>
+          <Tab text={'Education Info'} onClick={() => {console.log('You clicked Education Info');}}/>
           <Tab text={'Quality Program'} payload={{tab: 'Quality Program'}} />
           <Tab text={'Additional Info'} />
         </HorizontalNav>
       </NodeHeader>
-    )
+    );
   }
 }

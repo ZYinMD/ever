@@ -39,7 +39,10 @@
 .right {
   grid-column: 2;
   align-self: center;
-  font-family: Lato, BlinkMacSystemFont, "Segoe UI", Helvetica, Roboto, sans-serif;
+}
+
+.right p {
+  text-align: left;
 }
 
 .title {
