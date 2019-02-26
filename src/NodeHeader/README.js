@@ -1,30 +1,24 @@
 /*Z
 To test it out:
   1. import this file:
-    import README from '......./src/components/NewHeader/README.js';
+    import README from '......./src/components/NodeHeader/README.js';
   2. render it:
     return (
       <README />
     );
 
 To use:
-  Props of <NewHeader>:
+  Props of <NodeHeader>:
     name:
       string, provider's name on the top left corner
     category:
       string, the subtitle underneath the name
     topBorderColor(optional):
       the color of the top header of the horizontal blue bar (it's different on each node), default to #6FC391
-    onClickDropdown:
-      function, what happens when dropdown button gets clicked
     button1(optional):
-      fa identifier, the first glyph to the right of the dropdown button, default to none
+      boolean, if true, render a information button to the right of the dropdown
     button2(optional):
-      fa identifier, the second glyph to the right of the dropdown button, default to none
-    onClickButton1:
-      callback function, what happens when button1 is clicked
-    onClickButton2:
-      callback function, what happens when button1 is clicked
+      boolean, if true, render a contact button to the right of the dropdown
 
   Props of <Tab/>:
     text:
@@ -43,14 +37,13 @@ To use:
 */
 
 import React, { PureComponent } from 'react';
-import NewHeader from './index.js';
-import { HorizontalNav, Tab } from './HorizontalNav';
+import { NodeHeader, HorizontalNav, Tab } from './index.js';
 import { faInfoCircle, faAddressBook } from 'fa5-pro-light';
 
 export default class README extends PureComponent {
   render() {
     return (
-      <NewHeader
+      <NodeHeader
         name={'Crystal J. Ankney'}
         category={'Supplier Individual'}
         topBorderColor={'#f17677'}
@@ -58,7 +51,7 @@ export default class README extends PureComponent {
         button1={faInfoCircle}
         button2={faAddressBook}
         onClickButton1={() => {console.log('You clicked info button')}}
-        onClickButton1={() => {console.log('You clicked address book')}}
+        onClickButton2={() => {console.log('You clicked address book')}}
       >
         <HorizontalNav>
           <Tab text={'Professional Info'} />
@@ -67,7 +60,7 @@ export default class README extends PureComponent {
           <Tab text={'Quality Program'} payload={{tab: 'Quality Program'}} />
           <Tab text={'Additional Info'} />
         </HorizontalNav>
-      </NewHeader>
+      </NodeHeader>
     )
   }
 }

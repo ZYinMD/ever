@@ -1,0 +1,116 @@
+/* this is a complicated sheet, so I switched to overkill mode */
+
+/* color↓ */
+.nodeHeader,
+.name,
+.dropdown:hover,
+.button1:hover,
+.button2:hover {
+  color: white;
+}
+
+.icon,
+.category,
+.dropdown,
+.button1,
+.button2 {
+  color: #B2EBF2;
+}
+
+.nodeHeader {
+  background-color: #00acc1;
+  border-top: 5px solid #6FC391;
+}
+
+.icon,
+.text,
+.dropdown {
+  background-color: #0097A7;
+}
+
+/* alignment↓ */
+.nodeHeader {
+  width: 100%;
+  height: 40px;
+  display: grid;
+    align-items: center;
+    grid-template-columns:[icon] 50px [text] max-content [dropdown] 43px [button1] 40px [button2] 25px [nav] auto;
+}
+
+.icon,
+.text,
+.dropdown,
+.button1,
+.button2 {
+  height: 100%;
+  display: grid;
+    place-items: center;
+}
+
+.icon {
+  padding-left: 6px;
+}
+
+.text {
+  grid-column: text;
+  grid-template-rows: 5fr 4fr;
+  justify-items: start;
+}
+
+.name {
+  align-self: end;
+}
+
+.category {
+  align-self: start;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+/* font-size & placement in the grid ↓ */
+.icon {
+  grid-column: icon;
+  font-size: 20px;
+}
+
+.name {
+  font-size: 14px;
+}
+
+.category {
+  font-size: 11px;
+}
+
+.dropdown {
+  font-size: 15px;
+  grid-column: dropdown;
+}
+
+.button1 {
+  font-size: 15px;
+  grid-column: button1;
+}
+
+.button2 {
+  font-size: 15px;
+  grid-column: button2;
+}
+
+.nav {
+  grid-column: nav;
+  height: 100%;
+}
+
+/* cursor↓ */
+.dropdown,
+.button1,
+.button2 {
+  cursor: pointer;
+}
+
+/* other↓ */
+.nodeHeader {
+  font-family: Lato, BlinkMacSystemFont, "Segoe UI", Helvetica, Roboto, sans-serif;
+}

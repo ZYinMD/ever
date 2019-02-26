@@ -1,0 +1,20 @@
+.activeTab,
+.inactiveTab {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.inactiveTab:hover {
+  background-color: rgb(70, 181, 196);
+}
+
+.inactiveTab {
+  cursor: pointer;
+}
+
+.activeTab {
+  border-bottom: 6px solid #c3e6ec;
+}

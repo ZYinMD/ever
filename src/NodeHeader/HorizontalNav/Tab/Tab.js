@@ -4,7 +4,6 @@ import styles from './Tab.css';
 export default class Tab extends PureComponent {
   render() {
     let { text, onClick, payload, active } = this.props;
-    let bottomBorderColor = active ? '#d3f6fc' : 'transparent';
     if (!onClick) {
       if (!payload)
         payload = {tab: text};
@@ -13,10 +12,9 @@ export default class Tab extends PureComponent {
       //   payload
       // })};
     }
-    return (
-      <div className={styles.tab} onClick={onClick} style={{borderColor: bottomBorderColor}}>
-        {text}
-      </div>
-    )
+    if (active)
+      return <div className={styles.activeTab}>{text}</div>;
+    else
+      return <div className={styles.inactiveTab} onClick={onClick}>{text}</div>;
   }
 }
