@@ -9,9 +9,9 @@ To test it out:
 
 To use:
   Props of <Table />:
-    numCol(optional)
-    How many columns you want the grid to have, e.g. <Table numCol={3}/>
-    Default to 4 if omitted
+    numCol(optional):
+      How many columns you want the grid to have, e.g. <Table numCol={3}/>
+      If omitted, default to reponsive and wraps around
   Props of <Card />
     title:
       string, the title displayed on the card

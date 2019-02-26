@@ -29,7 +29,7 @@ To use:
         payload: this.props.text
       }
     onClick(optional):
-      function, what happens when this tab is clicked. If this props.onClick and props.payload are provided together, payload will be ignored
+      function, what happens when this tab is clicked. If props.onClick and props.payload are provided together, payload will be ignored
     active(optional):
       boolean, whether this tab is currently active. Default to false
 
@@ -47,11 +47,8 @@ export default class README extends PureComponent {
         name={'Crystal J. Ankney'}
         category={'Supplier Individual'}
         topBorderColor={'#f17677'}
-        onClickDropdown={() => {console.log('You clicked the dropdown')}}
-        button1={faInfoCircle}
-        button2={faAddressBook}
-        onClickButton1={() => {console.log('You clicked info button')}}
-        onClickButton2={() => {console.log('You clicked address book')}}
+        button1
+        button2
       >
         <HorizontalNav>
           <Tab text={'Professional Info'} />
