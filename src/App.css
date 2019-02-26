@@ -1,0 +1,10 @@
+.centerChild {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nonFluidContainer {
+  width: 95%;
+  max-width: 1256px;
+}
