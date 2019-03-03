@@ -13,10 +13,19 @@ class GeneralProfile extends PureComponent {
   renderTabNames() {
     return Object.keys(Tabs).map((tabName) => {
       if (tabName === this.state.currentTab)
-        return <Tab text={tabName} active />;
+        return <Tab text={tabName} key={tabName} active />;
       else
-        return <Tab text={tabName} onClick={() => { this.changeTab(tabName); }} />;
+        return <Tab text={tabName} key={tabName} onClick={() => { this.changeTab(tabName); }} />;
     });
+  }
+
+  renderTabContent() {
+    const TabContent = Tabs[this.state.currentTab];
+    return (
+      <div className={styles.nonFluidContainer}>
+        <TabContent />
+      </div>
+    );
   }
 
   render() {
@@ -30,11 +39,10 @@ class GeneralProfile extends PureComponent {
           button2
         >
           <HorizontalNav>
-            {renderTabNames}
+            {this.renderTabNames()}
           </HorizontalNav>
         </NodeHeader>
-        <div className={styles.nonFluidContainer} />
-
+        {this.renderTabContent()}
       </div>
     );
   }
