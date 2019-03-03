@@ -1,0 +1,81 @@
+.nodeNotificationBar{
+  position: absolute;;
+  background: rgba(255,255,255,0.5);
+  left: 10px;
+  top:50px;
+  width: calc(100% - 10px*2);
+  z-index: 999;
+}
+.notificationBar{
+  background: #fdebd0;
+  padding: 7px 5px;
+  border-radius: 3px;
+  animation: shake 0.5s steps(10) infinite alternate;
+  transition: 0.2s;
+  font-size: 12px;
+  /* Crap */
+  background: rgba(0,0,0,.05);
+}
+.notificationBar.noBg{
+  background: rgba(0,0,0,0.05);
+}
+.nodeNotificationBar .container{
+  background: #d4e6f1;
+  margin: 0px;
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.1);
+  border:1px solid #a9cce3;
+  color: #5499c7;
+  border-radius: 3px;
+}
+.nodeNotificationBar.success .container{
+  background: #d4efdf;
+  border-color: #a9dfbf;
+  color: #52be80;
+}
+.nodeNotificationBar.alert .container{
+  background: #fdebd0;
+  border-color: #f6ddcc;
+  color: #d68910;
+}
+.nodeNotificationBar.error .container{
+  background: #fddbd8;
+  border-color: #f5b7b1;
+  color: #ec7063;
+}
+.nodeNotificationBar main{
+  overflow: hidden;
+  padding: 5px;
+}
+.nodeNotificationBar main p{
+  float: left;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 3px 10px;
+}
+.actionComponent ul li{
+  float: left;
+  margin-left: 5px;
+}
+.actionComponent button{
+
+}
+
+@keyframes shake {
+  from {
+    zoom: 1.01;
+    color: #e74c3c;
+  }
+  to   {
+    zoom: 1;
+    color: #34495e;
+  }
+}
+@media screen and (max-width:1366px){
+  .nodeNotificationBar{
+    top:35px;
+  }
+.nodeNotificationBar main p{
+  font-size: 12px;
+  line-height: 16px;
+}
+}

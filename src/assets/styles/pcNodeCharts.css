@@ -1,0 +1,238 @@
+ul.chartLists{
+    height: 175px;
+    position: relative;
+    transition: 0.5s ease-in;
+    animation: expand 0.5s ease-out alternate;
+	overflow: hidden;
+}
+ul.chartLists li{
+    height: 155px;
+    width: calc(100%/5 - 12px);
+    left: 10px;
+    top: 10px;
+    transition: 0.2s ease-in;
+    border: 1px solid rgba(0,0,0,0.075);
+    background: linear-gradient(rgb(244,249,253),#ebedef);
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0;
+    position: absolute;
+    animation: slideDown 0.5s ease-out alternate;
+}
+ul.chartLists li.selected{
+    border:2px solid rgb(59,202,211);
+}
+ul.chartLists li .clearFilter > span{
+    color: #abb2b9;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    cursor: pointer;
+    display: block;
+    transition: 0.1s ease-in;
+    z-index: 99;
+}
+ul.chartLists li .clearFilter > span:hover{
+    color: #ec7063;
+    font-size: 18px;
+    right: 8px;
+    top: 5px;
+}
+ul.chartLists li .chartContainer{
+    height: 133px;
+    width: 150px;
+    left: 0;
+    top: -10px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+    transition: 0.2s ease-in;
+}
+ul.chartLists li label{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+    display: block;
+    font-size: 13px;
+}
+.contracts ul.chartLists li:nth-child(2){
+    animation: slideDown 0.65s ease-out alternate;
+    left: calc(100%/5 + 8px);
+}
+.contracts ul.chartLists li:nth-child(3){
+    animation: slideDown 0.8s ease-out alternate;
+    left: calc(100%/5 + 100%/5 + 6px);
+}
+.contracts ul.chartLists li:nth-child(4){
+    animation: slideDown 0.95s ease-out alternate;
+    left: calc(100%/5 + 100%/5*2 + 4px);
+}
+.contracts ul.chartLists li:nth-child(5){
+    animation: slideDown 1.1s ease-out alternate;
+    left: calc(100%/5 + 100%/5*3 + 2px);
+}
+ul.chartLists li canvas{
+    opacity:1;
+    height:120px !important;
+    width: 90% !important;
+    margin:auto !important;
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+
+    /* Rules below not implemented in browsers yet */
+    -o-user-select: none;
+    user-select: none;
+}
+ul.chartLists li.filtered{
+    border:1px solid red;
+}
+ul.chartLists li.noInteraction{
+  pointer-events: none;
+  opacity: 0.5;
+}
+ul.chartLists li:hover .chartContainer{
+    top:calc(-20px);
+}
+ul.chartLists li.noInteraction:hover .chartContainer{
+    top:calc(-10px);
+}
+ul.chartLists li.noInteraction:hover:before{
+  opacity: 0;
+}
+ul.chartLists li:before{
+    content: '';
+    width: 100px;
+    left: calc(100%/2 - 100px/2);
+    height: 50px;
+    border-radius: 100%;
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0 0 25px 10px rgba(255,255,255,0.8) inset, 0 0 25px 5px rgba(255,255,255,0.8) inset;
+    z-index: 0;
+    display: block;
+    position: absolute;
+    bottom: -15px;
+    opacity: 0;
+    transition: 0.2s ease-in;
+}
+ul.chartLists li:hover:before{
+    bottom: 2px;
+    opacity: 0.3;
+}
+ul.chartLists li.disabled .chartContainer{
+  position: relative;
+  background: #ccd1d1;
+  border-radius: 100%;
+  width: 115px;
+  height: 115px;
+  top: -3px;
+  transition: 0.2s ease-in;
+  cursor: default;
+}
+ul.chartLists li.disabled .chartContainer canvas{
+    position: relative;
+    z-index: 9;
+}
+ul.chartLists li.disabled .chartContainer:before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(#fff, #eee);
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 28px;
+    top: 28px;
+    display: block;
+    border-radius: 100%;
+}
+ul.chartLists li.disabled:hover .chartContainer{
+    top:-8px;
+}
+
+/* Relationships */
+
+.rel ul.chartLists li{
+  width: calc(100%/4 - 12px);
+}
+.rel ul.chartLists li:nth-child(2){
+    animation: slideDown 0.65s ease-out alternate;
+    left: calc(100%/4 + 8px);
+}
+.rel ul.chartLists li:nth-child(3){
+    animation: slideDown 0.8s ease-out alternate;
+    left: calc(100%/4 + 100%/4 + 6px);
+}
+.rel ul.chartLists li:nth-child(4){
+    animation: slideDown 0.95s ease-out alternate;
+    left: calc(100%/4 + 100%/4*2 + 4px);
+}
+
+@keyframes anim{
+    from{
+        max-width: 0;
+    }
+    to{
+        max-width: 100px;
+    }
+}
+.checked {
+    color: #1abc9c;
+    display: block;
+    transition: .2s ease-in;
+    animation: anim 0.5s alternate;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    top:10px;
+}
+.checked:before{
+    font-size: 36px;
+}
+
+/* Animation */
+
+@keyframes expand {
+  0% {
+    opacity: 0;
+    height: 0px;
+  }
+  100%   {
+      margin-top:0px;
+    opacity: 1;
+    height: 175px;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    top: -200px;
+    opacity: 0;
+  }
+  60% {
+    top: -200px;
+    opacity: 0;
+  }
+  100%   {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.cursorDisabled {
+    cursor: not-allowed;
+}
+
+.displaySummaryAccordion {
+    display: block;
+}
+
+.hideSummaryAccordion {
+    display: none;
+}

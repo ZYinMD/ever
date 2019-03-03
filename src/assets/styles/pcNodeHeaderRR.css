@@ -1,0 +1,886 @@
+
+
+/* New Header Style */
+
+*{
+  padding:0;
+  margin:0;
+  outline:none;
+}
+.nodeHeader{
+  color: #fff;
+  background-color: #00A2B9;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+  text-align: left;
+  border-top: 5px solid #6FC391;
+  border-bottom: none;
+}
+.nodeHeader.inline{
+  position: static;
+  border:none;
+  overflow: hidden;
+  padding: 0 0 5px;
+  background: none;
+}
+.nodeHeader h2{
+  font-size: 14px;
+  line-height: 44px;
+  font-weight: bold;
+  color: #344a5e;
+  margin: 0 10px 0 0;
+}
+/* CSS for Header component (this should be moved eventually) */
+.nodeHeader .detailsContainer {
+  background-color: #0097AA;
+  width: max-content;
+  padding: 6px 10px;
+}
+.nodeHeader .personalDetails {
+  display: inline-block;
+}
+.nodeHeader .detailsContainer span {
+  font-size: 12px;
+  opacity: 0.8;
+}
+.nodeHeader .detailsContainer svg[data-icon="user-md"] {
+  font-size: 28px;
+  opacity: 0.8;
+  margin: 8px 15px;
+}
+.nodeHeader .detailsContainer svg[data-icon="chevron-circle-down"] {
+  font-size: 20px;
+  opacity: 0.8;
+  margin: 8px 15px;
+}
+
+.quickSort,
+.hasBtn,
+.nodeHeader .component{
+  position: relative;
+  margin: 4px 0;
+  overflow: visible;
+  padding: 4px 4px 4px 33px;
+  position: relative;
+  overflow: hidden;
+  min-height: 33px;
+}
+header.subHeader .nodeSearch,
+header.subHeader .hasBtn{
+    box-shadow: 0 0 8px rgba(0,0,0,0) inset;
+    min-height: 30px;
+    margin: 5px 0 3px;
+}
+.panels header.subHeader .nodeSearch,
+.panels header.subHeader .hasBtn{
+    background: #ba3b75;
+}
+.nodeSearch {
+  text-align: left;
+}
+
+.nodeSearch h2 {
+  display: inline-block;
+}
+
+.nodeSearchBar {
+  display: inline-block;
+}
+
+.quickSort:before,
+.hasBtn:before,
+.nodeHeader .component:before{
+  content: '';
+  font-family: 'FontAwesome';
+  font-weight: normal;
+  color: #176BCC;
+  font-size: 18px;
+  position: absolute;
+  left: 30px;
+  top:0;
+  width: 33px;
+  height: 33px;
+  border-radius: 33px;
+  text-align: center;
+  line-height: 28px;
+}
+.nodeHeader .history.component:before{  
+  content: "\f1da";
+  font-family: FontAwesome;
+  font-size: 16px;
+}
+.nodeHeader .edit.component:before{
+  content:'';
+  font-size: 16px;
+}
+header.subHeader .nodeSearch:before,
+header.subHeader .hasBtn:before{
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+header.subHeader .hasBtn:after{
+  background-size: 12px auto;
+  width: 30px;
+  height: 30px;
+}
+header.subHeader .hasBtn.tasks:after{
+  background-image: url(../icons/tasks.svg);
+    background-size: 15px auto;
+}
+.nodeHeader .quickSort:before,
+.hasBtn:before{
+  content: '';
+}
+.quickSort:after,
+.hasBtn:after{
+  position: absolute;
+  left: 0;
+  top:0;
+  content: '';
+  display: block;
+  z-index: 2;
+  width: 33px;
+  height: 33px;
+  background-image:url(../icons/sortby.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:15px auto;
+}
+.hasBtn.nextnPrev:after{
+  transform: rotate(90deg);
+}
+.nodeSearch:hover{
+}
+.nodeSearch input{
+  width: 0px;
+  opacity: 0;
+  font-size: 11px;
+  line-height: 34px;
+  transition: 0.4s ease-out;
+  text-indent: 20px;
+  float: left;
+}
+.nodeSearch input::-webkit-input-placeholder{
+  font-size: 11px;
+  text-indent:20px;
+  line-height: 32px;
+  color:rgb(0,0,0);
+  transition: 0.2s ease-out;
+}
+.nodeSearch:hover{
+}
+.nodeSearch input{
+  width: calc(100% - 55px);
+  opacity: 1;
+  line-height: 25px;
+  padding-right: 20px;
+  color: #000000;
+}
+header.subHeader .nodeSearch:hover input,
+header.subHeader .nodeSearch input,
+header.subHeader .nodeSearch input:focus
+header.subHeader .nodeSearch:hover input::-webkit-input-placeholder{
+  line-height: 22px;
+  color: #5d6d7e;
+}
+.nodeSearch button{
+  color: #fff;
+  line-height: 12px;
+  font-size: 11px;
+  transition: 0.1s ease-in;
+  background: linear-gradient(rgb(59,202,211), rgb(10,164,179));
+  box-shadow: 0px 0px 0px rgba(255,255,255,0.0) inset,  0px 0px 0px rgba(0,0,0,0.0);
+  cursor: pointer;
+  float: left;
+  line-height: 26px;
+  padding: 0 20px;
+    border-radius: 20px;
+    color: #fff;
+    top:4px;
+    position: absolute;
+    right: 3px;
+}
+.nodeSearch button:hover{
+  box-shadow: 0px 0px 10px rgba(255,255,255,0.5) inset,  1px 2px 3px rgba(0,0,0,0.5);
+}
+header.subHeader .nodeSearch button{
+  line-height: 22px;
+}
+.quickSort ul li,
+.hasBtn ul li,
+.viewSwitch ul li,
+.nodeHeader .component ul li
+{
+  float: left;
+}
+.quickSort ul li,
+.hasBtn ul li,
+.nodeHeader .component ul li{
+  margin-left: 5px;
+}
+.quickSort ul{
+}
+.quickSort ul li button,
+.hasBtn ul li button,
+.component button{
+  background: linear-gradient(#fff, rgb(233,233,233));
+  min-width: 50px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px rgba(255,255,255,0) inset, 1px 2px 2px rgba(0,0,0,0.25);
+  font-size: 11px;
+  display: block;
+  padding: 4px 10px;
+  color: #5d6d7e;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+.quickSort ul li button.disabled,
+.hasBtn ul li button.disabled,
+.component button.disabled{
+  background: linear-gradient(#d6dbdf, #aeb6bf);
+  opacity: 0.75;
+  pointer-events: none;
+  cursor: default;
+}
+.component button.cancelBtn{
+  background: linear-gradient(#f1948a, #e74c3c);
+  border:1px solid #e74c3c;
+  color: #fff;
+  padding: 3px 10px 4px;
+}
+.component button.cancelBtn:hover{
+  background: linear-gradient(#f1948a, #e74c3c);
+  box-shadow: 0px 0px 20px rgba(255,255,255,.5) inset, 2px 5px 3px rgba(0,0,0,0.25);
+  border:1px solid rgba(231,76,60,0.5);
+}
+.component button.submitBtn{
+  background: linear-gradient(#2ecc71, #239b56);
+  border:1px solid #239b56;
+  color: #fff;
+  padding: 3px 10px 4px;
+}
+.component button.submitBtn:hover{
+  background: linear-gradient(#2ecc71, #239b56);
+  border:1px solid rgba(35,155,86,0.5);
+  box-shadow: 0px 0px 20px rgba(255,255,255,.5) inset, 2px 5px 3px rgba(0,0,0,0.25);
+}
+.hasBtn ul li button.previewBtn{
+  background: linear-gradient(#fcf3cf, #f9e79f);
+}
+.hasBtn ul li button.previewBtn:hover{
+  background: linear-gradient(#f7dc6f, #f4d03f);
+}
+header.subHeader .hasBtn ul li button{
+  min-width: inherit;;
+  padding: 3px 10px;
+}
+header.subHeader .hasBtn ul li button .icon{
+  margin-right: 5px;
+  font-size: 11px;
+}
+header.subHeader .hasBtn ul li button .icon.next{
+  margin-right: 0px;
+  margin-left: 5px;
+}
+header.subHeader .hasBtn ul li button .icon.prev,
+header.subHeader .hasBtn ul li button .icon.next{
+  font-size: 9px;
+}
+.quickSort ul li button:hover,
+.hasBtn ul li button:hover,
+.component button:hover{
+  background: linear-gradient(#dbf1f4, #dbf1f4);
+  border-color: #7fced7;
+  box-shadow: 0px 0px 5px rgba(255,255,255,1) inset, 2px 5px 3px rgba(0,0,0,0.25);
+}
+.quickSort ul li button.active,
+.hasBtn ul li button.active{
+  background: linear-gradient(rgb(59,202,211), rgb(10,164,179));
+  border-color: #0aa4b3;
+  box-shadow: 0px 0px 5px rgba(255,255,255,0) inset, 2px 5px 3px rgba(0,0,0,0.25);
+  color: #fff;
+  position: relative;
+  padding-right: 20px;
+}
+.quickSort ul li button.active:before,
+.hasBtn ul li button.active:before{
+  content:'';
+  font-family: 'FontAwesome';
+  font-weight: normal;
+  color: #fff;
+  font-size: 10px;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+.quickSort ul li button.active.desc:before{
+  content:'';
+}
+.viewSwitch,
+.moreNav > label{
+  background: #aeb6bf;
+  overflow: hidden;
+  padding: 5px 5px 5px 0;
+  border-radius: 30px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.4) inset;
+  position: relative;
+  margin: 5px 0px 5px 0;
+  width:calc(3px*2 + 26px*2 - 1px);
+  height: calc(26px + 3px*2);
+}
+.viewSwitch,
+.moreNav,
+.quickSort,
+.hasBtn,
+.nodeHeader .component{
+  margin-left: 10px;
+}
+header.subHeader .hasBtn{
+  margin-left: 5px;
+  padding-left: 30px;
+}
+.moreNav > label{
+  width: calc(26px + 3px*2);
+  height: calc(26px + 3px*2);
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 0;
+  cursor: pointer;
+  display: block;
+}
+.moreNav > input:checked + label{
+  background: #0aa4b3;
+}
+.moreNav > label:before{
+  content: '';
+    width: calc(26px);
+    height: calc(26px);
+    display: block;
+    background: linear-gradient(#fff, rgb(233,233,233));
+    border-radius: 20px;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+}
+.moreNav > label:hover:before{
+  background: #dbf1f4;
+  box-shadow: 0px 0px 5px rgba(255,255,255,1) inset, 2px 5px 3px rgba(0,0,0,0.25);
+}
+.moreNav > label:after{
+  content: '';
+  background: url(../icons/more-menu-icon.svg) no-repeat center;
+  background-size: 12px auto;
+  display: block;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: calc(14px/2);
+  top: calc(14px/2);
+}
+.moreNav > input:checked + label:after{
+  background-image: url(../icons/user-info.svg);
+}
+.moreNav > nav{
+  display: none;
+  position: absolute;
+  z-index: 9999;
+  -webkit-transition: 0.1s ease-out;
+  -moz-transition: 0.1s ease-out;
+  -o-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+  right:7px;
+  top:calc(43px + 5px - 15px);
+  padding-top: 15px;
+}
+.moreNav > nav ul{
+  background: rgba(255,255,255,0.75);
+  box-shadow: 1px 5px 20px rgba(0,0,0,0.35);
+  border-radius: 5px;
+  padding: 8px 5px 0;
+  width: 50px;
+  -webkit-transition: 0.1s ease-out;
+  -moz-transition: 0.1s ease-out;
+  -o-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+  animation: panelContainer 0.3s ease-out alternate;
+}
+
+.moreNav > input:checked + label ~ nav,
+.moreNav > label:hover ~ nav,
+.moreNav:hover nav{
+  display: block;
+}
+.moreNav > nav ul:before{
+  content: '';
+  width:3px;
+  background: #0aa4b3;
+  height: calc(100% - 4px);
+  display: block;
+  position: absolute;
+  left: calc(100%/2 - 3px/2);
+  top:4px;
+  -webkit-transition: 0.1s ease-out;
+  -moz-transition: 0.1s ease-out;
+  -o-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+  animation: panelContainerStrip 0.25s ease-in alternate;
+}
+
+.moreNav > nav ul li{
+  list-style: none;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  padding-top: 33px;
+}
+.moreNav > nav ul li > *{
+  display: inline-block;
+  vertical-align: top;
+}
+.moreNav > nav ul li span{
+  width:30px;
+  height: 30px;
+  color: #fff;
+  background: linear-gradient(rgb(59, 202, 211), rgb(10, 164, 179));
+  line-height: 30px;
+  border-radius: 100%;
+  margin-bottom: 2px;
+  position: absolute;
+  font-size: 14px;
+  top:0;
+  left: 5px;
+  box-shadow: 0 0 10px rgba(255,255,255,0) inset, 1px 10px 4px rgba(0,0,0,0);
+  -webkit-transition: 0.1s ease-out;
+  -moz-transition: 0.1s ease-out;
+  -o-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+  animation: bubbleBounce 0.5s ease-out alternate;
+}
+.moreNav > nav ul li:hover span{
+  width:40px;
+  height: 40px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.75) inset, 1px 8px 2px rgba(0,0,0,0.4);
+  line-height: 40px;
+  left: 0;
+  top:-5px;
+  font-size: 20px;
+}
+.moreNav > nav ul li.cs span:after{
+  content: 'Coming Soon';
+  display: block;
+  background: linear-gradient(#fbc02d, #f9a825);
+  color: #fff;
+  font-size: 5px;
+  border-radius: 10px 10px 0 0;
+  padding: 1px 2px;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: -5px;
+  top:6px;
+  line-height: 8px;
+}
+.moreNav > nav ul li:nth-child(2) span{
+animation: bubbleBounce 0.75s ease-out alternate;
+}
+
+.moreNav > nav ul li label{
+  background: linear-gradient(#fff, #e9e9e9);
+  border-radius: 10px;
+  font-size: 8px;
+  line-height: 10px;
+  border:1px solid #d6dbdf;
+  padding: 0px 3px;
+  text-align: center;
+  -webkit-transition: 0.1s ease-out;
+  -moz-transition: 0.1s ease-out;
+  -o-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+  animation: sectionHeader 0.75s ease-out alternate;
+}
+.moreNav > nav ul li:nth-child(2) label{
+animation: sectionHeader 0.95s ease-out alternate;
+}
+.viewSwitch label{
+  display: block;
+  line-height: 21px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+.viewSwitch.comingSoon:before{
+  content:'Coming Soon';
+  font-size: 6px;
+  color: #fff;
+  transform: rotate(-45deg);
+  z-index: 9999;
+  background: #f9a825;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom:13px;
+  padding: 0px 5px;
+  white-space: nowrap;
+}
+.viewSwitch label span{
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  z-index: 2;
+  display: block;
+  width: 25px;
+  height: 25px;
+  line-height: 27px;
+}
+.viewSwitch label span:before{
+  content: '';
+  background: url(../icons/tile.svg) no-repeat center;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-size:11px auto;
+}
+.viewSwitch input:checked + label span:before{
+  background-image: url(../icons/tile-active.svg);
+}
+.viewSwitch label[title="Grid View"] span{
+  left: calc(3px + 25px + 1px);
+}
+.viewSwitch label[title="Grid View"] span:before{
+  background-image:url(../icons/grid.svg);
+  background-size:13px auto;
+}
+.viewSwitch input:checked + label[title="Grid View"] span:before{
+  background-image: url(../icons/grid-active.svg);
+}
+.viewSwitch label[title="Grid View"]:before{
+  content: '';
+  width:25px;
+  height: 25px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px rgba(255,255,255,0) inset, 1px 2px 2px rgba(0,0,0,0.25);
+  display: block;
+  left: calc(3px + 25px + 1px);
+  top: 3px;
+  background: linear-gradient(#fff, rgb(233,233,233));
+  position: absolute;
+  z-index: 1;
+  transition: 0.2s ease-in;
+}
+.viewSwitch input:checked + label{
+  color: rgb(10,164,179);
+}
+.viewSwitch input:not(:checked) + label[title="Tile View"]:hover ~ label[title="Grid View"]:before,
+.viewSwitch input:checked + label[title="Tile View"] ~ label[title="Grid View"]:before{
+  left: 3px;
+}
+.viewSwitch input:checked + label[title="Tile View"] ~ label[title="Grid View"]:hover:before,
+.viewSwitch input:checked + label[title="Grid View"]:before{
+  left: calc(3px + 25px + 1px);
+}
+.hide{
+  display: none !important;
+}
+.nodeHeader + .scrollY{
+  margin: 32px 0 0;
+}
+.scrollY{
+  overflow-y: auto;
+  height: 100%;
+}
+.excelIcon {
+  color:#1976D2;
+  cursor: pointer;
+  font-size: 21px;
+}
+
+.disableExcelIcon {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.clearSearch{
+  cursor: pointer;
+  position: absolute;
+  left: inherit;
+  right: 87px;
+  top: 9px;
+  font-size: 14px;
+  color: #abb2b9;
+  z-index: 1;
+  transition: 0.1s ease-out;
+  animation: clearBtn 0.2s ease-out alternate;
+}
+.clearSearch:hover{
+  font-size: 20px;
+  top: 6px;
+  right: 85px;
+  color: #ec7063;
+}
+
+/* Animation */
+
+@keyframes clearBtn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes panelContainer {
+  0% {
+    max-height: 50px;
+    opacity: 0;
+    margin-top: -200px;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    max-height: 500px;
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+@keyframes panelContainerStrip {
+  from {
+    max-height: 10px;
+    top:0px;
+    background:#fff;
+  }
+  to {
+    max-height: 1000px;
+    opacity: 1;
+    top:0;
+    background: #0aa4b3;
+  }
+}
+@keyframes bubbleBounce {
+  0% {
+    width: 10px;
+    height: 10px;
+    margin-left: 8px;
+    margin-top:9px;
+    line-height: 10px;
+    font-size: 7px;
+    opacity: 0;
+    border-radius: 100%;
+  }
+  15%{
+  width: 55px;
+  height: 55px;
+  left: -7px;
+  top:-7px;
+  line-height: 55px;
+  font-size: 24px;
+  opacity: 0;
+  border-radius: 100%;
+  }
+  60%{
+    width: 10px;
+    height: 10px;
+    left: 15px;
+    top:10px;
+    line-height: 10px;
+    font-size: 4px;
+    opacity: 0;
+    border-radius: 100%;
+  }
+  75%{
+  width: 55px;
+  height: 55px;
+  left: -7px;
+  top:-7px;
+  line-height: 55px;
+  font-size: 24px;
+  opacity: 1;
+  border-radius: 100%;
+  }
+  100% {
+    width:30px;
+    height: 30px;
+    left: 5px;
+    top:0px;
+    line-height: 30px;
+    font-size: 20px;
+    border-radius: 100%;
+    font-size: 14px;
+  }
+}
+@keyframes sectionHeader {
+  0% {
+    opacity: 0;
+  }
+  15%{
+  opacity: 0;
+  }
+  60%{
+    line-height: 3px;
+    font-size: 2px;
+    opacity: 0;
+  }
+  75%{
+  line-height: 14px;
+  font-size: 12px;
+  opacity: 1;
+  }
+  100% {
+    left: 5px;
+    top:0px;
+    line-height: 10px;
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width:1366px){
+  .quickSort ul li button,
+  .hasBtn ul li button{
+    min-width: 50px;
+    font-size: 9px;
+    margin: 0;
+    padding: 3px 5px 2px;
+  }
+  .nodeHeader{
+    padding: 0px 10px;
+  }
+  .nodeHeader h2{
+    margin-right: 10px;
+    font-size: 11px;
+    line-height: 32px;
+  }
+  .nodeSearch,
+  .quickSort,
+  .hasBtn,
+  .nodeHeader .component,
+  header.subHeader .nodeSearch,
+  header.subHeader .hasBtn{
+    min-height: 24px;
+    padding: 3px 2px 3px 28px;
+    margin-left: 5px;
+  }
+  .nodeSearch:before,
+  .quickSort:before,
+  .hasBtn:before,
+  .nodeHeader .component:before,
+  header.subHeader .nodeSearch:before,
+  header.subHeader .hasBtn:before{
+    width:25px;
+    height: 25px;
+    line-height: 24px;
+    font-size: 9px;
+  }
+  .nodeSearch input{
+    line-height: 20px;
+    width: calc(100% - 40px);
+  }
+  header.subHeader .nodeSearch:hover input,
+  header.subHeader .nodeSearch input,
+  header.subHeader .nodeSearch input:focus
+  header.subHeader .nodeSearch:hover input::-webkit-input-placeholder{
+    line-height: 20px;
+  }
+  .nodeSearch button{
+    font-size: 10px;
+    line-height: 10px;
+    padding: 5px 10px 7px;
+    top:2px;
+  }
+
+  header.subHeader .nodeSearch button{
+    line-height: 10px;
+  }
+  .quickSort:after,
+  .hasBtn:after,
+  header.subHeader .hasBtn:after{
+    width: 25px;
+    height: 25px;
+    background-size: 12px auto;
+  }
+  .quickSort ul li,
+  .hasBtn ul li,
+  .nodeHeader .component ul li{
+    margin: 0 2px;
+  }
+  .quickSort ul li:last-child,
+  .hasBtn ul li:last-child,
+  .nodeHeader .component ul li:last-child{
+    margin-right: 1px;
+  }
+  .nodeHeader .edit.component:before{
+    font-size: 11px;
+    line-height: 28px;
+  }
+  .quickSort ul li button,
+  .hasBtn ul li button,
+  .component button,
+  header.subHeader .hasBtn ul li button{
+    font-size: 10px;
+    line-height: 10px;
+    padding: 4px 10px 6px;
+  }
+  header.subHeader .hasBtn ul li button{
+    padding: 5px 10px;
+  }
+  .viewSwitch label span{
+    width: 20px;
+    height: 20px;
+    top:2px;
+  }
+  .viewSwitch label span:before{
+    width: 20px;
+    height: 20px;
+    background-size:10px auto;
+  }
+  .viewSwitch label[title="Grid View"]:before{
+    width: 20px;
+    height: 20px;
+    top:2px;
+    left: 22px;
+  }
+  .viewSwitch label[title="Grid View"] span:before{
+    background-size:10px auto;
+  }
+  .viewSwitch{
+    height: 24px;
+    width: 45px;
+    margin-top: 4px;
+  }
+  .moreNav > label{
+    height: 24px;
+    width: 24px;
+    margin-top: 4px;
+  }
+  .viewSwitch label[title="Grid View"] span{
+    left: 22px;
+  }
+  .viewSwitch input:checked + label[title="Tile View"] ~ label[title="Grid View"]:hover:before,
+  .viewSwitch input:checked + label[title="Grid View"]:before{
+    left: calc(1px + 20px + 1px);
+  }
+  .moreNav > label:before{
+    width: 20px;
+    height: 20px;
+    left: 2px;
+    top: 2px;
+  }
+  .moreNav > label:after{
+    left: 3px;
+    top:3px;
+    background-size: 10px auto;
+  }
+  .moreNav > nav{
+    right: -3px;
+    top:24px;
+  }
+  .clearSearch{
+    right:60px;
+    top: 8px;
+    font-size: 11px !important;
+  }
+  .clearSearch:hover{
+    top: 8px;
+    right: 60px;
+  }
+}

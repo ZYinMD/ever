@@ -1,0 +1,172 @@
+/* Let's get this party started */
+.sections.wizard .nodeBody::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.sections.wizard .nodeBody::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(215, 112, 173, 0.2);
+}
+
+/* Handle */
+.sections.wizard .nodeBody::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgb(215, 112, 173);
+  -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.5);
+}
+
+.sections.wizard .nodeBody::-webkit-scrollbar-thumb:window-inactive {
+  background: rgb(215, 112, 173);
+}
+
+.sections{
+  width: calc(100% - 20px*2);
+  overflow: hidden;
+  margin: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.4) inset;
+  box-shadow: 1px 2px 5px rgba(0,0,0,0.2);
+  animation: top 0.25s steps(50) alternate;
+  transition: 0.2s ease-in;
+  position: relative;
+}
+.sections.wizard{
+  height: calc(100% - 200px);
+  overflow: hidden;
+  max-height: inherit;
+}
+.sections:last-child{
+  margin-bottom: 10px;
+}
+.sections.freeFlow{
+  max-height: inherit;
+}
+.sections.collapsed{
+  width: calc(100% - 10px*2);
+  margin: 10px 0 0 10px;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  animation: top 0.25s steps(50) alternate;
+  transition: 0.2s ease-in;
+}
+.sections header{
+  font-size: 14px;
+  border-radius: 5px 5px 0 0;
+  text-align: left;
+  color: #5d6d7e;
+  padding: 8px 15px 10px 10px;
+  background: linear-gradient(#9575cc, #715eb9);
+  color: #fff;
+  width: calc(100% + 1px);
+  position: relative;
+  overflow: hidden;
+}
+.sections.collapsed header{
+  padding: 8px 15px 10px;
+}
+.sections header.hasInteraction{
+  padding: 0px 15px;
+}
+.sections header h2{
+  margin: 0;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 10px;
+  line-height: 40px;
+}
+.sections header .info > *{
+  display: block;
+  font-weight: normal;
+}
+.sections header .info label{
+  font-size: 11px;
+  line-height: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+.sections header .info.rt > *{
+  text-align: right;
+}
+.sections header .info .name,
+.sections header .info .address {
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+}
+.sections header .info .address{
+  font-size: 12px;
+  line-height: 16px;
+}
+.sections header .info .otherInfo {
+  font-size: 11px;
+  line-height: 14px;
+}
+.accordionArrow{
+  float: right;
+  margin-top: 3px;
+}
+
+.sections.rel header{
+  background: linear-gradient(rgb(66, 165, 245), rgb(30, 136, 229));
+}
+.sections.panels header{
+  background: linear-gradient(rgb(215, 112, 173), rgb(204, 78, 152));
+}
+.sections.pcpRoster header{
+  background: linear-gradient(rgb(82, 190, 128), rgb(39, 174, 96));
+}
+.sections.generalProfile header{
+  background: linear-gradient(rgb(255, 125, 142), rgb(255, 73, 97));
+}
+.sections .container{
+  overflow: hidden;
+}
+.sections .nodeBody{
+  margin:10px;
+}
+.sections.wizard{
+  height: calc(100% - 90px - 45px - 10px*2);
+  position: absolute;
+}
+.sections.wizard .nodeBody{
+  overflow: hidden;
+  overflow-y: auto;
+  height: calc(100% - 40px);
+  margin: 0;
+  padding: 10px;
+}
+.sections.wizard .nodeBody > h4{
+  text-align: left;
+  margin: 0;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.sections .nodeBody .partition{
+  width: calc(100%/2 - 5px);
+  float: left;
+  text-align: left;
+}
+.sections .nodeBody .partition.a{
+  margin-right: 10px;
+}
+
+/* Animation */
+
+@keyframes top {
+  from {
+    margin-left: -500px;
+    opacity: 0;
+  }
+  to   {
+    margin-left: 0px;
+    opacity: 1;
+  }
+}

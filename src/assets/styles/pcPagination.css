@@ -1,0 +1,65 @@
+.pagination{
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.pagination ul{
+  text-align: center;
+  margin: 0;
+}
+.pagination ul li{
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 5px;
+}
+.pagination ul li a{
+  display: block;
+  text-decoration: none;
+  background: #fff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  line-height: 32px;
+  font-size: 14px;
+  color: #51525d;
+  width: 32px;
+  -webkit-transition: 0.25s ease-out;
+  -moz-transition: 0.25s ease-out;
+  -o-transition: 0.25s ease-out;
+  transition: 0.25s ease-out;
+}
+.pagination ul li a.active,
+.pagination ul li a.active:hover{
+  background: #00acc1;
+  color: #fff;
+}
+.pagination ul li .first,
+.pagination ul li .prev,
+.pagination ul li .next,
+.pagination ul li .last{
+  font-size: 0;
+  height: 32px;
+}
+.pagination ul li a:before{
+  font-family: "FontAwesome";
+  font-size: 14px;
+}
+.pagination ul li .first:before{
+  content:'';
+}
+.pagination ul li .prev:before{
+  content:'';
+}
+.pagination ul li .next:before{
+  content:'';
+}
+.pagination ul li .last:before{
+  content:'';
+}
+.pagination ul li.disabled a,
+.pagination ul li.disabled a:hover{
+  background: linear-gradient(#dfdfdf, #ddd);
+  background: linear-gradient(rgba(205, 205, 205, 0.5), rgba(225, 225, 225, 0.5));
+  box-shadow: none;
+  border-color: #ddd;
+  color: #bbb;
+  cursor: default;
+}

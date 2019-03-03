@@ -1,0 +1,59 @@
+.radioView{
+  border: solid 3px #229c8f;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.radioView nav{
+  background: #F3F5F7;
+  /* Crap */
+  /* background-color: #fff; */
+}
+.radioView nav ul{
+  overflow: hidden;
+}
+.radioView nav ul{
+  /* padding: 16px; */
+}
+.radioView nav ul li{
+  float: left;
+  text-align:center;
+  min-width:100px;
+
+  border-radius: 5px;
+  color: #555;
+  padding: 15px 30px;
+  position: relative;
+  cursor: pointer;
+  transition: .2s ease-in;
+}
+
+.radioView nav ul li > *{
+  display: block;
+}
+.radioView nav ul li > span{
+  font-size: 24px;
+  font-weight: normal;
+  margin: 8px 0 3px;
+}
+.radioView nav ul li > label{
+  color: #229c8f;
+  font-size: 14px;
+  margin-bottom:2px;
+  white-space:nowrap;
+}
+.radioView nav ul li.active{
+  position: relative;
+}
+.radioView nav ul li.active > label{
+  font-weight: bold;
+}
+.radioView nav ul li.active:after{
+  content: '';
+  width: 80%;
+  left: 10%;
+  border: 2px solid #229c8f;
+  position: absolute;
+  bottom: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}

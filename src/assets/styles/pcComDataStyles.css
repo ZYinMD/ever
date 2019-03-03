@@ -1,0 +1,222 @@
+
+.dataInactive,
+.dataInactiveNPI {
+  display: block;
+  width: 10%;
+  min-height: 40px;
+  padding: 0px 16px;
+  float: left;
+  white-space: nowrap;
+  line-height: 40px;
+}
+
+.dataInactiveNPI {
+  width: 11%;
+}
+
+.dataInactive span,
+.dataInactiveNPI span {
+  background: #ebebec;
+  display: block;
+  padding: 0px 10px;
+  position: relative;
+} 
+
+.dataInactiveRow {
+  background-color: #ebebec;
+  border-radius: 5px;
+  padding: 0 5px;
+  width: fit-content;
+  margin: auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  line-height: 14px;
+}
+
+/* .dataInactive:before {
+  content: '';
+  width: 55px;
+  margin-left: -5px;
+  margin-top: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 5px solid rgba(0, 0, 0, 0.5);
+  border-bottom: none;
+  z-index: 0;
+  height: 30px;
+  display: block;
+  top: 0px;
+  position: absolute;
+  cursor: default;
+}
+
+.dataInactive:after {
+  content: 'Inactive';
+  background: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  margin-left: -5px;
+  width: 55px;
+  padding: 0 5px;
+  line-height: 10px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  opacity: 1;
+  font-size: 9px;
+  position: absolute;
+  -webkit-transition: 0.25s ease-out;
+  -moz-transition: 0.25s ease-out;
+  -o-transition: 0.25s ease-out;
+  transition: 0.25s ease-out;
+} */
+
+.npi {
+  width: 10%;
+  padding: 10px 20px;
+  white-space: nowrap;
+}
+
+.npi:before {
+  width: 86px;
+  height: 100%;  
+}
+
+.npi:after {
+  width: 86px;
+  opacity: 1;
+}
+
+.landing {
+  min-height: 20px;
+  padding-top: 1px;
+  padding-left: 10px;
+  color: #616a6b;
+  font-size: 11px;
+  line-height: 11px;  
+}
+
+.landing:before {
+  margin-top: calc(0% + 38px);
+  height: 20px;
+  border-top: 2px solid rgba(0, 0, 0, 0.5);  
+}
+
+.landing:after {  
+  margin-bottom: 25px;
+  line-height: 8px;  
+  font-size: 7pt;  
+}
+
+.shrinkLanding {
+  min-height: 16px;
+  padding: 1px 10px 0 5px;
+  color: #616a6b;
+  font-size: 8px;
+  line-height: 8px;
+}
+
+.shrinkLanding:before {
+  width: 30px;
+  margin-left: -2px;
+  margin-bottom: 0px;
+  margin-top: calc(0% + 34px);;
+  border-top: 2px solid rgba(0, 0, 0, 0.5);
+  height: 20%;  
+}
+
+.shrinkLanding:after {
+  margin-left: -2px;
+  margin-bottom: 26px;
+  width: 30px;
+  line-height: 6px;
+  font-size: 6px;  
+}
+
+/* More NPI Number Plus Sign Styles (Start) */
+
+.additionalMessage {
+  position: relative;
+  color: #455A64;
+  line-height: 17px !important;
+  display: inline-block;
+  background: #fad7a0;
+  width: 15px;
+  height: 15px;
+  text-align: center;;
+  border: none;
+  border-radius: 50%;
+  right: -5px;
+}
+
+.additionalMessage:hover {
+  background: #f8c471;
+}
+
+.additionalMessage:after {
+  content: 'Multiple NPI';
+  color: #FFF;
+  white-space: nowrap;
+  font: normal 9px/10px 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
+  background: #555;
+  left: 0px;
+  top: 0;
+  padding: 2px 5px;
+  border-radius: 3px;
+  position: absolute;
+  -webkit-transition: 0.25s ease-out;
+  -moz-transition: 0.25s ease-out;
+  -o-transition: 0.25s ease-out;
+  transition: 0.25s ease-out;
+  opacity: 0;
+}
+
+.additionalMessage:hover:after {
+  opacity: 1;
+  left: 20px;
+}
+/* More NPI Number Plus Sign Styles (End) */
+
+
+/* Responsive  changes */
+@media screen and (max-width: 1366px) {
+  
+  .dataInactive:before {
+    top: 1px;
+    margin-top: 0;
+    border-top-width: 3px;
+  }
+
+  .dataInactive:after {
+    font-size: 7pt;
+    line-height: 9px;
+  }
+
+  .landing {
+    padding: 0px 10px;
+  }
+  .landing:before {
+    top:37px;
+    height: 20px;
+    border-top: 2px solid rgba(0, 0, 0, 0.5);  
+  }
+
+  .shrinkLanding {
+    min-height: 18px;    
+    font-size: 8px;
+    line-height: 9px;    
+  }
+
+  .shrinkLanding:before {
+    margin-bottom: 0px;
+    margin-top: calc(0% + 31px);
+    border-top: 2px solid rgba(0, 0, 0, 0.5);
+    height: 20%;
+  }
+
+  .shrinkLanding:after {    
+    margin-bottom: 24px;
+    line-height: 6px;  
+    font-size: 6px;
+    min-height: 6px;
+  }
+}

@@ -1,0 +1,213 @@
+.actionBar{
+  padding: 10px 15px 0 10px;
+  overflow: hidden;
+  text-align: left;
+  vertical-align: middle;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+.actionBar .item{
+  overflow: hidden;
+  padding:0;
+  position: relative;
+}
+.actionBar .item > label{
+  display: block;
+  font-size: 11px;
+  color: #5d6d7e;
+  line-height:22px;
+  margin-right:5px;
+  white-space:nowrap;
+  float: left;
+}
+
+.actionBar .item > label + ul{
+  float: left;
+}
+.actionBar .item ul li{
+  float: left;
+  margin-right: 5px;
+  position: relative;
+}
+.actionBar button{
+  background: linear-gradient(#fff, #f4f6f6);
+  border:1px solid #d6dbdf;
+  border-radius: 3px;
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: normal;
+  color: #5d6d7e;
+  transition: 0.1s ease-in;
+}
+.actionBar button span{
+  display: inline-block;
+  margin-left: 4px;
+}
+.actionBar button:hover{
+  background: linear-gradient(#ebf5fb, #d6eaf8);
+  border-color:#d4e6f1;
+}
+.active button,
+.active button:hover,
+.active button:focus,
+.active button::selection{
+  background: linear-gradient(#48c9b0, #1abc9c);
+  color: #fff;
+  border-color: #1abc9c;
+}
+.actionBar .item > input{
+  display: inline-block;
+  position: relative;
+  top: 8px;
+  vertical-align: top;
+}
+.actionBar .item input + label{
+  display: inline-block;
+  font-size: 11px;
+  margin-left: 5px;
+  margin-right:0;
+  position:relative;
+  top:2px;
+  float: none;
+  vertical-align: top;
+}
+.actionBar .secondaryOptions{
+  margin-left:10px;
+  position: relative;
+}
+.actionBar .item::before{
+  content: '';
+  width:1px;
+  height: 25px;
+  background: #d6dbdf;
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 5px;
+}
+.actionBar .item:last-child:before,
+.actionBar .item:first-child:before{
+  display: none;
+}
+.actionBar .secondaryOptions > ul{
+  margin-top:3px;
+  overflow: hidden;
+}
+.actionBar .secondaryOptions ul li{
+  margin-right: 0;
+  margin-left: 10px;
+}
+.actionBar .secondaryOptions ul li a{
+  color: rgba(93,109,126,0.6);
+  transition: 0.1s ease-in;
+}
+.actionBar .secondaryOptions ul li a:hover{
+  color: rgba(93,109,126,1);
+}
+.actionBar.freeze{
+  position: fixed;
+  left:270px;
+  backdrop-filter:blur(10px);
+  width: calc(100% - 280px);
+  z-index:999;
+  background: rgba(235,237,239,0.9);
+  padding:10px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+}
+input + label + nav ul + div .actionBar.freeze{
+  width: calc(100% - 280px - 250px);
+  left:calc(270px + 250px);
+}
+input:checked + label + nav ul + div .actionBar.freeze{
+  width: calc(100% - 280px - 60px);
+  left:calc(270px + 60px);
+}
+.actionBar .inputSwitch{
+  padding-left: 25px;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+.actionBar .inputSwitch:hover{
+  color: #34495E;
+}
+.actionBar .inputSwitch .icon{
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  border: 2px solid #AEB6BF;
+  background: #fff;
+  display: block;
+  border-radius: 5px;
+  width: 17px;
+  height: 17px;
+  line-height: 13px;
+  text-indent: 1px;
+  text-align: left;
+  font-size: 10px;
+  color: #AEB6BF;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+.actionBar input:checked + .inputSwitch .icon{
+  background: #27AE60;
+  color: #fff;
+  border-color:#27AE60;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+@media screen and (max-width:1366px){
+  .actionBar.freeze {
+    width:calc(100% - 210px);
+    left:200px;
+    padding:5px 10px;
+  }
+  input + label + nav ul + div .actionBar.freeze{
+    width: calc(100% - 210px - 150px);
+    left:calc(200px + 150px);
+  }
+  input:checked + label + nav ul + div .actionBar.freeze{
+    width: calc(100% - 210px - 50px);
+    left:calc(200px + 45px);
+  }
+  .actionBar .inputSwitch{
+    padding-left:22px;
+  }
+  .actionBar .inputSwitch .icon{
+    width:16px;
+    height:16px;
+    line-height:12px;
+    text-indent:0;
+    text-align: center;
+    font-size: 9px;
+    top:2px;
+  }
+  .actionBar .item input + label{
+    line-height:20px;
+  }
+  .actionBar input:checked + .inputSwitch .icon{
+
+  }
+  .actionBar .secondaryOptions::before{
+    height:18px;
+    top:3px;
+  }
+  .actionBar .secondaryOptions > ul{
+    margin-top:1px;
+  }
+}

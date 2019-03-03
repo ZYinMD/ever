@@ -1,0 +1,423 @@
+/* Custom Scroll */
+
+.tabContentContainer::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.tabContentContainer::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.tabContentContainer.generalProfile::-webkit-scrollbar-track{
+  background: rgba(255, 73, 97, 0.2);
+}
+.tabContentContainer.contracts::-webkit-scrollbar-track{
+  background: rgba(113, 94, 185, 0.2);
+}
+.tabContentContainer.demographics::-webkit-scrollbar-track{
+  background: rgba(252, 110, 81, 0.2);
+}
+
+/* Handle */
+.tabContentContainer::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.5);
+}
+.tabContentContainer.generalProfile::-webkit-scrollbar-thumb{
+  background: rgb(255, 73, 97);
+}
+.tabContentContainer.contracts::-webkit-scrollbar-thumb{
+  background: #715eb9;
+}
+.tabContentContainer.demographics::-webkit-scrollbar-thumb{
+  background: rgb(252, 110, 81);
+}
+
+.tabContentContainer.generalProfile::-webkit-scrollbar-thumb:window-inactive {
+  background: rgb(255, 73, 97);
+}
+.tabContentContainer.contracts::-webkit-scrollbar-thumb:window-inactive {
+  background: #715eb9;
+}
+.tabContentContainer.demographics::-webkit-scrollbar-thumb:window-inactive {
+  background: rgb(252, 110, 81);
+}
+
+
+label.barnacleTabCollapseSwitch {
+  position: absolute;
+  left: calc(250px - 30px - 15px / 2);
+  background: linear-gradient(rgb(255,255,255), rgb(233,233,233));
+  box-shadow: 0 0 1px rgba(0,0,0,0.08) inset, 0px 2px 1px rgba(0,0,0,0.25);
+  color: #0aa4b3;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 10px;
+  font-size: 0;
+  cursor: pointer;
+  -webkit-transition: 0.1s ease-in;
+  -moz-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.05s ease-in;
+  z-index: 99;
+}
+
+label.barnacleTabCollapseSwitch:before {
+  content: '';
+  font-family: 'FontAwesome';
+  display: block;
+  font-size: 14px;
+  position: absolute;
+  left: calc(24px/2);
+  top: 0px;
+  line-height: 30px;
+  cursor: pointer;
+  -webkit-transition: 0.1s ease-in;
+  -moz-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+label.barnacleTabCollapseSwitch:hover {
+  background: #3bcad3;
+  color: #fff;
+  width: 34px;
+  height: 34px;
+  left: calc(250px - 30px - 15px/2 - 2px);
+  top: calc(10px - 2px);
+  box-shadow: 0 0 10px rgba(255,255,255,0.75) inset, 1px 10px 4px rgba(0,0,0,0.4);
+}
+
+label.barnacleTabCollapseSwitch:hover:before {
+left: calc(27px/2);
+  font-size: 18px;
+  line-height: 34px;
+}
+
+input:checked + label.barnacleTabCollapseSwitch:before {
+  content: '';
+  left: 13px;
+}
+
+input:checked + label.barnacleTabCollapseSwitch {
+  left: 20px;
+}
+input:checked + label.barnacleTabCollapseSwitch ~ nav > ul li a {
+  width: 60px;
+  white-space: nowrap;
+  padding-left: 10px;
+}
+nav.barnacleTabs{
+}
+nav.barnacleTabs > ul{
+    position: absolute;
+    left: 0;
+    top: 48px;
+    margin: 0;
+    padding:0;
+    z-index: 2;
+    -webkit-transition: 0.1s ease-out;
+    -moz-transition: 0.1s ease-out;
+    -o-transition: 0.1s ease-out;
+    transition: 0.1s ease-in;
+}
+nav.barnacleTabs > ul > li {
+    cursor: pointer;
+    padding-left: 10px;
+}
+nav.barnacleTabs > ul > li > .active,
+nav.barnacleTabs > ul > li > .active:hover {
+    border-color:rgba(59,202,211,1);
+    color: #fff;
+    background: linear-gradient(rgb(59,202,211), rgb(10,164,179));
+}
+
+nav.barnacleTabs > ul > li > a {
+    padding: 15px 18px 15px calc(40px + 10px);
+    text-decoration: none;
+    background: linear-gradient(#fff, rgb(240,240,240));
+    border-radius: 6px 0 0 6px;
+    margin-bottom: 5px;
+    font:normal 13px/16px 'Open Sans Semibold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-right: none;
+    color: #5d6d7e;
+    box-shadow: 0 0 1px rgba(0,0,0,0.08) inset, 0px 2px 1px rgba(0,0,0,0.25);
+    border-top:1px solid rgba(0,0,0,0.015);
+    position: relative;
+    width:250px;
+    text-align: left;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-transition: 0.1s ease-out;
+    -moz-transition: 0.1s ease-out;
+    -o-transition: 0.1s ease-out;
+    transition: 0.1s ease-out;
+}
+
+nav.barnacleTabs > ul > li > a > .tabNavIcon{
+  font:normal 18px/48px "FontAwesome";
+    position: absolute;
+    left: 0;
+    right: inherit;
+    top: inherit;
+    bottom: 0;
+    background: linear-gradient(#fff, rgb(240,240,240));
+    display: block;
+    width: 40px;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+  -webkit-box-shadow: 0 0 100px rgba(0,0,0,0.05) inset;
+  -moz-box-shadow: 0 0 100px rgba(0,0,0,0.05) inset;
+  box-shadow: 0 0 100px rgba(0,0,0,0.05) inset;
+    text-align: center;
+    -webkit-transition: 0.1s ease-out;
+    -moz-transition: 0.1s ease-out;
+    -o-transition: 0.1s ease-out;
+    transition: 0.1s ease-out;
+}
+input:checked + label.barnacleTabCollapseSwitch ~ nav.barnacleTabs > ul > li > a > .tabNavIcon{
+  width: 50px;
+}
+input:checked + label.barnacleTabCollapseSwitch ~ nav.barnacleTabs > ul > li > a:hover{
+  text-indent: 500px;
+  margin-left: -5px;
+}
+input:checked + label.barnacleTabCollapseSwitch ~ nav.barnacleTabs > ul > li > a:hover > .tabNavIcon{
+  width: 60px;
+  text-indent: -10px;
+}
+
+nav.barnacleTabs > ul > li > a.active,
+nav.barnacleTabs > ul > li > a.active:hover{
+  color: #fff;
+}
+nav.barnacleTabs > ul > li > a:hover{
+    background: linear-gradient(#e6f5f8, #ccebef);
+    border-color: rgba(204,235,239,0);
+    width: 250px;
+    margin-left: -10px;
+    box-shadow: 0 0 1px rgba(0,0,0,0.08) inset, 5px 10px 5px rgba(0,0,0,0.5);
+}
+nav.barnacleTabs > ul > li > a.active:hover{
+  box-shadow: 10px 0px 25px rgba(255,255,255,0.25) inset, 5px 10px 5px rgba(0,0,0,0.5);
+        background: linear-gradient(#3bcad3, #0aa4b3);
+}
+nav.barnacleTabs > ul > li > a:hover > .tabNavIcon{
+    background: linear-gradient(rgba(204,235,239,0.75), rgba(178,225,231,0.75));
+    box-shadow: 1px 0 1px rgba(0,0,0,0.08) inset, 5px 10px 5px rgba(0,0,0,0.0);
+    color: #008e9e;
+}
+nav.barnacleTabs > ul > li > .active:after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-right:10px solid #fff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    display: block;
+    right: 10px;
+    top: calc(100%/2 - 20px/2);
+    z-index: 9999;
+    -webkit-transition: 0.1s ease-out;
+    -moz-transition: 0.1s ease-out;
+    -o-transition: 0.1s ease-out;
+    transition: 0.1s ease-out;
+}
+nav.barnacleTabs > ul > li > .active:hover:after{
+  right: 0;
+}
+nav.barnacleTabs > ul > li > .active:hover:after{
+  right: 0;
+}
+input:checked + label.barnacleTabCollapseSwitch ~ nav.barnacleTabs > ul > li > .active:after{
+  border-width: 7px;
+  top:calc(100%/2 - 14px/2)
+}
+input:checked + label.barnacleTabCollapseSwitch ~ nav.barnacleTabs > ul > li > .active:hover:after{
+  right: 5px;
+}
+nav.barnacleTabs > ul > li > .active > .tabNavIcon,
+nav.barnacleTabs > ul > li > .active:hover > .tabNavIcon{
+    background: linear-gradient(rgb(59,202,211), rgb(10,164,179));
+    color: #fff;
+}
+nav.barnacleTabs > ul > li > .active:hover > .tabNavIcon{
+      background: linear-gradient(#3bcad3, #0aa4b3, #0aa4b3);
+}
+
+.nodeParentContainer .tabContentContainer{
+    height: calc(100% - 10px);
+}
+.tabContentContainer{
+    left:250px;
+    height: calc(100% - 80px);
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.15);
+    top: 0;
+    z-index: 3;
+    padding: 45px 0 0 0;
+    overflow: hidden;
+    width: calc(100% - 250px - 3px);
+    -webkit-transition: 0.1s ease-out;
+  -moz-transition: 0.1s ease-out;
+  -o-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+input:checked + label.barnacleTabCollapseSwitch ~ nav > .tabContentContainer {
+  width: calc(100% - 63px);
+  left: 60px;
+}
+@media screen and (max-width:1366px){
+  label.barnacleTabCollapseSwitch {
+    left: calc(145px - 15px - 15px / 2);
+    width: 18px;
+    height: 18px;
+    top: 10px;
+  }
+
+  label.barnacleTabCollapseSwitch:before {
+    font-size: 12px;
+    left: calc(14px/2);
+    top: 0px;
+    line-height: 19px;
+  }
+
+  label.barnacleTabCollapseSwitch:hover {
+    width: 20px;
+    height: 20px;
+    left: calc(145px - 15px - 15px/2 - 2px);
+    top: calc(10px);
+    box-shadow: 0 0 10px rgba(255,255,255,0.75) inset, 1px 3px 2px rgba(0,0,0,0.4);
+  }
+
+  label.barnacleTabCollapseSwitch:hover:before {
+  left: calc(16px/2);
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  input:checked + label.barnacleTabCollapseSwitch:before {
+    left: 7px;
+  }
+    input:checked + label.barnacleTabCollapseSwitch:hover:before{
+      left: 8px;
+    }
+
+  input:checked + label.barnacleTabCollapseSwitch {
+    left: 15px;
+  }
+    input:checked + label.barnacleTabCollapseSwitch:hover {
+      left: 13px;
+    }
+    nav.barnacleTabs > ul{
+      top:35px;
+    }
+    nav.barnacleTabs > ul > li > a{
+        padding: 8px 5px 8px 37px;
+        border-radius: 5px 0 0 5px;
+        font-size: 11px;
+        line-height: 14px;
+        width: 145px;
+        white-space: normal;
+    }
+    nav.barnacleTabs > ul > li > a > .tabNavIcon{
+        width: 30px;
+        font-size: 12px;
+        line-height: 30px;
+    }
+    /*
+    nav.barnacleTabs > ul > li > a[title="License/Cert & Other Identifiers"] > .tabNavIcon{
+      font-size: 14px;
+    }
+    nav.barnacleTabs > ul > li > a[title="Education Information"] > .tabNavIcon{
+      font-size: 13px;
+    }
+    nav.barnacleTabs > ul > li > a[title="Quality Program Information"] > .tabNavIcon{
+      font-size: 15px;
+    }
+    nav.barnacleTabs > ul > li > a[title="Other Information"] > .tabNavIcon{
+      font-size: 13px;
+    }*/
+    .tabContent{
+		padding-top:10px;
+        left: 180px;
+    }
+	nav.barnacleTabs > ul > li > .active:after{
+	    right: 0;
+	}
+	nav.barnacleTabs > ul > li > a:hover{
+	    width: 150px;
+	    padding-right: calc(5px*2);
+      margin-left: -5px;
+      box-shadow: 0 0 1px rgba(0,0,0,0.08) inset, 5px 5px 5px rgba(0,0,0,0.5);
+	}
+  .tabContentContainer{
+    width: calc(100% - 156px - 3px);
+    left: 150px;
+    padding: 35px 0 0 0;
+  }
+  nav.barnacleTabs > ul > li > .active:after{
+    border-width: 7px;
+    top:calc(100%/2 - 14px/2);
+  }
+  input:checked + label.barnacleTabCollapseSwitch ~ nav > ul > li > a {
+    width: 40px;
+    padding-left: 10px;
+  }
+  input:checked + label.barnacleTabCollapseSwitch ~ nav > ul > li > a:hover{
+    width: calc(40px + 5px);
+  }
+  input:checked + label.barnacleTabCollapseSwitch ~ nav.barnacleTabs > ul > li > a > .tabNavIcon{
+    width: 40px;
+  }
+  nav.barnacleTabs > ul > li {
+      padding-left: 5px;
+  }
+  input:checked + label.barnacleTabCollapseSwitch ~ nav > .tabContentContainer {
+    width: calc(100% - 54px);
+    left: 45px;
+  }
+  input:checked + label.barnacleTabCollapseSwitch ~ nav.barnacleTabs > ul > li > a:hover > .tabNavIcon{
+    width: 50px;
+    text-indent: -7px;
+  }
+  input:checked + label.barnacleTabCollapseSwitch ~ nav.barnacleTabs > ul > li > .active:hover:after{
+    right: 0px;
+  }
+}
+
+/* Temporary Code */
+
+
+.tabContentContainer.demographics{
+  overflow: hidden;
+  padding: 0;
+}
+.tabContentContainer .loader{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+.tabContentContainer.generalProfile > div{
+  height: auto;
+}

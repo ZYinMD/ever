@@ -1,0 +1,430 @@
+/* Notification Panel Style */
+
+.infoPanel {
+  position: absolute;
+  top: 65px;
+  right: 50px;
+  width: 380px;
+  background: #2B2C36;
+  opacity: .95;
+  z-index: 1000;
+  overflow: visible;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 10px 10px 15px rgb(0, 0, 0, .36);
+  -webkit-transition: 0.1s ease-out;
+  -moz-transition: 0.1s ease-out;
+  -o-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+  animation: panelContainer 0.3s ease-out alternate;
+}
+.infoPanel .sectionContainer:first-child {
+  font-weight: lighter;
+  margin: 15px 0 20px 30px;
+  color: #8E8F96;
+}
+.infoPanel .sectionContainer:last-child {
+  margin: 0;
+}
+
+.infoPanel section {
+  animation: section 0.5s ease-out alternate;
+  position: relative;
+}
+
+.infoPanel section .container > label {
+  background: #2B2C36;
+  color: #fff;
+  font-size: 18px;
+  font-weight: lighter;
+  width: 100%;
+  display: block;
+  padding: 26px 15px 26px 70px;
+  border-top: 1px solid #505050;
+  position: relative;
+  -webkit-transition: 0.1s ease-out;
+  -moz-transition: 0.1s ease-out;
+  -o-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+  animation: sectionHeader 0.5s ease-out alternate;
+  z-index: 99;
+  cursor: pointer;
+  line-height: 18px;
+}
+.infoPanel section .container > input:checked + label,
+.infoPanel section .container > label.active {
+  border-radius: 0;
+  background: rgba(28, 29, 35, .5);
+}
+
+.infoPanel section .container > label:after {
+  content: '\F105';
+  font-family: "FontAwesome";
+  font-size: 26px;
+  position: absolute;;
+  right: 25px;
+  display: block;
+  line-height: 23px;
+  top: 22px;
+  line-height: calc(28px + 3px);
+  width: calc(20px);
+  height: calc(28px + 3px);
+  text-align: center;
+}
+
+.infoPanel section .container > input:checked + label:after,
+.infoPanel section .container > label.active:after {
+  content: '\F107';
+}
+.infoPanel section.apps .container > label {
+  animation: sectionHeader 0.65s ease-out alternate;
+}
+
+.infoPanel section.reports .container > label {
+  animation: sectionHeader 0.75s ease-out alternate;
+}
+
+.infoPanel section.guide .container > label {
+  animation: sectionHeader 0.85s ease-out alternate;
+}
+
+.infoPanel section > svg {
+  position: absolute;
+  left: 30px;
+  z-index: 999;
+  color: #ba68c8;
+  display: block;
+  width: calc(28px + 3px*2);
+  height: calc(28px + 3px*2);
+  text-align: center;
+  line-height: 28px;
+  border-radius: 100%;
+  font-size: 22px;
+  top: 20px;
+  -webkit-transition: 0.1s ease-out;
+  -moz-transition: 0.1s ease-out;
+  -o-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+.infoPanel section.apps > svg {
+  color: #1976d2;
+}
+
+.infoPanel section.reports > svg {
+  color: #ffb74d;
+}
+
+.infoPanel section.guide > svg {
+  color: #e57373;
+}
+.infoPanel section.myDownloads > svg {
+  color: #7986cb;
+}
+
+.infoPanel section .container > input:checked + label ~ ul,
+.infoPanel section .container > label.active ~ ul{
+  opacity: 1;
+  max-height: 1000px;
+  margin-top: 0;
+}
+.infoPanel section .cs ~ .container > input:checked + label ~ ul,
+.infoPanel section .cs ~ .container > label.active ~ ul{
+  display: none;
+}
+.infoPanel section .container > ul {
+  background: rgba(28, 29, 35, .5);
+  border-top: none;
+  padding: 0 30px;
+  border-radius: 0;
+  overflow: hidden;
+  -webkit-transition: 0.2s ease-out;
+  -moz-transition: 0.2s ease-out;
+  -o-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+  max-height: 0px;
+  opacity: 0;
+  /*animation: sectionList 1.75s ease-out alternate;*/
+}
+
+.infoPanel section .container > ul li {
+  background: rgba(142, 143, 150, .15);
+  border: none;
+  list-style: none;
+  text-align: center;
+  border-radius: 5px;
+  float: left;
+  margin: 0 20px 20px 0;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.12);
+  width: calc(100%/2 - 10px);
+  top:-100px;
+  padding: 10px 0;
+  vertical-align: middle;
+  transition: 0.25s ease-out;
+  position: relative;
+  cursor: pointer;
+}
+.infoPanel section .container > ul li.lastRow{
+  margin-bottom: 30px;
+}
+.infoPanel section .container > ul li > * {
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: left;
+}
+.infoPanel .circular section .container > ul li > a{
+  display: block;
+  text-align: center;
+  position: relative;
+  overflow: visible;
+  text-align: center;
+}
+.infoPanel .circular section .container > ul li a > *{
+  display: inline-block;
+  width: 100%;
+  max-width: inherit;
+  text-align: center;
+}
+.infoPanel .circular section .container > ul li a span{
+  border-radius: 100px;
+  background: linear-gradient(rgb(59, 202, 211), rgb(10, 164, 179));
+  box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.0) inset, 0px 2px 1px rgba(0, 0, 0, 0.1);
+  height: 50px;
+  width: 50px;
+  line-height: 48px;
+  font-size: 19px;
+  transition: 0.1s ease-out;
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  margin:0 auto;
+  border:1px solid #fff;
+}
+.infoPanel .circular section .container > ul li a:hover span,
+.infoPanel .circular section .container > ul li:hover a span{
+  width: calc(50px + 10px);
+  height: calc(50px + 10px);
+  line-height: calc(50px + 10px);
+  font-size: 24px;
+  left: calc(-5px/2);
+  top:-5px;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 1) inset, 0px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+/*.infoPanel .circular section .container > ul li a label{
+  background: rgba(142, 143, 150, .15);;
+  padding: 2px 5px 1px;
+  border:none;
+  text-decoration: none;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.0);
+  border-radius: 0px;
+  color: #333;
+  text-align: center;
+  vertical-align: bottom;
+  white-space: nowrap;
+  font-size: 9px;
+  font-weight: normal;
+  display: inline-block;
+  width: 100%;
+}*/
+.infoPanel section .container > ul li:hover{
+  box-shadow: 5px 7px 3px rgba(0, 0, 0, 0.25);
+}
+.infoPanel .circular section .container > ul li:hover{
+  box-shadow: none;
+}
+.infoPanel section .container > label.active + ul{
+  
+}
+.infoPanel section .container > input:checked + label + ul li,
+.infoPanel section .container > label.active + ul li{
+  top: 0;
+}
+.infoPanel section .container > input:checked + label + ul li:nth-child(2),
+.infoPanel section .container > label.active + ul li:nth-child(2){
+  transition: 0.35s ease-out;
+}
+.infoPanel section .container > input:checked + label + ul li:nth-child(3),
+.infoPanel section .container > label.active + ul li:nth-child(3){
+  transition: 0.45s ease-out;
+}
+.infoPanel section .container > input:checked + label + ul li:nth-child(4),
+.infoPanel section .container > label.active + ul li:nth-child(4){
+  transition: 0.55s ease-out;
+}
+.infoPanel section .container > input:checked + label + ul li:nth-child(5),
+.infoPanel section .container > label.active + ul li:nth-child(5){
+  transition: 0.65s ease-out;
+}
+.infoPanel section .container > input:checked + label + ul li:nth-child(6),
+.infoPanel section .container > label.active + ul li:nth-child(6){
+  transition: 0.75s ease-out;
+}
+.infoPanel section .container > ul li:nth-child(2n+2){
+  margin-right: 0;
+}
+
+.infoPanel section .container > ul li.cs {
+  position: relative;
+}
+
+.infoPanel .circular section .container > ul li.cs:after{
+  width: 50px;
+  top:24px;
+  font-size: 6px;
+  left: 12px;
+  transition: 0.1s ease-out;
+}
+.infoPanel .circular section .container > ul li.cs:hover:after{
+  left: 4px;
+  width: 60px;
+  top:22px;
+  font-size: 7px;
+}
+.infoPanel section > span.cs:after{
+  left: -22px;
+  top:0;
+  white-space: nowrap;
+}
+
+.infoPanel section .container > ul li > span,
+.infoPanel section .container > ul li > a > span,
+.infoPanel section .container > ul li > a > svg {
+  font-size: 16px;
+  color: #fff;
+  width: auto;
+  height: 23px;
+  text-align: center;
+  display: block;
+  position: relative;
+  margin: 7px auto;
+}
+.infoPanel section .container > ul li > span:before,
+.infoPanel section .container > ul li > a > span::before{
+  display: block;
+}
+.infoPanel section .container > ul li > span img,
+.infoPanel section .container > ul li > a > span img{
+  position: absolute;
+  left: -4px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+  max-height: 23px;
+}
+.infoPanel section .container > ul li.providerVista > span img,
+.infoPanel section .container > ul li.providerVista > a > span img{
+  max-height:30px;
+}
+.infoPanel section .container > ul li.customerConnect > span img,
+.infoPanel section .container > ul li.customerConnect > a > span img{
+  max-height:30px;
+}
+
+.infoPanel section .container > ul li > a > span img.vistaIcon{
+    width: 100%;
+}
+
+.infoPanel section .container > ul li label {
+  font-size: 14px;
+  font-weight: 100;
+  color: #fff;
+  max-width: calc(100% - 35px - 10px*2);
+  min-width: fit-content;
+  line-height: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+
+@keyframes slideDownA {
+  0% {
+    top: -100px;
+    opacity: 0;
+  }
+  50% {
+    top: -100px;
+    opacity: 0;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
+}
+@keyframes panelContainer {
+  0% {
+    max-height: 50px;
+    opacity: 0;
+    margin-top: -500px;
+  }
+  50% {
+    margin-top: 100px;
+  }
+  100% {
+    max-height: 500px;
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+
+@keyframes panelContainerStrip {
+  from {
+    max-height: 10px;
+    top: 0px;
+    background: #fff;
+  }
+  to {
+    max-height: 1000px;
+    opacity: 1;
+    top: 0;
+    background: #0aa4b3;
+  }
+}
+
+@keyframes section {
+  0% {
+    margin-top: -50px;
+  }
+  75% {
+    margin-top: -50px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+@keyframes sectionList {
+  0% {
+    max-height: 0px;
+    margin-top: -20px;
+    opacity: 0;
+  }
+  75% {
+    max-height: 0px;
+    margin-top: -20px;
+    opacity: 0;
+  }
+  100% {
+    max-height: 300px;
+    margin-top: -12px;
+    opacity: 1;
+  }
+}
+
+@keyframes sectionHeader {
+  0% {
+    top: -100px;
+  }
+  50% {
+  }
+  75% {
+    top: 0px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}

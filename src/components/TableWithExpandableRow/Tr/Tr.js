@@ -1,32 +1,33 @@
 import React, { PureComponent, Fragment } from 'react';
 
-import styles from '../Table.css';
 import pcCommon from '../../../assets/styles/pcCommon.css';
 // fontawesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSortAlphaDown, faSortAlphaUp, faSortNumericDown, faSortNumericUp, faCalendarAlt } from "fa5-pro-regular";
 import { faPencil, faTimesCircle, faCheckCircle } from "fa5-pro-solids";
+import styles from '../Table.css';
 
 export default class Tr extends PureComponent {
-
   handleExpandClick = () => {
-    if ( this.props.header) return;
-    this.props.handleExpandClick()
+    if (this.props.header) return;
+    this.props.handleExpandClick();
   }
 
   render() {
-    var { data, header, isExpanded, handleEditClick, handleSortClick, sortable, sortableNumber, editable, editing, handleCancelClick, handleSubmitClick } = this.props;
+    let {
+ data, header, isExpanded, handleEditClick, handleSortClick, sortable, sortableNumber, editable, editing, handleCancelClick, handleSubmitClick
+} = this.props;
 
-    if (!Array.isArray(data))
-      data = Object.values(data);
+    if (!Array.isArray(data)) {data = Object.values(data);}
 
-    const renderCell = header ?
-      (item, index) => {
+    const renderCell = header
+      ? (item, index) => {
         // determine whether the row is editable and then if it is currently editing.
         const isEditable = index === editable;
         const isEditing = !!editing && isEditable;
-        ///////////////////////////////////////
-        return <td key={index} className={(isEditing ? styles.editing : '') + ' ' + (isEditable ? styles.editHeader : '') }>{item}
+        // /////////////////////////////////////
+        return (
+<td key={index} className={(isEditing ? styles.editing : '') + ' ' + (isEditable ? styles.editHeader : '') }>{item}
           {Array.isArray(sortable) && sortable.includes(item) &&
             <FontAwesomeIcon className={styles.sortIcon + ' ' + styles.icon} onClick={handleSortClick} icon={faSortAlphaDown}/>}
           {Array.isArray(sortableNumber) && sortableNumber.includes(item) &&
@@ -43,16 +44,19 @@ export default class Tr extends PureComponent {
             </span>
           }
         </td>
-       } :
-      (item, index) => {
+);
+      }
+      : (item, index) => {
         // determine whether the row is editable and then if it is currently editing.
         const isEditable = index === editable;
         const isEditing = !!editing && isEditable;
-        /////////////////////////////////////
-        return <td className={isEditing ? styles.editing : ''} key={index}>
+        // ///////////////////////////////////
+        return (
+<td className={isEditing ? styles.editing : ''} key={index}>
           {isEditing ? <Fragment><input className={styles.endDateInput}/><FontAwesomeIcon className={styles.calendarIcon + ' ' + styles.icon} icon={faCalendarAlt}/></Fragment> : item}
           </td>
-      }
-    return <tr onClick={this.handleExpandClick} className={isExpanded ? styles.expanded : ''}>{data.map(renderCell)}</tr>
+);
+      };
+    return <tr onClick={this.handleExpandClick} className={isExpanded ? styles.expanded : ''}>{data.map(renderCell)}</tr>;
   }
 }

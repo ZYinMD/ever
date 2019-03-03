@@ -1,0 +1,109 @@
+.radioView{
+}
+.radioView nav{
+  background: #F3F5F7;
+  /* Crap */
+  background-color: #fff;
+}
+.radioView nav ul{
+  overflow: hidden;
+}
+/*.radioView nav ul li{*/
+  /*float: left;*/
+  /*text-align:center;*/
+  /*min-width:100px;*/
+  /*padding: 0 15px;*/
+  /*font-weight: normal;*/
+  /*color: #3498DB;*/
+  /*cursor: pointer;*/
+  /*-webkit-transition: 0.2s ease-in;*/
+  /*-moz-transition: 0.2s ease-in;*/
+  /*-ms-transition: 0.2s ease-in;*/
+  /*-o-transition: 0.2s ease-in;*/
+  /*transition: 0.2s ease-in;*/
+/*}*/
+/*.radioView nav ul li:hover{*/
+  /*background-color: #EBF5FB;*/
+  /*color: #3498DB;*/
+/*}*/
+/*.radioView nav ul li > *{*/
+  /*display: block;*/
+/*}*/
+/*.radioView nav ul li > span{*/
+  /*font-size: 24px;*/
+  /*margin: 10px 0 3px;*/
+/*}*/
+/*.radioView nav ul li > label{*/
+  /*font-size: 11px;*/
+  /*margin-bottom:5px;*/
+  /*white-space:nowrap;*/
+/*}*/
+/*.radioView nav ul li.active{*/
+  /*position: relative;*/
+  /*color: #27AE60;*/
+/*}*/
+/*.radioView nav ul li.active:before{*/
+  /*content: '';*/
+  /*width: 100%;*/
+  /*height:2px;*/
+  /*position: absolute;*/
+  /*left:0;*/
+  /*bottom:0;*/
+  /*background: #52BE80;*/
+/*}*/
+.radioView nav ul{
+  margin:10px;
+  /* Crap */
+  margin-bottom:0;
+}
+.radioView nav ul li{
+  float: left;
+  text-align:center;
+  min-width:100px;
+
+  background: rgba(25,152,233,.1);
+  border-radius: 5px;
+  margin: 0 10px 10px 0;
+  color: #555;
+  padding: 0px 10px 5px;
+  position: relative;
+  cursor: pointer;
+  transition: .2s ease-in;
+}
+.radioView nav ul li:hover{
+  background: rgba(25,152,233,.5);
+  color: #fff;
+}
+.radioView nav ul li > *{
+  display: block;
+}
+.radioView nav ul li > span{
+  font-size: 24px;
+  font-weight: normal;
+  margin: 8px 0 3px;
+  /* Crap */
+  /*------*/
+}
+.radioView nav ul li > label{
+  font-size: 11px;
+  margin-bottom:2px;
+  white-space:nowrap;
+  font-weight: normal;
+}
+.radioView nav ul li.active{
+  position: relative;
+  color: #fff;
+  background-color: #1998e9;
+}
+.radioView nav ul li.active:before{
+  content: '';
+  width:0;
+  height:0;
+  border-top:10px solid #1998e9;
+  border-right:10px solid transparent;
+  border-left:10px solid transparent;
+  display: block;
+  position: absolute;
+  left:calc(100%/2 - 10px);
+  top:calc(100%);
+}

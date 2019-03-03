@@ -1,0 +1,245 @@
+.secondaryMenu {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  z-index: 999;
+  font-size: 22px;
+  color: #3bcad3;
+  -webkit-transition: 0.1s ease-out;
+  -moz-transition: 0.1s ease-out;
+  -o-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+  animation: slideDown 0.3s ease-out alternate;
+}
+
+.home.secondaryMenu {
+  top: 20px;
+  right: 20px;
+  -webkit-transition: 0.1s ease-out;
+  -moz-transition: 0.1s ease-out;
+  -o-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+
+.secondaryMenu ul li {
+  float: left;
+  margin-left: 10px;
+}
+
+.secondaryMenu ul li > input + label,
+.secondaryMenu ul li button {
+  display: block;
+  cursor: pointer;
+  border-radius: 100%;
+  background: linear-gradient(rgb(255, 255, 255), rgb(233, 233, 233));
+  box-shadow: 0 0 0px rgba(255, 255, 255, 0.0) inset, 0px 2px 1px rgba(0, 0, 0, 0.25);
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 47px;
+  color: #555;
+  font-size: 20px;
+  -webkit-transition: 0.1s ease-out;
+  -moz-transition: 0.1s ease-out;
+  -o-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+  cursor: pointer;
+}
+
+.secondaryMenu ul li button {
+  line-height: 45px;
+  font-size: 16px;
+  text-align: left;
+  text-indent: 8px;
+}
+
+.secondaryMenu ul li > input:checked + label {
+  position: relative;
+}
+
+.secondaryMenu ul li > input + label:hover,
+  /* Temporarily Removed
+.secondaryMenu ul li > input:checked + label,*/
+.secondaryMenu ul li button:hover {
+  font-size: 24px !important;
+  background: #3bcad3;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 52px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.75) inset, 1px 10px 4px rgba(0, 0, 0, 0.4);
+  margin-top: -5px;
+  margin-right: -2px;
+}
+
+/* Temporarily Removed
+.secondaryMenu ul li > input:checked + label {
+  margin-top: 0px;
+}
+
+.secondaryMenu ul li > input:checked + label {
+  line-height: 50px;
+}*/
+
+.secondaryMenu ul li button > span {
+  color: rgb(10, 164, 179);
+}
+
+.secondaryMenu ul li button:hover {
+  margin-top: -5px;
+  margin-left: -3px;
+}
+
+.secondaryMenu ul li button:hover > span {
+  color: #fff;
+}
+
+.secondaryMenu ul li > label[for="informationPanelSwitch"] + div {
+  left: -7px;
+}
+.secondaryMenu ul li > label[for="informationPanelSwitch"]:hover + div{
+  left: -4px;
+}
+
+.secondaryMenu ul li > label[for="informationPanelSwitch"] span:before
+  /* Temporarily Removed
+.secondaryMenu ul li > input:checked + label[for="informationPanelSwitch"] span:before*/ {
+  content: '';
+  background: url(../../assets/icons/user-info.svg) no-repeat center;
+  display: block;
+  width: 17px;
+  height: 17px;
+}
+
+.secondaryMenu ul li > label[for="informationPanelSwitch"]:hover span:before {
+  background-image: url(../../assets/icons/user-info-active.svg);
+  width: 20px;
+  height: 20px;
+}
+
+.secondaryMenu ul li.userMenu {
+  height: 45px;
+  float: left;
+  border-radius: 50px;
+  background: linear-gradient(rgb(255, 255, 255), rgb(233, 233, 233));
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.secondaryMenu ul li .userName {
+  min-width: 150px;
+  float: left;
+  padding: 0px 15px 0 10px;
+  color: #007e8c;
+  font: normal 12px/45px 'Open Sans';
+  vertical-align: middle;
+}
+
+/* Temporarily Removed
+.secondaryMenu ul li > input:checked + label:hover,
+.secondaryMenu ul li > input:checked + label {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.75) inset, 1px 10px 4px rgba(0, 0, 0, 0);
+  background: linear-gradient(rgb(255, 255, 255), rgb(233, 233, 233));
+}*/
+
+.secondaryMenu ul li > input:checked + label span:after {
+  content: '';
+  width: calc(50px + 3px * 2);
+  height: calc(50px + 3px * 2 + 1px / 3);
+  background: #0aa4b3;
+  border-radius: 100%;
+  display: block;
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  z-index: -1;
+  -webkit-transition: 0.1s ease-out;
+  -moz-transition: 0.1s ease-out;
+  -o-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+  /* Temporarily Removed */
+  display: none;
+}
+
+.home.secondaryMenu ul li > input:checked + label span:after {
+  width: calc(50px + 3px * 2);
+  height: calc(50px + 3px * 2 + 1px / 2);
+  left: -3px;
+  top: -3px;
+}
+
+.secondaryMenu ul li > input:checked + label:before {
+  left: calc(-7px / 2);
+  top: calc(-8px / 2);
+}
+
+.secondaryMenu ul li > input:checked + label:after {
+  content: '';
+  width: 5px;
+  padding: 0;
+  height: 15px;
+  background: #0aa4b3;
+  border: none;
+  display: block;
+  border-radius: 0;
+  position: absolute;;
+  left: calc(45px / 2 - 3px);
+  top: calc(45px + 2px);
+  -webkit-transition: 0.1s ease-out;
+  -moz-transition: 0.1s ease-out;
+  -o-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+
+.secondaryMenu ul li > input:checked + label:hover:before,
+.secondaryMenu ul li > input:checked + label:before {
+  width: calc(45px + 3px * 2 + 3px * 2 - 1px);
+  height: calc(45px + 3px * 2 + 3px * 2 - 1px);
+  box-shadow: 1px 10px 4px rgba(0, 0, 0, 0.4);
+}
+
+.secondaryMenu ul li > input:checked + label:after {
+  left: calc(45px / 2 + 3px - 3px);
+  top: calc(45px + 6px + 2px);
+  /* Temporarily Removed */
+  display: none;
+}
+
+.secondaryMenu ul li > input:checked + label:before,
+.secondaryMenu ul li > input:checked + label:hover:before {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: block;
+  content: '';
+  cursor: default;
+  /* Temporarily Removed */
+  display: none;
+}
+
+.secondaryMenu ul li .userIcon {
+  border-radius: 50%;
+  background: linear-gradient(rgb(59, 202, 211), rgb(10, 164, 179));
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  float: left;
+  text-align: center;
+  line-height: calc(45px) !important;
+  overflow: hidden;
+  margin-left: -1px;
+}
+
+/* Animation */
+
+@keyframes slideDown {
+  0% {
+    top: -100px;
+  }
+  100% {
+    top: 5px;
+  }
+}

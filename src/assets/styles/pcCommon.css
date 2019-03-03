@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+.disable{
+  opacity: 0.5;
+}
+
+h1, h2, h3, h4, h5, p, ul, ul li {
+  padding: 0;
+  margin: 0;
+}
+
+button, a {
+  cursor: pointer;
+}
+.alignLeft,
+.tLeft{
+  float: left;;
+}
+.alignRight{
+  float: right;
+}
+.alignRight,
+.tRight{
+  text-align: right !important;
+}
+.tCenter{
+  text-align:center;
+}
+/*Can be removed once venkatesh updates the code*/
+.disableBtn{
+  opacity: 0.4;
+  pointer-events: none;
+}
+button.btn{
+  padding: 5px 10px;
+  border:1px solid #bdc3c7;
+  background: #fff;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+button.success{
+  border-color: #52be80;
+  color: #52be80;
+}
+button.solid.success{
+  border:none;
+  background: #52be80;
+  color: #fff;
+}
+button.failure{
+  border-color: #ec7063;
+  color: #ec7063;
+}
+button.solid.failure{
+  border:none;
+  background: #ec7063;
+  color: #fff;
+}
+.value{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+label + .value{
+  font-size: 16px;
+  line-height: 18px;
+}
+.noPad{
+  padding: 0 !important;
+}
+.addPad {
+  margin-right: 1%;
+  float: right;
+}
+.noMarg{
+  margin:0 !important;
+}
+.noShad{
+  box-shadow: none !important;
+}
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+}
+.ofVisible{
+  overflow: visible !important;
+}
+@media screen and (max-width:1366px){
+  button.btn{
+    padding: 2px 5px;
+    font-size: 11px;
+    border-radius: 2px;
+  }
+}

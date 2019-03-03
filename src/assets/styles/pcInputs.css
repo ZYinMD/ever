@@ -1,0 +1,484 @@
+/* Let's get this party started */
+.dropDown::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+.dropDown::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0);
+}
+
+/* Handle */
+.dropDown::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(0, 0,0,0.25);
+  -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.5);
+}
+
+.dropDown::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.form{
+}
+.form .formContainer > label{
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+}
+.formField{
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+  overflow: hidden;
+  padding: 10px;
+  margin-bottom: 10px;
+  border:1px solid rgba(0,0,0,0.05);
+}
+table td .formField{
+  border:none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+}
+.form .formContainer .formField > ul > li{
+  padding: 5px 5px 5px 15px;
+}
+.form .formContainer .formField > ul > li main{
+  font-size: 11px;
+  line-height: 14px;
+}
+.formField .cell{
+  float: left;
+  margin-right: 10px;
+}
+.ageRange.formField .cell{
+  margin:0;
+}
+.ageRange.formField .cell.from .inputContainer{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: none;
+}
+.ageRange.formField .cell.to .inputContainer{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.formField .cell > label{
+  font-size: 10px;
+}
+table td .formField .cell{
+  padding-bottom: 5px;
+}
+.switch label{
+  line-height: 12px;
+    display: block;
+    float: left;
+    padding: 6px 12px;
+    font-weight: normal;
+    border-radius: 15px;
+    font-size: 11px;
+    color: #fff;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.12);
+    border:1px solid transparent;
+    width: 80px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+.ageRange .switch label{
+  width: 16px;
+  padding: 0;
+  line-height: 14px;
+  font-size: 8px;
+  font-weight: bold;
+}
+.formField .cell .inputContainer{
+  border:1px solid #ddd;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  padding: 5px;
+  background: linear-gradient(#fff, #ebedef);
+  overflow: hidden;
+}
+table td .formField .cell .inputContainer{
+    padding: 5px;
+      border-radius: 5px;
+      box-shadow: none;
+      border:1px solid #d6dbdf;
+}
+.switch{
+  background: #85929e;
+  border-radius: 20px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3) inset;
+  overflow: hidden;
+  padding: 2px;
+  display: block;
+}
+.formField input.textField{
+  margin-right: 5px;
+  color: #5d6d7e;
+  font-size: 11px;
+}
+.ageRange input.textField{
+  float: right;
+  background: #fff;
+  border:1px solid #d6dbdf;
+  border-radius: 15px;
+  line-height: 18px;
+  position: relative;
+  width:calc(25px + 15px);
+  z-index: 0;
+  text-indent: 10px;
+  font-size: 9px;
+}
+.switch{
+  padding: 0;
+  cursor: pointer;
+  position: relative;;
+}
+.ageRange .switch{
+  float: right;
+  position: relative;
+  z-index: 1;
+  padding: 2px;
+  box-shadow: 0 0 2px rgba(0,0,0,0.4) inset;
+}
+.switch label span{
+  display: inline-block;
+  margin-right: 7px;
+}
+.switch .activeIndicator,
+.switch .hoverIndicator{
+  width: 80px;
+  display: block;
+  z-index: 1;
+  height: 27px;
+  transition: 0.2s ease-in;
+  border-radius: 15px;
+  position: absolute;
+  background: linear-gradient(#3bcad3, #0aa4b3);
+  border:1px solid #0aa4b3;
+  left: 0;
+  top:0;
+  box-shadow: 1px 2px 2px rgba(0,0,0,0.1);
+}
+.ageRange .switch .activeIndicator,
+.ageRange .switch .hoverIndicator{
+  width: 16px;
+  height: 16px;
+  transition: 0.1s ease-in;
+  left: 2px;
+  top: 2px;
+}
+.switch .hoverIndicator{
+  background: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.1));
+  border:1px solid rgba(255,255,255,0.2);
+  opacity: 0;
+  z-index: 0;
+}
+.switch label:hover ~ .hoverIndicator{
+  opacity: 1;
+}
+.switch input:checked + label.a ~ .activeIndicator,
+.switch label.a:hover ~ .hoverIndicator,
+.switch label.a:hover ~ input:checked + label.b ~ .hoverIndicator,
+.switch label.a:hover ~ input:checked + label.c ~ .hoverIndicator{
+  left: 0;
+}
+.switch input:checked + label.b ~ .activeIndicator,
+.switch label.b:hover ~ .hoverIndicator,
+.switch input:checked + label.b ~ .hoverIndicator,
+.switch label.b:hover ~ input:checked + label.c ~ .hoverIndicator{
+  left: 80px;
+}
+.switch input:checked + label.c ~ .activeIndicator,
+.switch label.c:hover ~ .hoverIndicator,
+.switch input:checked + label.b ~ label.c:hover ~ .hoverIndicator,
+.switch input:checked + label.c ~ .hoverIndicator{
+  left: calc(80px*2);
+}
+.ageRange .switch input:checked + label.a ~ .activeIndicator,
+.ageRange .switch label.a:hover ~ .hoverIndicator,
+.ageRange .switch label.a:hover ~ input:checked + label.b ~ .hoverIndicator{
+  left: 2px;
+}
+.ageRange .switch input:checked + label.b ~ .activeIndicator,
+.ageRange .switch label.b:hover ~ .hoverIndicator,
+.ageRange .switch input:checked + label.b ~ .hoverIndicator{
+  left: 18px;
+}
+.formField.panelLimits .cell .inputContainer > span{
+  border-right: 1px solid #d6dbdf;
+  display: inline-block;
+  padding: 0 10px 0 5px;
+  margin-right: 10px;
+}
+.formField.panelLimits .cell .inputContainer input.textField{
+  width: 50px;
+}
+table td .input{
+  background:linear-gradient(#fff, #f3f3f3);
+  border:1px solid #d6dbdf;
+  border-radius: 5px;
+  position: relative;
+  padding: 8px;
+}
+.customDropDown{
+  width: 250px;
+}
+.customDropDown .activeValue{
+  width: 250px;
+    position: relative;
+    cursor: pointer;
+}
+table td .nonEditable{
+  background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.3));
+  cursor:no-drop;
+}
+.customDropDown .activeValue.onClick{
+border-color: #0aa4b3;
+color: #006e7e;
+
+}
+.customDropDown .activeValue.onClick:after{
+  content:'';
+  width: 0;
+  display: block;
+  position: absolute;
+  right:-10px;
+  top:6px;
+  height: 0;
+  border-right: 10px solid #5d6d7e;
+  border-top:8px solid transparent;
+  border-bottom:8px solid transparent;
+}
+.input .icon{
+  display: block;
+  font-size: 14px;
+  padding-right: 10px;
+  border-right: 1px solid #d6dbdf;
+  margin-right: 10px;
+}
+.input .icon.networks:before{
+  content: '';
+  width:15px;
+  height: 15px;
+  display: block;
+  background: url(../icons/networks-dark.svg) no-repeat center;
+}
+.input .icon.indicator{
+  border: none;
+  padding: 0;
+  margin: 1px 0 0;
+  font-size: 10px;
+}
+.input .value{
+  font-size: 12px;
+  line-height: 14px;
+  display: block;
+  width: calc(100% - 10px*2 - 25px - 4px);
+  text-align: left;
+}
+.dropDown{
+  position: absolute;
+  /*max-height: 81%;*/
+  top:70px;
+  bottom: 0;
+  border-radius: 5px;
+  /*min-height: 81%;*/
+  /*margin-left: 10px;*/
+  margin: auto 0 auto 259px;
+  padding: 10px 10px 10px 10px;
+  border-top: 1px solid #efefef;
+  overflow-y: auto;
+  z-index: 999;
+  background: rgba(255,255,255,0.9);
+  box-shadow: 1px 5px 5px rgba(0,0,0,0.1);
+  transition: 0.1s ease-in;
+  animation: slideA 0.25s ease-out alternate;
+}
+.dropDown ul{
+  width: 250px;
+  height: calc(100%);
+  vertical-align: middle;
+}
+.dropDown ul li{
+  margin-bottom: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.1s ease-in;
+}
+.dropDown ul li span{
+  display: block;
+  border-radius: 3px;
+  border:1px solid #d6dbdf;
+  padding: 5px 10px;
+  min-width: 250px;
+  background: linear-gradient(#fff, #f3f3f3);
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+  cursor:pointer;
+  transition: 0.05s ease-in;
+  animation: dropA 0.05s ease-out alternate;
+  font-size: 11px;
+  position: relative;
+  z-index: 1;
+}
+.dropDown ul li:nth-child(2) span{
+  animation: dropA 0.075s ease-in alternate;
+}
+.dropDown ul li:nth-child(3) span{
+  animation: dropA 0.1s ease-in alternate;
+}
+.dropDown ul li:nth-child(4) span{
+  animation: dropA 0.125s ease-in alternate;
+}
+.dropDown ul li:nth-child(5) span{
+  animation: dropA 0.15s ease-in alternate;
+}
+.dropDown ul li:nth-child(6) span{
+  animation: dropA 0.175s ease-in alternate;
+}
+.dropDown ul li:nth-child(7) span{
+  animation: dropA 0.2s ease-in alternate;
+}
+.dropDown ul li:nth-child(8) span{
+  animation: dropA 0.225s ease-in alternate;
+}
+.dropDown ul li:nth-child(9) span{
+  animation: dropA 0.25s ease-in alternate;
+}
+.dropDown ul li:nth-child(10) span{
+  animation: dropA 0.275s ease-in alternate;
+}
+.dropDown ul li:nth-child(11) span{
+  animation: dropA 0.3s ease-in alternate;
+}
+.dropDown ul li:nth-child(12) span{
+  animation: dropA 0.325s ease-in alternate;
+}
+.dropDown ul li:nth-child(13) span{
+  animation: dropA 0.35s ease-in alternate;
+}
+.dropDown ul li:nth-child(14) span{
+  animation: dropA 0.375s ease-in alternate;
+}
+.dropDown ul li:nth-child(15) span{
+  animation: dropA 0.4s ease-in alternate;
+}
+.dropDown ul li:nth-child(16) span{
+  animation: dropA 0.425s ease-in alternate;
+}
+.dropDown ul li:nth-child(17) span{
+  animation: dropA 0.45s ease-in alternate;
+}
+.dropDown ul li:nth-child(18) span{
+  animation: dropA 0.475s ease-in alternate;
+}
+.dropDown ul li span:hover{
+  border-color: #039be5;
+  color: #0d47a1;
+  box-shadow: 2px 3px 2px rgba(0,0,0,0.3);
+}
+.dropDown ul li .selected{
+  border-color: #0aa4b3;
+  color: #006e7e;
+  border-left-width: 5px;
+  position: relative;
+}
+.dropDown ul li .selected:after{
+  content: '';
+  font-family: 'FontAwesome';
+  color: #0aa4b3;
+  opacity: 0.5;
+  position: absolute;
+  display: block;
+  right: 5px;
+  top:6px;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+/* Animation */
+
+/* @keyframes slideA {
+  0% {
+    margin-left: 0;
+    width:10px;
+    opacity: 0;
+  }
+  60%{
+    margin-left: 0;
+    width:10px;
+    opacity: 0;
+  }
+  80%{
+    margin-left: 289px;
+    opacity: 1;
+  }
+  100% {
+    margin-left: 259px;
+    width:100%;
+  }
+} */
+@keyframes slideA {
+  0% {
+    max-height:10px;
+    opacity: 0;
+  }
+  80%{
+    opacity: 1;
+  }
+  100% {
+    max-height:80%;
+  }
+}
+@keyframes dropA {
+  0% {
+    top:-50px;
+    opacity: 0;
+  }
+  15%{
+    top:40px;
+  }
+  60%{
+    top:-30px;
+  }
+  80%{
+    top:20px;
+  }
+  100% {
+    top:0;
+    opacity: 1;
+  }
+}
+@media screen and (max-width:1366px){
+  .switch label{
+    font-size: 10px;
+    width: 60px;
+    padding: 3px 5px 4px;
+    line-height: 11px;
+  }
+  .switch .activeIndicator,
+  .switch .hoverIndicator{
+    width: 60px;
+    height: 20px;
+  }
+  .switch input:checked + label.b ~ .activeIndicator,
+  .switch label.b:hover ~ .hoverIndicator,
+  .switch input:checked + label.b ~ .hoverIndicator,
+  .switch label.b:hover ~ input:checked + label.c ~ .hoverIndicator{
+    left: 60px;
+  }
+  .switch input:checked + label.c ~ .activeIndicator,
+  .switch label.c:hover ~ .hoverIndicator,
+  .switch input:checked + label.b ~ label.c:hover ~ .hoverIndicator,
+  .switch input:checked + label.c ~ .hoverIndicator{
+    left: calc(60px*2);
+  }
+}
