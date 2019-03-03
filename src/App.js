@@ -1,6 +1,6 @@
 import React from 'react';
-import ProviderProfile from "./components/ProviderProfile";
+import GeneralProfile from './components/GeneralProfile';
 
-const App = () => <ProviderProfile />;
+const App = () => <GeneralProfile />;
 
 export default App;
