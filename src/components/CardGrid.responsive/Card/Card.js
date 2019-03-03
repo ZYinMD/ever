@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import styles from './Card.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import iconLookup from './iconLookup.js';
-import _ from 'lodash'
+
 export default class Card extends PureComponent {
   render() {
     const {title, body} = this.props;
@@ -17,7 +17,7 @@ export default class Card extends PureComponent {
             </figure>
           </div>
           <div className={styles.right}>
-            <p className={styles.title}>{_.truncate(title, 25)}</p>
+            <p className={styles.title}>{title}</p>
             <p className={styles.body}>{body}</p>
           </div>
         </div>

@@ -1,7 +1,7 @@
 .card {
   background-color: white;
   display: grid;
-    grid-template-columns: 78px minmax(150px, 260px);
+    grid-template-columns: 78px minmax(150px, 240px);
   border-radius: 5px;
 }
 
@@ -38,8 +38,7 @@
 
 .right {
   grid-column: 2;
-  margin-top: 25px;
-  padding-right: 5px;
+  align-self: center;
 }
 
 .right p {
@@ -49,7 +48,6 @@
 .title {
   font-size: 12px;
   margin: 0 0 2px 0;
-  text-transform: uppercase;
 }
 
 .body {

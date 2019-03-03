@@ -1,0 +1,15 @@
+.expTR {
+    box-shadow: none !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    background: #ffffff !important;
+    padding: 0;
+}
+
+.expTD {
+    position: relative;
+    bottom: 5px;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    padding: 0 !important;
+}

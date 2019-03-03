@@ -13,7 +13,7 @@
 .table td {
   text-align: left;
   vertical-align: middle;
-  padding-left: 11px;
+  padding: 0 10px;
 }
 
 .table tr {
@@ -22,15 +22,48 @@
   border-radius: 5px;
 }
 
-.table thead td {
-  font-weight: 600;
-  font-size: 12px;
-  height: 30px;
+.table tr .expandIcon{
+  cursor: pointer;
+  color: #2d86c1;
+  float: right;
+  font-size: 14px;
+}
+
+.table tr.expanded td{
+  background-color: #229c8f;
+  color: #ffffff;
+}
+
+.table tr.expanded td:first-child{
+  border-bottom-left-radius: 0 !important;
+}
+
+.table tr.expanded td:last-child{
+  border-bottom-right-radius: 0 !important;
+}
+
+.table tr.expanded .expandIcon{
+  color: white;
 }
 
 .table td {
   height: 40px;
   font-size: 14px;
+  background: #ffffff;
+}
+
+.table thead td {
+  font-weight: 600;
+  font-size: 12px;
+  height: 30px;
+  text-transform: uppercase;
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+}
+
+.table td.editing {
+  background: #F1F1F1;
 }
 
 .table td:first-child {
@@ -40,3 +73,68 @@
 .table td:last-child {
   border-radius: 0 5px 5px 0;
 }
+
+/*alert row*/
+.table td.alertContainer {
+    background: #fdebd0;
+    transition: 0.2s;
+    font-size: 12px;
+    color: #EF6C00;
+}
+
+.table td.alertContainer .icon {
+    margin-right: 5px;
+    color: #EF6C00;
+}
+
+.editIconContainer{
+  background: #d68910;
+  cursor: pointer;
+  border-radius: 100%;
+  margin-left: 5px;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  text-align: center;
+  text-indent: 1px;
+  line-height: 15px;
+}
+
+.editIconContainer:hover{
+  height: 17px;
+  width: 17px;
+  margin-left: 3px;
+}
+
+.editIcon{
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 8px;
+  vertical-align: inherit;
+  line-height: 15px;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.iocon:hover {
+  font-size: 17px;
+}
+
+.sortIcon {
+  color:#1976D2;
+  margin-left: 5px;
+}
+
+.cancelIcon {
+  color: #EC7063;
+}
+
+.submitIcon {
+  color: #52BE80;
+  margin-right: 5px;
+  font-size: 15px;
+}
+
