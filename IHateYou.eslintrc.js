@@ -25,6 +25,12 @@ module.exports = {
     'import/no-named-as-default': [0],
     'func-names': ['error', 'never'],
     'global-require': 'off',
+    'no-else-return': 'off',
+    'nonblock-statement-body-position': [0],
+    'react/destructuring-assignment': [0, 'always', { ignoreClassFields: true }],
+    'prefer-template': [0],
+    curly: [0],
+    'max-len': ['error', { ignoreComments: true }],
     'object-curly-newline': ['error', {
       ObjectExpression: { multiline: true },
       ObjectPattern: { multiline: true },
