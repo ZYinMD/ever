@@ -6,37 +6,40 @@ import { Table, Tr } from '../../TableWithExpandableRow';
 import { mockHeader, mockData } from '../../TableWithExpandableRow/mockData';
 
 class ProfessionalInfo extends PureComponent {
+  const
+
   render() {
     return (
       <>
-          <AccordionBar plain text="General Information" />
-          <CardGrid>
-            <Card title="Degree" body="MD" />
-            <Card title="Gender" body="Male" />
-            <Card title="Eat" body="A lot of things" />
-            <Card title="Get Up At" body="5AM" />
-            <Card title="Allergies" body="None" />
-            <Card title="Degree" body="This guy has a very very  long degree" />
-            <Card title="Gender" body="Male" />
-            <Card title="Eat" body="A lot of things" />
-            <Card title="Get Up At" body="5AM" />
-            <Card title="Allergies" body="None" />
-            <Card title="Charging" body="Yes!" />
-          </CardGrid>
-          <AccordionBar plain text="Specialty Information">
-            <Table>
-              <thead>
-                <Tr data={mockHeader} />
-              </thead>
-              <tbody>
-                <Tr data={mockData[0]} />
-                <Tr data={mockData[1]} />
-                <Tr data={mockData[2]} />
-                <Tr data={mockData[3]} />
-              </tbody>
-            </Table>
-          </AccordionBar>
-          </>
+        <AccordionBar plain text="General Information" />
+        <CardGrid>
+
+          <Card title="Degree" body="MD" />
+          <Card title="Gender" body="Male" />
+          <Card title="Eat" body="A lot of things" />
+          <Card title="Get Up At" body="5AM" />
+          <Card title="Allergies" body="None" />
+          <Card title="Degree" body="This guy has a very very  long degree" />
+          <Card title="Gender" body="Male" />
+          <Card title="Eat" body="A lot of things" />
+          <Card title="Get Up At" body="5AM" />
+          <Card title="Allergies" body="None" />
+          <Card title="Charging" body="Yes!" />
+        </CardGrid>
+        <AccordionBar plain text="Specialty Information">
+          <Table>
+            <thead>
+              <Tr data={mockHeader} />
+            </thead>
+            <tbody>
+              <Tr data={mockData[0]} />
+              <Tr data={mockData[1]} />
+              <Tr data={mockData[2]} />
+              <Tr data={mockData[3]} />
+            </tbody>
+          </Table>
+        </AccordionBar>
+      </>
     );
   }
 }

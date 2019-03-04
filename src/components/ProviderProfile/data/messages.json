@@ -1,0 +1,39 @@
+[
+    {
+        "Id": 1,
+        "Action": "CancelEdit",
+        "Message": "Warning! If you leave this page, your changes will be lost. Are you sure you want to leave this page?"
+    },
+    {
+        "Id": 2,
+        "Action": "EditSubmitChanges",
+        "Message": "Warning! If you leave this page, your changes will be lost. Are you sure you want to leave this page?"
+    },
+    {
+        "Id": 3,
+        "Action": "AddSubmitQuestion",
+        "Message": "Are you sure you would like to Submit these changes?"
+    },
+    {
+        "Id": 4,
+        "Action": "AddSubmitYes",
+        "Message": "Your update has been submitted. Please allow some time for your changes to be reflected in Provider Connect"
+    },
+    {
+        "Id": 5,
+        "Action": "AddSubmitYesDuplicates",
+        "Message": "We are unable to save this change as it conflicts with an existing program"
+    },
+    {
+        "Id": 6,
+        "Action": "InvalidDates",
+        "Message": "End date cannot be less than Start date."
+    },
+    {
+          "Id": 7,
+          "Action": "Duplicate",
+          "Message": "We are unable to save this change as it is a duplicate to an active program."
+
+    }
+
+  ]

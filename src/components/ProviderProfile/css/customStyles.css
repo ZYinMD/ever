@@ -1,0 +1,742 @@
+
+.custdd{}
+.hideDate{
+  display: block;
+  border-radius: 3px;
+  border:1px solid #d6dbdf;
+  padding: 5px 10px;
+  min-width: 90px;
+  background: linear-gradient(#fff, #f3f3f3);
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+  cursor:pointer;
+  transition: 0.05s ease-in;
+  animation: dropA 0.05s ease-out alternate;
+  font-size: 11px;
+  position: relative;
+  z-index: 1;
+}
+
+.custdd .dropdown {
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+.custdd a {
+  color: #fff;
+}
+
+.custdd .dropdown dd,
+.custdd .dropdown dt {
+  margin: 0px;
+  padding: 0px;
+}
+
+.custdd .dropdown ul {
+  margin: -1px 0 0 0;
+}
+
+.custdd .dropdown dd {
+  position: relative;
+}
+
+.custdd .dropdown a,
+.custdd .dropdown a:visited {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+  font-size: 12px;
+}
+
+.custdd .dropdown dt a {
+  background-color: #4F6877;
+  display: block;
+  padding: 8px 20px 5px 10px;
+  min-height: 25px;
+  line-height: 24px;
+  overflow: hidden;
+  border: 0;
+  width: 272px;
+}
+
+.custdd .dropdown dt a span,
+.custdd .multiSel span {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 3px 2px 0;
+  font-family: 'Open Sans', sans-serif,Verdana;
+  font-size: 12px;
+}
+
+.value{
+  font-family: 'Open Sans', sans-serif,Verdana;
+  font-size: 12px;
+}
+
+.values{
+  font-family: 'Open Sans', sans-serif,Verdana;
+  font-size: 12px;
+}
+
+.custdd .dropdown dd ul {
+  background-color: #4F6877;
+  border: 0;
+  color: #fff;
+  display: none;
+  left: 0px;
+  padding: 2px 15px 2px 5px;
+  position: absolute;
+  top: 2px;
+  width: 280px;
+  list-style: none;
+  height: 100px;
+  overflow: auto;
+}
+
+.custdd .dropdown span.value {
+  display: none;
+}
+
+.custdd .dropdown dd ul li {
+  font-size: 11px;
+  color: #006e7e;
+  padding: 5px;
+  display: block;
+}
+
+.custdd .dropdown dd ul li a {
+  font-size: 11px;
+  color: #006e7e;
+  padding: 5px;
+  display: block;
+}
+
+.custdd .dropdown dd ul li a:hover {
+  background-color: #fff;
+}
+
+.custdd button {
+  background-color: #6BBE92;
+  width: 302px;
+  border: 0;
+  padding: 10px 0;
+  margin: 5px 0;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+.liValues{
+line-height: 14px;
+color: #5d6d7e;
+vertical-align: top;
+font-size: 12px !important;
+}
+
+.valueSection{
+  min-height: 16px !important;
+}
+
+/* //------------- */
+
+.actionBar{
+  padding: 10px 15px 0 10px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.actionBar .item > label{
+  display: block;
+  font-size: 10px;
+  line-height: 11px;
+  color: #5d6d7e;
+  margin-bottom: 3px;
+}
+.actionBar .item ul li{
+  float: left;
+  margin-right: 5px;
+}
+
+.actionBar button{
+  background: linear-gradient(#fff, #f4f6f6);
+  border:1px solid #d6dbdf;
+  border-radius: 3px;
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: normal;
+  color: #5d6d7e;
+  transition: 0.1s ease-in;
+}
+.actionBar button span{
+  display: inline-block;
+  margin-left: 4px;
+}
+.actionBar button:hover{
+    background: linear-gradient(#ebf5fb, #d6eaf8);
+    border-color:#d4e6f1;
+}
+.active button{
+  background: linear-gradient(#48c9b0, #1abc9c);
+  color: #fff;
+  border-color: #1abc9c;
+}
+.actionBar .item > input{
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
+.actionBar .item input + label{
+  display: inline-block;
+  font-size: 11px;
+  margin-left: 5px;
+  margin-right: 10px;
+  position: static;
+}
+.actionBar .secondaryOptions{
+  margin-left:10px;
+  position: relative;
+}
+.actionBar .secondaryOptions::before{
+  content: '';
+  width:1px;
+  height: 25px;
+  background: #d6dbdf;
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0;
+}
+.actionBar .secondaryOptions ul li{
+  margin-right: 0;
+  margin-left: 10px;
+}
+.actionBar .secondaryOptions ul li a{
+  color: rgba(93,109,126,0.6);
+  transition: 0.1s ease-in;
+}
+.actionBar .secondaryOptions ul li a:hover{
+  color: rgba(93,109,126,1);
+}
+
+
+.dropDownDateDisable{
+
+  cursor: not-allowed;
+}
+
+
+
+/* .dropDownDate{
+  width: 145px;
+  border-radius: 5px !important;
+  padding: 10px 10px 10px 10px;
+  border-top: 1px solid #efefef;
+  overflow-y: auto;
+  z-index: 999;
+  background: rgba(255,255,255,0.9);
+  box-shadow: 1px 5px 5px rgba(0,0,0,0.1);
+  transition: 0.1s ease-in;
+  animation: slideA 0.25s ease-out alternate;
+} */
+
+.dropDownDate{
+  width: 100%;
+  border-radius: 5px !important;
+  padding: 10px 10px 10px 10px;
+  border-top: 1px solid #efefef;
+  overflow-y: auto;
+  z-index: 999;
+  /*background: rgba(255,255,255,0.9);*/
+  /*box-shadow: 1px 5px 5px rgba(0,0,0,0.1);*/
+  /*transition: 0.1s ease-in;*/
+  /*animation: slideA 0.25s ease-out alternate;*/
+
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+
+/* .dropDown{
+
+   width: 250px;
+
+  border-radius: 5px ;
+  padding: 10px 10px 10px 10px;
+  border-top: 1px solid #efefef;
+  overflow-y: auto;
+  z-index: 999;
+  background: rgba(255,255,255,0.9);
+  box-shadow: 1px 5px 5px rgba(0,0,0,0.1);
+  transition: 0.1s ease-in;
+  animation: slideA 0.25s ease-out alternate;
+} */
+
+.dropDown{
+
+  width: 100%;
+  border-radius: 5px ;
+  padding: 10px 10px 10px 10px;
+  /*border-top: 1px solid #efefef;*/
+  overflow-y: auto;
+  z-index: 999;
+  border: 1px solid rgba(0,0,0,0.1);
+  /*background: rgba(255,255,255,0.9);*/
+  /*box-shadow: 1px 5px 5px rgba(0,0,0,0.1);*/
+  /*transition: 0.1s ease-in;*/
+  /*animation: slideA 0.25s ease-out alternate;*/
+}
+
+
+.dropDown select{
+  width: 90px;
+  height: calc(100%);
+  vertical-align: middle;
+}
+.dropDown select option{
+  margin-bottom: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.1s ease-in;
+}
+.dropDown select option {
+  display: block;
+  border-radius: 3px;
+  border:1px solid #d6dbdf;
+  padding: 5px 10px;
+  min-width: 90px;
+  background: linear-gradient(#fff, #f3f3f3);
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+  cursor:pointer;
+  transition: 0.05s ease-in;
+  animation: dropA 0.05s ease-out alternate;
+  font-size: 11px;
+  position: relative;
+  z-index: 1;
+}
+
+.dropDownValue{
+
+  width: 100%;
+  border-radius: 5px !important;
+  padding: 10px 10px 10px 10px;
+  /*border-top: 1px solid #efefef;*/
+  overflow-y: auto;
+  z-index: 999;
+  border: 1px solid rgba(0,0,0,0.1);
+  /*background: rgba(255,255,255,0.9);*/
+  /*box-shadow: 1px 5px 5px rgba(0,0,0,0.1);*/
+  /*transition: 0.1s ease-in;*/
+  /*animation: slideA 0.25s ease-out alternate;*/
+}
+.dropDown ul li:nth-child(2) {
+  animation: dropA 0.075s ease-in alternate;
+}
+.dropDown ul li:nth-child(3) {
+  animation: dropA 0.1s ease-in alternate;
+}
+.dropDown ul li:nth-child(4) {
+  animation: dropA 0.125s ease-in alternate;
+}
+.dropDown ul li:nth-child(5) {
+  animation: dropA 0.15s ease-in alternate;
+}
+.dropDown ul li:nth-child(6) {
+  animation: dropA 0.175s ease-in alternate;
+}
+.dropDown ul li:nth-child(7) {
+  animation: dropA 0.2s ease-in alternate;
+}
+.dropDown ul li:nth-child(8) {
+  animation: dropA 0.225s ease-in alternate;
+}
+
+.dropDown select option .selected{
+  border-color: #0aa4b3;
+  color: #006e7e;
+  border-left-width: 5px;
+  position: relative;
+}
+.dropDown select option:hover{
+  border-color: #039be5;
+  color: #0d47a1;
+  box-shadow: 2px 3px 2px rgba(0,0,0,0.3);
+}
+.disableContainer {
+  pointer-events: none;
+}
+
+.dropDown select option .selected:after{
+  content: '';
+  font-family: 'FontAwesome';
+  color: #0aa4b3;
+  opacity: 0.5;
+  position: absolute;
+  display: block;
+  right: 5px;
+  top:6px;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.noPadding  tr td{
+  padding: 10px 1px 10px 5px !important;
+}
+
+
+@keyframes slideA {
+  0% {
+    max-height:10px;
+    opacity: 0;
+  }
+  80%{
+    opacity: 1;
+  }
+  100% {
+    max-height:80%;
+  }
+}
+@keyframes dropA {
+  0% {
+    top:-50px;
+    opacity: 0;
+  }
+  15%{
+    top:40px;
+  }
+  60%{
+    top:-30px;
+  }
+  80%{
+    top:20px;
+  }
+  100% {
+    top:0;
+    opacity: 1;
+  }
+}
+@media screen and (max-width:1366px){
+
+  .qualityInfoTable table tbody tr td{
+   
+  }
+
+  .qualityInfoTable th{
+    padding-left: 5px;
+    padding-right: 0px;
+  }
+
+  .qualityInfoTable table td{
+    padding-left: 5px;
+    padding-right: 0px;
+  }
+
+  .switch label{
+    font-size: 10px;
+    width: 60px;
+    padding: 3px 5px 4px;
+    line-height: 11px;
+  }
+  .switch .activeIndicator,
+  .switch .hoverIndicator{
+    width: 60px;
+    height: 20px;
+  }
+  .switch input:checked + label.b ~ .activeIndicator,
+  .switch label.b:hover ~ .hoverIndicator,
+  .switch input:checked + label.b ~ .hoverIndicator,
+  .switch label.b:hover ~ input:checked + label.c ~ .hoverIndicator{
+    left: 60px;
+  }
+  .switch input:checked + label.c ~ .activeIndicator,
+  .switch label.c:hover ~ .hoverIndicator,
+  .switch input:checked + label.b ~ label.c:hover ~ .hoverIndicator,
+  .switch input:checked + label.c ~ .hoverIndicator{
+    left: calc(60px*2);
+  }
+
+  /* .dropDown{
+
+     width: 80px;
+
+    border-radius: 5px ;
+    padding: 10px 10px 10px 10px;
+    border-top: 1px solid #efefef;
+    overflow-y: auto;
+    z-index: 999;
+    background: rgba(255,255,255,0.9);
+    box-shadow: 1px 5px 5px rgba(0,0,0,0.1);
+    transition: 0.1s ease-in;
+    animation: slideA 0.25s ease-out alternate;
+  } */
+
+  .dropDown{
+    /*width: 90%;*/
+    border-radius: 5px ;
+    padding: 5px;
+  }
+
+  .dropDownDate{
+    /*width: 90%;*/
+    padding: 5px;
+  }
+
+  .dropDownValue{
+    /*width: 80%;*/
+    padding: 5px;
+  }
+
+  .disableContainer {
+    pointer-events: none;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.displayNone{ display: none;}
+
+.programDDError{
+  border-color: red;
+}
+
+.programDD{
+  /*width: 200px;*/
+  height: 30px;
+  border: 1px solid;
+}
+
+.levelDDError{
+  border-color: red;
+}
+
+.levelDD{
+  /*width: 200px;*/
+  height: 30px;
+  border: 1px solid;
+}
+
+.valueDDError{
+  border-color: red;
+}
+
+.valueDD{
+  margin-top: 0px;
+  padding-left: 5px;
+  /*width: 100px;*/
+  height: 120px;
+  border: 1px solid;
+}
+
+.effectiveDateError{
+  border-color: red ;
+}
+
+.effectiveDate{
+  /*width: 120px;*/
+  height: 30px;
+  border: 1px solid;
+}
+
+.expirationDateError{
+  border-color: red ;
+}
+
+.expirationDate{
+  /*width: 120px;*/
+  height: 30px;
+  border: 1px solid;
+}
+
+.actions{
+    width: 10px;
+}
+
+
+/* //------------------------ */
+
+button.btn2{
+  color: white !important;
+  background: green !important;
+  /*background: #fff;*/
+  float: right;
+  margin-right:5px;
+  margin-top:-25px;
+  padding: 2px 10px;
+  border:1px solid #bdc3c7;
+  background: #fff;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+button.btn1{
+  color:white !important;
+  /*background: #fff;*/
+  background: rgb(255, 102, 122) !important;
+  margin-left:5px;
+  padding: 2px 10px;
+  border:1px solid #bdc3c7;
+  background: #fff;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.addStyles{
+  /*background: #aeb6bf;*/
+  background-color: red;
+  overflow: hidden;
+  padding: 5px 5px 5px 0;
+  border-radius: 30px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.4) inset;
+  position: relative;
+  margin: 5px 0px 5px 0;
+  width:calc(3px*6 + 26px*6 - 1px);
+  height: calc(26px + 3px*2);
+
+}
+
+.alignRight{
+  float: right ;
+}
+
+.quickSort ul li,
+.hasBtn ul li,
+.viewSwitch ul li,
+.nodeHeader .component ul li{
+  float: right;
+}
+.quickSort ul li,
+.hasBtn ul li,
+.nodeHeader .component ul li{
+  margin-left: 5px;
+}
+.quickSort ul{
+}
+.quickSort ul li button,
+.hasBtn ul li button,
+.component button{
+  background: linear-gradient(#fff, rgb(233,233,233));
+  min-width: 50px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px rgba(255,255,255,0) inset, 1px 2px 2px rgba(0,0,0,0.25);
+  font-size: 11px;
+  display: block;
+  padding: 4px 10px;
+  color: #5d6d7e;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+.quickSort ul li button.disabled,
+.hasBtn ul li button.disabled,
+.component button.disabled{
+  background: linear-gradient(#d6dbdf, #aeb6bf);
+  opacity: 0.75;
+  pointer-events: none;
+  cursor: default;
+}
+.quickSort ul li button:hover,
+.hasBtn ul li button:hover,
+.component button:hover{
+  background: linear-gradient(#dbf1f4, #dbf1f4);
+  border-color: #7fced7;
+  box-shadow: 0px 0px 5px rgba(255,255,255,1) inset, 2px 5px 3px rgba(0,0,0,0.25);
+}
+.quickSort ul li button.active,
+.hasBtn ul li button.active{
+  background: linear-gradient(rgb(59,202,211), rgb(10,164,179));
+  border-color: #0aa4b3;
+  box-shadow: 0px 0px 5px rgba(255,255,255,0) inset, 2px 5px 3px rgba(0,0,0,0.25);
+  color: #fff;
+  position: relative;
+  padding-right: 20px;
+}
+.quickSort ul li button.active:before,
+.hasBtn ul li button.active:before{
+  content:'';
+  font-family: 'FontAwesome';
+  font-weight: normal;
+  color: #fff;
+  font-size: 10px;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+.quickSort ul li button.active.desc:before{
+  content:'';
+}
+.viewSwitch,
+.moreNav,
+.quickSort,
+.hasBtn,
+.nodeHeader .component{
+  margin-left: 10px;
+}
+
+/* Styles to add calender icon to date picker*/
+
+.customDatePicker {
+  position: relative;
+}
+
+
+/* create a new arrow, because we are going to mess up the native one
+see "List of symbols" below if you want another, you could also try to add a font-awesome icon.. */
+.customDatePicker:after {
+
+  font-weight: 900 ;
+  font-family: FontAwesome;
+  content: "\f073";
+  color: #555;
+  padding: 0 5px;
+}
+
+/* change color of symbol on hover */
+.customDatePicker:hover:after {
+  color: #bf1400;
+}
+
+/* make the native arrow invisible and stretch it over the whole field so you can click anywhere in the input field to trigger the native datepicker*/
+.customDatePicker::-webkit-calendar-picker-indicator {
+  position: absolute;
+  top: 0 ;
+  left: 0 ;
+  right: 0 ;
+  bottom: 0;
+  width: auto;
+  height: auto ;
+  color: transparent;
+  background: transparent;
+}
+
+/* adjust increase/decrease button */
+.customDatePicker::-webkit-inner-spin-button {
+  z-index: 1;
+}
+
+/* adjust clear button */
+.customDatePicker::-webkit-clear-button {
+  z-index: 1;
+}
+
+.disablePointer{
+  cursor: default;
+  background: linear-gradient(rgb(255, 125, 142), rgb(255, 73, 97)) !important;
+}
