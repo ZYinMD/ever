@@ -1,0 +1,63 @@
+{
+  "tenantIdentifier": 1,
+  "providerIdentifier": 20022787,
+  "federalTaxIdentifierNumber": "59-2857035",
+  "providerTypeName": "Organization",
+  "providerDetailTypeName": "Mobile",
+  "taxIdentifierTypeCode": "EIN",
+  "fbNumber": {
+    "type": "FB",
+    "id": "W9848",
+    "name": "Florida Blue Numbers",
+    "startDate": "1988-03-29",
+    "endDate": "9999-12-31"
+  },
+  "organizationName": [{
+    "organizationNameIdentifier": 22787,
+    "organizationName": "MOBILE DIAGNOSTICS OF LEON CNTY INC",
+    "organizationNameTypeName": "DBA (Doing Business As) Name",
+    "organizationNameTypeCode": "DBA"
+  }, {
+    "organizationNameIdentifier": 22787,
+    "organizationName": "MOBILE DIAGNOSTICS OF LEON CNTY INC",
+    "organizationNameTypeName": "Legal Name",
+    "organizationNameTypeCode": "LGL"
+  }],
+  "providerNPI": [{
+    "npiDeactivationDate": "9999-12-31",
+    "npiTypeCode": "Type 2",
+    "npi": "1770688830",
+    "npiActivationDate": "2008-05-25"
+  }],
+  "activeSpecialty": [{
+    "providerSpecialtyText": "Portable X Ray-335V00000X",
+    "providerSpecialtyPrimaryIndicator": "Y",
+    "boardCertificationRequiredIndicator": "N",
+    "boardCertificationExpirationDate": "9999-12-31",
+    "healthcareSpecialtyTaxonomyCode": "335V00000X"
+  }],
+  "licenseCertification": [{
+    "licenseExpirationDate": "9999-12-31",
+    "licenseEffectiveDate": "1987-10-01",
+    "licenseGrantedDate": "1987-10-01",
+    "uspsStateCode": "FL",
+    "licenseTypeCode": "XX",
+    "licensingOrganizationName": "Center for Medicare & Medicaid (formerly known as HCFA)",
+    "licenseStatusChangeDate": "1987-10-01",
+    "licenseTypeName": "Medicare Certification",
+    "licenseOriginalIssueDate": "1987-10-01",
+    "licenseNumber": "100009848",
+    "licensingOrganizationCode": "MED"
+  }],
+  "additionalLocation": [{
+    "locationTypeName": "Mailing",
+    "providerAdditionalLocationExpirationDate": "9999-12-31",
+    "locationTypeCode": "31",
+    "providerAdditionalLocationEffectiveDate": "2004-01-01",
+    "postalAddress": [{
+      "addressLine1Text": "2208 NAPOLEON BONAPARTE DR",
+      "addressLine3Text": "Tallahassee, FL, 32308-5917"
+    }]
+  }],
+  "educations": {}
+}

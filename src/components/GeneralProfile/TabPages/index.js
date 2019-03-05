@@ -1,7 +1,7 @@
-import Info from './Info';
-import EducationInfo from './EducationInfo';
+import BasicInfo from './BasicInfo';
 import License from './License';
+import EducationInfo from './EducationInfo';
 import QualityProgram from './QualityProgram';
 import AdditionalInfo from './AdditionalInfo';
 
-export default { Info, EducationInfo, License, QualityProgram, AdditionalInfo };
+export default { BasicInfo, License, EducationInfo, QualityProgram, AdditionalInfo };

@@ -3,13 +3,13 @@ The 5 components to render the 5 tabs in this node are named Info, EducationInfo
 This function helps decide what the tabs is called.
 */
 
-export default function decideTabTitle(componentName, data) {
+export default function decideTabTitle(tabPage, data) {
   const lookUpTable = {
-    Info: data.providerDetailTypeName + ' Info',
+    BasicInfo: data.providerDetailTypeName + ' Info',
     EducationInfo: 'Education Info',
     License: 'License/Cert & Other Identifiers',
     QualityProgram: 'Quality Program',
     AdditionalInfo: 'Additional Info',
   };
-  return lookUpTable[componentName] || 'unknown';
+  return lookUpTable[tabPage] || 'unknown';
 }

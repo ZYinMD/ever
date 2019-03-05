@@ -38,8 +38,9 @@
 
 .right {
   grid-column: 2;
-  margin-top: 25px;
+  align-self: center;
   padding-right: 5px;
+  padding-bottom: 2px;
 }
 
 .right p {
@@ -49,7 +50,6 @@
 .title {
   font-size: 12px;
   margin: 0 0 2px 0;
-  text-transform: uppercase;
 }
 
 .body {

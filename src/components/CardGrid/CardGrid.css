@@ -10,7 +10,7 @@
 }
 
 .hackBorder {
-  border-left: 1px solid white; /* to cover the left border of the left-most cards */
+  border-left: 3px solid white; /* to cover the left border of the left-most cards */
   border-radius: 5px;
 }
 
@@ -21,7 +21,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   position: relative;
-  left: -1px;
+  left: -2px;
   z-index: -1;
 }
 

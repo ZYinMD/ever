@@ -1,10 +1,10 @@
 import React, { PureComponent, Fragment } from 'react';
 
-import pcCommon from '../../../assets/styles/pcCommon.css';
 // fontawesome
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSortAlphaDown, faSortAlphaUp, faSortNumericDown, faSortNumericUp, faCalendarAlt } from "fa5-pro-regular";
-import { faPencil, faTimesCircle, faCheckCircle } from "fa5-pro-solids";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSortAlphaDown, faSortAlphaUp, faSortNumericDown, faSortNumericUp, faCalendarAlt } from 'fa5-pro-regular';
+import { faPencil, faTimesCircle, faCheckCircle } from 'fa5-pro-solids';
+import pcCommon from '../../../assets/styles/pcCommon.css';
 import styles from '../Table.css';
 
 export default class Tr extends PureComponent {
@@ -14,11 +14,9 @@ export default class Tr extends PureComponent {
   }
 
   render() {
-    let {
- data, header, isExpanded, handleEditClick, handleSortClick, sortable, sortableNumber, editable, editing, handleCancelClick, handleSubmitClick
-} = this.props;
+    let { data, header, isExpanded, handleEditClick, handleSortClick, sortable, sortableNumber, editable, editing, handleCancelClick, handleSubmitClick } = this.props;
 
-    if (!Array.isArray(data)) {data = Object.values(data);}
+    if (!Array.isArray(data)) { data = Object.values(data); }
 
     const renderCell = header
       ? (item, index) => {
@@ -27,24 +25,27 @@ export default class Tr extends PureComponent {
         const isEditing = !!editing && isEditable;
         // /////////////////////////////////////
         return (
-<td key={index} className={(isEditing ? styles.editing : '') + ' ' + (isEditable ? styles.editHeader : '') }>{item}
-          {Array.isArray(sortable) && sortable.includes(item) &&
-            <FontAwesomeIcon className={styles.sortIcon + ' ' + styles.icon} onClick={handleSortClick} icon={faSortAlphaDown}/>}
-          {Array.isArray(sortableNumber) && sortableNumber.includes(item) &&
-            <FontAwesomeIcon className={styles.sortIcon + ' ' + styles.icon} onClick={handleSortClick} icon={faSortNumericDown}/>}
+          <td key={index} className={(isEditing ? styles.editing : '') + ' ' + (isEditable ? styles.editHeader : '')}>
+            {item}
+            {Array.isArray(sortable) && sortable.includes(item)
+            && <FontAwesomeIcon className={styles.sortIcon + ' ' + styles.icon} onClick={handleSortClick} icon={faSortAlphaDown} />}
+            {Array.isArray(sortableNumber) && sortableNumber.includes(item)
+            && <FontAwesomeIcon className={styles.sortIcon + ' ' + styles.icon} onClick={handleSortClick} icon={faSortNumericDown} />}
 
-          {/* icons for editing column*/}
-          {isEditing && <FontAwesomeIcon className={styles.cancelIcon + ' ' + pcCommon.alignRight} icon={faTimesCircle + ' ' + styles.icon} onClick={handleCancelClick}/>}
-          {isEditing && <FontAwesomeIcon className={styles.submitIcon + ' ' + pcCommon.alignRight} icon={faCheckCircle + ' ' + styles.icon} onClick={handleSubmitClick}/>}
+            {/* icons for editing column */}
+            {isEditing && <FontAwesomeIcon className={styles.cancelIcon + ' ' + pcCommon.alignRight} icon={faTimesCircle + ' ' + styles.icon} onClick={handleCancelClick} />}
+            {isEditing && <FontAwesomeIcon className={styles.submitIcon + ' ' + pcCommon.alignRight} icon={faCheckCircle + ' ' + styles.icon} onClick={handleSubmitClick} />}
 
-          {/* edit pencil icon for editable column header*/}
-          {isEditable && !isEditing &&
+            {/* edit pencil icon for editable column header */}
+            {isEditable && !isEditing
+            && (
             <span className={styles.editIconContainer} onClick={handleEditClick}>
-            <FontAwesomeIcon className={styles.editIcon} icon={faPencil}/>
+              <FontAwesomeIcon className={styles.editIcon} icon={faPencil} />
             </span>
+            )
           }
-        </td>
-);
+          </td>
+        );
       }
       : (item, index) => {
         // determine whether the row is editable and then if it is currently editing.
@@ -52,10 +53,15 @@ export default class Tr extends PureComponent {
         const isEditing = !!editing && isEditable;
         // ///////////////////////////////////
         return (
-<td className={isEditing ? styles.editing : ''} key={index}>
-          {isEditing ? <Fragment><input className={styles.endDateInput}/><FontAwesomeIcon className={styles.calendarIcon + ' ' + styles.icon} icon={faCalendarAlt}/></Fragment> : item}
+          <td className={isEditing ? styles.editing : ''} key={index}>
+            {isEditing ? (
+              <Fragment>
+                <input className={styles.endDateInput} />
+                <FontAwesomeIcon className={styles.calendarIcon + ' ' + styles.icon} icon={faCalendarAlt} />
+              </Fragment>
+            ) : item}
           </td>
-);
+        );
       };
     return <tr onClick={this.handleExpandClick} className={isExpanded ? styles.expanded : ''}>{data.map(renderCell)}</tr>;
   }

@@ -1,0 +1,68 @@
+{
+  "tenantIdentifier": 1,
+  "providerIdentifier": 10138528,
+  "federalTaxIdentifierNumber": "xxx-xx-3052",
+  "providerTypeName": "Individual",
+  "providerDetailTypeName": "Supplier Individual",
+  "taxIdentifierTypeCode": "SSN",
+  "individualBirthDate": "1984-07-21",
+  "individualGenderCode": "F",
+  "medicaidParFlag": {
+    "indicatorValue": "Y",
+    "startDate": "2017-08-19"
+  },
+  "fbNumber": {
+    "type": "FB",
+    "id": "Y0SE6",
+    "name": "Florida Blue Numbers",
+    "startDate": "2015-08-28",
+    "endDate": "9999-12-31"
+  },
+  "internalIdentifiers": [{
+    "type": "MD",
+    "id": "015324400",
+    "name": "Medicaid Number",
+    "startDate": "2015-07-21",
+    "endDate": "2299-12-31"
+  }],
+  "individualName": [{
+    "individualNameIdentifier": 138528,
+    "givenName": "MIKE",
+    "middleName": "M",
+    "surname": "SUPPLICE",
+    "degreeName": "ARNP",
+    "individualNameTypeName": "License Name",
+    "individualNameTypeCode": "LIC"
+  }],
+  "providerNPI": [{
+    "npiDeactivationDate": "9999-12-31",
+    "npiTypeCode": "Type 1",
+    "npi": "1689000101",
+    "npiActivationDate": "2015-08-28"
+  }],
+  "activeSpecialty": [{
+    "providerSpecialtyText": "Advanced Registered Nurse Practitioner-363L00000X",
+    "providerSpecialtyPrimaryIndicator": "Y",
+    "boardCertificationRequiredIndicator": "N",
+    "boardCertificationDate": "2015-08-28",
+    "boardCertificationExpirationDate": "9999-12-31",
+    "healthcareSpecialtyTaxonomyCode": "363L00000X"
+  }],
+  "licenseCertification": [{
+    "licenseExpirationDate": "2018-07-31",
+    "licenseEffectiveDate": "2009-03-30",
+    "licenseGrantedDate": "2009-03-30",
+    "uspsStateCode": "FL",
+    "licenseTypeCode": "ARNP",
+    "licensingOrganizationName": "State",
+    "licenseStatusCode": "2020",
+    "licenseStatusChangeDate": "2009-03-30",
+    "licenseTypeName": "Advanced Registered Nurse Practitioner",
+    "licenseStatusName": "Clear Active",
+    "licenseOriginalIssueDate": "2009-03-30",
+    "licenseNumber": "ARNP9290091",
+    "licensingOrganizationCode": "2F"
+  }],
+  "educations": {},
+  "providerNotificationsIndicator": "N"
+}

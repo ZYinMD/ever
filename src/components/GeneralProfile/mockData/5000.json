@@ -1,0 +1,165 @@
+{
+  "tenantIdentifier": 1,
+  "providerIdentifier": 10077013,
+  "federalTaxIdentifierNumber": "xxx-xx-4749",
+  "providerTypeName": "Individual",
+  "providerDetailTypeName": "Professional",
+  "taxIdentifierTypeCode": "SSN",
+  "individualBirthDate": "1969-12-12",
+  "individualGenderCode": "M",
+  "medicareParFlag": {
+    "indicatorValue": "Y",
+    "startDate": "2012-08-01"
+  },
+  "medicaidParFlag": {
+    "indicatorValue": "Y",
+    "startDate": "2017-08-19"
+  },
+  "fbNumber": {
+    "type": "FB",
+    "id": "50000",
+    "name": "Florida Blue Numbers",
+    "startDate": "2004-08-31",
+    "endDate": "9999-12-31"
+  },
+  "internalIdentifiers": [{
+    "type": "MD",
+    "id": "262037500",
+    "name": "Medicaid Number",
+    "startDate": "2002-04-26",
+    "endDate": "2299-12-31"
+  }],
+  "individualName": [{
+    "individualNameIdentifier": 77013,
+    "givenName": "Avinash",
+    "middleName": "G",
+    "surname": "Kumar",
+    "degreeName": "MD",
+    "individualNameTypeName": "License Name",
+    "individualNameTypeCode": "LIC"
+  }],
+  "providerNPI": [{
+    "npiDeactivationDate": "9999-12-31",
+    "npiTypeCode": "Type 1",
+    "npi": "1952377061",
+    "npiActivationDate": "2006-02-28"
+  }],
+  "activeSpecialty": [{
+    "providerSpecialtyText": "Orthopedic Surgery-207X00000X",
+    "providerSpecialtyPrimaryIndicator": "Y",
+    "boardCertificationRequiredIndicator": "N",
+    "boardCertificationStatusCode": "C",
+    "boardCertificationDate": "2004-07-11",
+    "boardCertificationOrganizationName": "American Board of Orthopedic Surgery",
+    "boardCertificationStatusName": "Certified",
+    "boardCertificationExpirationDate": "2024-12-31",
+    "providerGeneralSpecialtyCode": "34",
+    "providerGeneralSpecialtyName": "Orthopedic Surgery",
+    "providerSubspecialtyCode": "54",
+    "providerSubspecialtyName": "N/A",
+    "healthcareSpecialtyTaxonomyCode": "207X00000X"
+  }],
+  "licenseCertification": [{
+    "licenseExpirationDate": "2018-01-31",
+    "licenseEffectiveDate": "2001-07-10",
+    "licenseGrantedDate": "2001-07-10",
+    "uspsStateCode": "FL",
+    "licenseTypeCode": "ME",
+    "licensingOrganizationName": "State",
+    "licenseStatusCode": "2020",
+    "licenseStatusChangeDate": "2001-07-10",
+    "licenseTypeName": "Medical",
+    "licenseStatusName": "Clear Active",
+    "licenseOriginalIssueDate": "2001-07-10",
+    "licenseNumber": "ME82887",
+    "licensingOrganizationCode": "2F"
+  }],
+  "qualityProgram": [{
+    "programTypeName": "Accountable Care Organization - BDC Cancer Care",
+    "providerProgramExpirationDate": "9999-12-31",
+    "qerpIndicator": "Y",
+    "providerProgramEffectiveDate": "0001-01-01",
+    "programDefinitionIdentifier": 153,
+    "programTypeCode": "153",
+    "providerProgramLevel": "00A72/BAPTIST HEALTH SOUTH FLORIDA INC",
+    "providerProgramLevelValue": "BSC"
+  }, {
+    "programTypeName": "Accountable Care Organization - BDC Cancer Care",
+    "providerProgramExpirationDate": "9999-12-31",
+    "qerpIndicator": "Y",
+    "providerProgramEffectiveDate": "0001-01-01",
+    "programDefinitionIdentifier": 153,
+    "programTypeCode": "153",
+    "providerProgramLevel": "00A72/BAPTIST HEALTH SOUTH FLORIDA INC",
+    "providerProgramLevelValue": "PPC"
+  }, {
+    "programTypeName": "Accountable Care Organization - BDC Cancer Care",
+    "providerProgramExpirationDate": "9999-12-31",
+    "qerpIndicator": "Y",
+    "providerProgramEffectiveDate": "0001-01-01",
+    "programDefinitionIdentifier": 153,
+    "programTypeCode": "153",
+    "providerProgramLevel": "00A72/BAPTIST HEALTH SOUTH FLORIDA INC",
+    "providerProgramLevelValue": "HMO"
+  }, {
+    "programTypeName": "Accountable Care Organization - BDC Cancer Care",
+    "providerProgramExpirationDate": "9999-12-31",
+    "qerpIndicator": "Y",
+    "providerProgramEffectiveDate": "0001-01-01",
+    "programDefinitionIdentifier": 153,
+    "programTypeCode": "153",
+    "providerProgramLevel": "00A72/BAPTIST HEALTH SOUTH FLORIDA INC",
+    "providerProgramLevelValue": "PPS"
+  }, {
+    "programTypeName": "Accountable Care Organization - BDC Cancer Care",
+    "providerProgramExpirationDate": "9999-12-31",
+    "qerpIndicator": "Y",
+    "providerProgramEffectiveDate": "0001-01-01",
+    "programDefinitionIdentifier": 153,
+    "programTypeCode": "153",
+    "providerProgramLevel": "00A72/BAPTIST HEALTH SOUTH FLORIDA INC",
+    "providerProgramLevelValue": "NWB"
+  }, {
+    "programTypeName": "Accountable Care Organization - BDC Cancer Care",
+    "providerProgramExpirationDate": "9999-12-31",
+    "qerpIndicator": "Y",
+    "providerProgramEffectiveDate": "0001-01-01",
+    "programDefinitionIdentifier": 153,
+    "programTypeCode": "153",
+    "providerProgramLevel": "00A72/BAPTIST HEALTH SOUTH FLORIDA INC",
+    "providerProgramLevelValue": "SBN"
+  }, {
+    "programTypeName": "BDC Cancer Care",
+    "providerProgramExpirationDate": "9999-12-31",
+    "qerpIndicator": "N",
+    "providerProgramEffectiveDate": "2019-01-01",
+    "programDefinitionIdentifier": 116,
+    "programTypeCode": "116",
+    "providerProgramLevel": "BDC Cancer Care"
+  }],
+  "educations": {
+    "medicalSchool": {
+      "institutionName": "Emory University School of Medicine",
+      "completedYearNumber": 1995,
+      "typeName": "Medical School",
+      "typeCode": "MEDSCHOOL"
+    },
+    "residency": {
+      "institutionName": "FLORIDA ORTHOPAEDIC INSTITUTE",
+      "completedYearNumber": 2002,
+      "typeName": "Residency",
+      "typeCode": "RESIDENT"
+    },
+    "internship": {
+      "institutionName": "EMORY AFFILIATED HOSPITAL",
+      "completedYearNumber": 1996,
+      "typeName": "Internship",
+      "typeCode": "INTERN"
+    }
+  },
+  "soloPracIndicator": "Y",
+  "cmsOptOutIndicator": "N",
+  "cmsOptOutEffectiveDate": "2013-10-28",
+  "providerOIGIndicator": "N",
+  "providerOIGStartDate": "2013-10-08"
+}

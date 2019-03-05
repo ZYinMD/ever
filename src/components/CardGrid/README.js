@@ -19,6 +19,9 @@ To use:
       string, the title displayed on the card
     body:
       string, the text underneath the title
+    noAutoCap (optional):
+      boolean, default to false if omitted.
+      Normally, the card title will be automatically rendered in all upper case. If false, will render what you pass in as is.
   The icon on the card:
     Each card will display an icon, which is determined by the title you provide.
     See '.Card/iconLookup.js' for details. Icon will be empty if it's not there.
@@ -27,24 +30,24 @@ To use:
 */
 
 import React, { PureComponent } from 'react';
-import { CardGrid, Card } from '../CardGrid';
+import { CardGrid, Card } from "./";
 
 export default class README extends PureComponent {
   render() {
     return (
-      <div style={{paddingTop: '20px'}}>
+      <div style={{ paddingTop: '20px' }}>
         <CardGrid>
-          <Card title='Degree' body ='MD'/>
-          <Card title='Gender' body ='Male'/>
-          <Card title='Eat' body ='A lot of things'/>
-          <Card title='Get Up At' body ='5AM'/>
-          <Card title='Allergies' body ='None'/>
-          <Card title='Degree' body ='This guy has a very very  long degree'/>
-          <Card title='Gender' body ='Male'/>
-          <Card title='Eat' body ='A lot of things'/>
-          <Card title='Get Up At' body ='5AM'/>
-          <Card title='Allergies' body ='None'/>
-          <Card title='Charging' body ='Yes!'/>
+          <Card title="Degree" body="MD" />
+          <Card title="Gender" body="Male" />
+          <Card title="Eat" body="A lot of things" />
+          <Card title="Get Up At" body="5AM" />
+          <Card title="Allergies" body="None" />
+          <Card title="Degree" body="This guy has a very very  long degree" />
+          <Card title="Gender" body="Male" />
+          <Card title="Eat" body="A lot of things" />
+          <Card title="Get Up At" body="5AM" />
+          <Card title="Allergies" body="None" />
+          <Card title="Charging" body="Yes!" />
         </CardGrid>
       </div>
     );

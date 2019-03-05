@@ -1,31 +1,31 @@
 import React, { PureComponent } from 'react';
 import styles from './GeneralProfile.css';
 import NodeHeader, { HorizontalNav, Tab } from '../NodeHeader';
-import Tabs from './TabPages';
-import data from './mockData/mockGeneralprofile.json';
+import TabPages from './TabPages';
+import data from './mockData/5000.json';
 import decideTabTitle from './helpers/decideTabTitle';
 
 class GeneralProfile extends PureComponent {
-  state = { currentTab: 'Info' }
+  state = { currentTab: 'BasicInfo' }
 
-  changeTab = function (tab) {
-    this.setState({ currentTab: tab });
+  changeTab = function (tabPage) {
+    this.setState({ currentTab: tabPage });
   }
 
   renderTabTitles() {
-    // tab here is the name of the component, tabTitle is the title it displays on the nav bar
-    return Object.keys(Tabs).map((tab) => {
-      const tabTitle = decideTabTitle(tab, data);
-      if (tab === this.state.currentTab)
+    // tabPage here is the name of the component, tabTitle is the text it displays on the nav bar
+    return Object.keys(TabPages).map((tabPage) => {
+      const tabTitle = decideTabTitle(tabPage, data);
+      if (tabPage === this.state.currentTab)
         return <Tab text={tabTitle} key={tabTitle} active />;
       else
-        return <Tab text={tabTitle} key={tabTitle} onClick={() => { this.changeTab(tab); }} />;
+        return <Tab text={tabTitle} key={tabTitle} onClick={() => { this.changeTab(tabPage); }} />;
     });
   }
 
   renderTabContent() {
-    // TabCotent is the component that displays the body of the page, Tabs is the object imported on line 4, consisting of 5 such components
-    const TabContent = Tabs[this.state.currentTab];
+    // TabCotent is the component that displays the body of the page, TabPages is the object imported on line 4, consisting of 5 such components
+    const TabContent = TabPages[this.state.currentTab];
     return (
       <div className={styles.nonFluidContainer}>
         <TabContent data={data} />

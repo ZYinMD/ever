@@ -1,0 +1,40 @@
+{
+  "tenantIdentifier": 1,
+  "providerIdentifier": 20073202,
+  "federalTaxIdentifierNumber": "65-0626008",
+  "providerTypeName": "Organization",
+  "providerDetailTypeName": "Group",
+  "taxIdentifierTypeCode": "EIN",
+  "fbNumber": {
+    "type": "FB",
+    "id": "003PP",
+    "name": "Florida Blue Numbers",
+    "startDate": "2012-11-15",
+    "endDate": "9999-12-31"
+  },
+  "organizationName": [{
+    "organizationNameIdentifier": 73202,
+    "organizationName": "GROUP DENTAL OF THE PALM BEACHES",
+    "organizationNameTypeName": "DBA (Doing Business As) Name",
+    "organizationNameTypeCode": "DBA"
+  }, {
+    "organizationNameIdentifier": 73202,
+    "organizationName": "GROUP DENTAL OF THE PALM BEACHES",
+    "organizationNameTypeName": "Legal Name",
+    "organizationNameTypeCode": "LGL"
+  }],
+  "providerNPI": [{
+    "npiDeactivationDate": "9999-12-31",
+    "npiTypeCode": "Type 2",
+    "npi": "1033224399",
+    "npiActivationDate": "2008-05-25"
+  }],
+  "activeSpecialty": [{
+    "providerSpecialtyText": "Dentist - General-1223G0001X",
+    "providerSpecialtyPrimaryIndicator": "Y",
+    "boardCertificationRequiredIndicator": "N",
+    "boardCertificationExpirationDate": "9999-12-31",
+    "healthcareSpecialtyTaxonomyCode": "1223G0001X"
+  }],
+  "educations": {}
+}
