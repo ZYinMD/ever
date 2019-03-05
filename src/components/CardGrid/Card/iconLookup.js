@@ -28,10 +28,12 @@ import {
   faUserMd,
   faLanguage,
   faQuestion,
+  faBuilding,
 } from 'fa5-pro-solids';
 
 const lookUpTable = {
   NAME: faUser,
+  'BUSINESS ENTITY NAME': faBuilding,
   DEGREE: faGraduationCap,
   Gender: faVenusMars,
   GENDER: faVenusMars,

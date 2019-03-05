@@ -11,7 +11,7 @@ export default class Card extends PureComponent {
       return <p className={styles.body}>&nbsp;</p>;
     // if body is array, return a <p> for each element
     if (Array.isArray(body))
-      return body.map(row => <p className={styles.body}>{row}</p>);
+      return body.map((row, index) => <p key={index} className={styles.body}>{row}</p>);
     // otherwise it's usually a string
     else
       return <p className={styles.body}>{body}</p>;

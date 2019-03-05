@@ -2,14 +2,27 @@ import React, { PureComponent } from 'react';
 import styles from './GeneralProfile.css';
 import NodeHeader, { HorizontalNav, Tab } from '../NodeHeader';
 import TabPages from './TabPages';
-import data from './mockData/5000.json';
+import data from './mockData/Z44.json';
 import decideTabTitle from './helpers/decideTabTitle';
+import { firstNameFirst, getOrgFullName } from './helpers/ProfileHelper';
 
 class GeneralProfile extends PureComponent {
   state = { currentTab: 'BasicInfo' }
 
   changeTab = function (tabPage) {
     this.setState({ currentTab: tabPage });
+  }
+
+  prepareName(data) {
+    if (data.individualName)
+      return firstNameFirst(data.individualName[0]);
+    if (data.organizationName)
+      return getOrgFullName(data.organizationName, 'DBA');
+    return 'N/A';
+  }
+
+  prepareCategory(data) {
+    return data.providerDetailTypeName || '';
   }
 
   renderTabTitles() {
@@ -37,8 +50,8 @@ class GeneralProfile extends PureComponent {
     return (
       <div className={styles.centerChild}>
         <NodeHeader
-          name="Crystal J. Ankney"
-          category="Supplier Individual"
+          name={this.prepareName(data)}
+          category={this.prepareCategory(data)}
           topBorderColor="#ff6a6b"
           button1
           button2

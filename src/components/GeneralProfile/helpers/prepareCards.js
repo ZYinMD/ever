@@ -27,8 +27,10 @@ export default function prepareCards(data) {
     res['FB #'] = data.fbNumber.id;
   if (data.fbNumber.startDate)
     res['FB # START DATE'] = DateUtil.convertDateToMMDDYYYY(data.fbNumber.startDate);
-  if (data.fbNumber.endDate);
-  res['FB # END DATE'] = DateUtil.convertDateToMMDDYYYYBlank(data.fbNumber.endDate);
+  if (data.fbNumber.endDate) {
+    if (DateUtil.convertDateToMMDDYYYYBlank(data.fbNumber.endDate))
+      res['FB # END DATE'] = DateUtil.convertDateToMMDDYYYYBlank(data.fbNumber.endDate);
+  }
   if (data.fbNumber.expirationReasonName)
     res['FB # INACTIVE REASON'] = data.fbNumber.expirationReasonName;
   if (data.federalTaxIdentifierNumber) {

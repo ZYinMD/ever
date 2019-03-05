@@ -8,12 +8,12 @@ import prepareTable from '../helpers/prepareTable';
 export default class BasicInfo extends PureComponent {
   render() {
     const cards = prepareCards(this.props.data);
-    const tableData = prepareTable(this.props.data);
+    const tableData = prepareTable.specialty(this.props.data);
     return (
       <>
         <AccordionBar plain text="General Information" />
         <CardGrid>
-          {Object.keys(cards).map(title => <Card title={title} body={cards[title]} noAutoCap />)}
+          {Object.keys(cards).map((title, index) => <Card key={index} title={title} body={cards[title]} noAutoCap />)}
         </CardGrid>
         <AccordionBar plain text="Specialty Information" />
         <Table>
@@ -21,7 +21,7 @@ export default class BasicInfo extends PureComponent {
             <Tr data={tableData.header} />
           </thead>
           <tbody>
-            {tableData.body.map(row => <Tr data={row} />)}
+            {tableData.body.map((row, index) => <Tr key={index} data={row} />)}
           </tbody>
         </Table>
       </>

@@ -20,6 +20,17 @@ export const getFullName = (individualName) => {
   return name;
 };
 
+export const firstNameFirst = (individualName) => {
+  let name = '';
+  if (individualName) {
+    name += (individualName.givenName ? (individualName.givenName) : '');
+    name += (individualName.middleName ? (' ' + individualName.middleName.slice(0, 1)) + '.' : '');
+    name += (individualName.surname ? (' ' + individualName.surname) : '');
+    name += (individualName.suffixName ? (' ' + individualName.suffixName) : '');
+  }
+  return name;
+};
+
 export const getOrgFullName = (orgNameList, type) => {
   const name = '';
   if (orgNameList) {
