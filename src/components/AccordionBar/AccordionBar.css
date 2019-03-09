@@ -12,16 +12,17 @@
 
 .accordionBar {
   display: flex;
-    align-items: center;
-    justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   margin: 22px 6px 13px 1px;
 }
 
 .text {
   color: #2B2C36;
-  font-weight: 400;
+  font-weight: lighter;
   font-size: 21px;
   margin: 0 10px 0 0;
+  font-family: 'Lato'
 }
 
 .plusbutton {
@@ -29,7 +30,7 @@
   color: #1976D2;
   cursor: pointer;
   position: relative;
-    top: 1px;
+  top: 1px;
   margin-left: 10px;
 }
 
