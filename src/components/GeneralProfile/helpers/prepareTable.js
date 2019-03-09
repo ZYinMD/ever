@@ -32,7 +32,7 @@ function specialty(data) {
     if (data.activeSpecialty) {
       res.body = data.activeSpecialty.map(i => ({ specialty: i.providerSpecialtyText }));
     } else {
-      res.body = noRecordFound(7, true);
+      res.body = noRecordFound(1, true);
     }
   }
   return res;

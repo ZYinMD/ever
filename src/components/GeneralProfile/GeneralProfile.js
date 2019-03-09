@@ -1,10 +1,12 @@
 import React, { PureComponent } from 'react';
+import {connect} from 'react-redux';
 import styles from './GeneralProfile.css';
+import pcNodeContainer from '../../assets/styles/pcNodeContainerRR.css';
 import NodeHeader, { HorizontalNav, Tab } from '../NodeHeader';
 import TabPages from './TabPages';
-import data from './mockData/Z44.json';
 import decideTabTitle from './helpers/decideTabTitle';
-import { firstNameFirst, getOrgFullName } from './helpers/ProfileHelper';
+import prepareName from './helpers/prepareName';
+import prepareCategory from './helpers/prepareCategory';
 
 class GeneralProfile extends PureComponent {
   state = { currentTab: 'BasicInfo' }
@@ -13,19 +15,7 @@ class GeneralProfile extends PureComponent {
     this.setState({ currentTab: tabPage });
   }
 
-  prepareName(data) {
-    if (data.individualName)
-      return firstNameFirst(data.individualName[0]);
-    if (data.organizationName)
-      return getOrgFullName(data.organizationName, 'DBA');
-    return 'N/A';
-  }
-
-  prepareCategory(data) {
-    return data.providerDetailTypeName || '';
-  }
-
-  renderTabTitles() {
+  renderTabTitles(data) {
     // tabPage here is the name of the component, tabTitle is the text it displays on the nav bar
     return Object.keys(TabPages).map((tabPage) => {
       const tabTitle = decideTabTitle(tabPage, data);
@@ -36,34 +26,52 @@ class GeneralProfile extends PureComponent {
     });
   }
 
-  renderTabContent() {
+  renderTabContent(data) {
     // TabCotent is the component that displays the body of the page, TabPages is the object imported on line 4, consisting of 5 such components
     const TabContent = TabPages[this.state.currentTab];
     return (
-      <div className={styles.nonFluidContainer}>
-        <TabContent data={data} />
+      <div className={pcNodeContainer.nodeContentContainer}>
+        <div className={styles.centerChild}>
+          <div className={styles.nonFluidContainer}>
+            <TabContent data={data} />
+          </div>
+        </div>
       </div>
     );
   }
 
   render() {
+    const data = this.props.data;
+    if (!data) return null;
     return (
-      <div className={styles.centerChild}>
+      <div className={pcNodeContainer.nodeParentContainer}>
         <NodeHeader
-          name={this.prepareName(data)}
-          category={this.prepareCategory(data)}
+          name={prepareName(data)}
+          category={prepareCategory(data)}
           topBorderColor="#ff6a6b"
           button1
           button2
         >
           <HorizontalNav>
-            {this.renderTabTitles()}
+            {this.renderTabTitles(data)}
           </HorizontalNav>
         </NodeHeader>
-        {this.renderTabContent()}
+        {this.renderTabContent(data)}
       </div>
     );
   }
 }
 
-export default GeneralProfile;
+function mapStateToProps(state) {
+  if (!state.providerProfile.providerGeneralInfo.data)
+    return {data: null};
+  // if axios returns 404, get data for this poor node by hacking the search result list, else use the axios return
+  if (state.providerProfile.providerGeneralInfo.data.errorCode === 404) {
+    const axiosURL = state.providerProfile.providerGeneralInfo.config.url;
+    const providerId = axiosURL.slice(axiosURL.lastIndexOf('/') + 1);
+    return { data: state.searchReducer.providerSearch.data.filter(i => i.providerId == providerId) };
+  }
+  return { data: state.providerProfile.providerGeneralInfo.data };
+}
+
+export default connect(mapStateToProps)(GeneralProfile);
