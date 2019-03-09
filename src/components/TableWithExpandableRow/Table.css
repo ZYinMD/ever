@@ -64,6 +64,11 @@
 
 .table td.editing {
   background: #F1F1F1;
+  min-width: 157px;
+}
+
+.table .editHeader {
+  min-width: 157px;
 }
 
 .table td:first-child {
@@ -76,15 +81,19 @@
 
 /*alert row*/
 .table td.alertContainer {
-    background: #fdebd0;
+    background: #FFF3E0;
     transition: 0.2s;
-    font-size: 12px;
+    font-size: 14px;
     color: #EF6C00;
+    border: 1px solid rgb(239,108,0, 0.15);
+    text-align: center;
+    border-radius: 5px;
 }
 
 .table td.alertContainer .icon {
-    margin-right: 5px;
+    margin-right: 12px;
     color: #EF6C00;
+    font-size: 15px
 }
 
 .editIconContainer{
@@ -119,7 +128,7 @@
   font-size: 15px;
 }
 
-.iocon:hover {
+.icon:hover {
   font-size: 17px;
 }
 
@@ -130,10 +139,19 @@
 
 .cancelIcon {
   color: #EC7063;
+  margin-right: 5px;
 }
 
 .submitIcon {
   color: #52BE80;
-  margin-right: 5px;
+  font-size: 15px;
+}
+
+.submitIcon.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.submitIcon.disabled:hover {
   font-size: 15px;
 }

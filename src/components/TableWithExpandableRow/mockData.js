@@ -6,9 +6,9 @@ mockData[1] = {
   Address: '12011 Lee Jackson Memorial Highway',
   'Address Line 2': 'Suite 400',
   City: 'Fairfax',
-  State: 'VA',
+  State: 'VA'
 };
-mockData[2] = ['there can be', 'empty cells', '', 'just pass in empty string'];
+mockData[2] = ['there can be', 'empty cells', '', 'just pass in empty string']
 mockData[3] = ['the width of ', 'these columns', 'are auto calculated', 'unless you specify'];
 
-export { mockHeader, mockData };
+export { mockHeader, mockData};

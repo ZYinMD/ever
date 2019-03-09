@@ -1,4 +1,4 @@
-/* Z
+/*Z
 Warning: if you mutate a prop, this component may not re-render (to reflect the change), because the creator is a fan of overkill.
 
 To test it out:
@@ -22,7 +22,7 @@ To use:
 */
 
 import React, { PureComponent } from 'react';
-import { Table, Tr } from '.';
+import { Table, Tr } from '../TableWithExpandableRow';
 import { mockHeader, mockData } from './mockData.js';
 
 export default class README extends PureComponent {
@@ -30,13 +30,13 @@ export default class README extends PureComponent {
     return (
       <Table proportion={[3, 1, 1, 5]}>
         <thead>
-          <Tr data={mockHeader} />
+          <Tr data={mockHeader}/>
         </thead>
         <tbody>
-          <Tr data={mockData[0]} />
-          <Tr data={mockData[1]} />
-          <Tr data={mockData[2]} />
-          <Tr data={mockData[3]} />
+          <Tr data={mockData[0]}/>
+          <Tr data={mockData[1]}/>
+          <Tr data={mockData[2]}/>
+          <Tr data={mockData[3]}/>
         </tbody>
       </Table>
     );
