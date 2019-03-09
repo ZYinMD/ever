@@ -1,10 +1,11 @@
-import React, { PureComponent } from 'react'
+import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserMd, faChevronCircleDown } from 'fa5-pro-light';
 import styles from './NodeHeader.css';
 import { faInfoCircle, faAddressBook } from 'fa5-pro-light';
 
-export default class NodeHeader extends PureComponent {
+class NodeHeader extends Component {
+
   render() {
     const { name, category, topBorderColor, button1, button2, children} = this.props;
     return (
@@ -16,19 +17,21 @@ export default class NodeHeader extends PureComponent {
           <div className={styles.name}>{name}</div>
           <div className={styles.category}>{category}</div>
         </div>
-        <div className={styles.dropdown} onClick={() => {alert('You clicked the provider dropdown!')}}>
+        <div className={styles.dropdown} onClick={() => {alert('You clicked the provider dropdown!');}}>
           <FontAwesomeIcon icon={faChevronCircleDown} />
         </div>
-        <div className={styles.button1} onClick={() => {alert('You clicked the info button!')}}>
+        <div className={styles.button1} onClick={() => {alert('You clicked the info button!');}}>
           <FontAwesomeIcon icon={button1 ? faInfoCircle : null} />
         </div>
-        <div className={styles.button2} onClick={() => {alert('You clicked the contact button!')}}>
+        <div className={styles.button2} onClick={() => {alert('You clicked the contact button!');}}>
           <FontAwesomeIcon icon={button2 ? faAddressBook : null} />
         </div>
         <div className={styles.nav}>
           {children}
         </div>
       </header>
-    )
+    );
   }
 }
+
+export default NodeHeader;
