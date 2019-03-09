@@ -19,6 +19,7 @@ export default class Card extends PureComponent {
 
   render() {
     const { title, body, noAutoCap } = this.props;
+    if (!body) return null; // if no body, don't display the card
     const icon = iconLookup[title];
     const titleStyle = noAutoCap ? {} : { textTransform: 'uppercase' };
     return (

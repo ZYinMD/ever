@@ -18,7 +18,8 @@ To use:
     title:
       string, the title displayed on the card
     body:
-      string, the text underneath the title
+      string, the text underneath the title.
+      if (!body), the whole card will not be displayed. If you want to display a card with empty body, pass in ' '
     noAutoCap (optional):
       boolean, default to false if omitted.
       Normally, the card title will be automatically rendered in all upper case. If false, will render what you pass in as is.
