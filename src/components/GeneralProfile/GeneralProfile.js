@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import styles from './GeneralProfile.css';
 import pcNodeContainer from '../../assets/styles/pcNodeContainerRR.css';
 import NodeHeader, { HorizontalNav, Tab } from '../NodeHeader';
@@ -41,7 +41,7 @@ class GeneralProfile extends PureComponent {
   }
 
   render() {
-    const data = this.props.data;
+    const { data } = this.props;
     if (!data) return null;
     return (
       <div className={pcNodeContainer.nodeParentContainer}>
@@ -64,7 +64,7 @@ class GeneralProfile extends PureComponent {
 
 function mapStateToProps(state) {
   if (!state.providerProfile.providerGeneralInfo.data)
-    return {data: null};
+    return { data: null };
   // if axios returns 404, get data for this poor node by hacking the search result list, else use the axios return
   if (state.providerProfile.providerGeneralInfo.data.errorCode === 404) {
     const axiosURL = state.providerProfile.providerGeneralInfo.config.url;

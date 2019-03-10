@@ -30,7 +30,16 @@ module.exports = {
     'react/destructuring-assignment': [0, 'always', { ignoreClassFields: true }],
     'prefer-template': [0],
     curly: [0],
-    'max-len': ['error', { ignoreComments: true }],
+    'max-len': [0],
+    'class-methods-use-this': [0],
+    'react/prop-types': [0],
+    'prefer-const': [0],
+    'import/no-extraneous-dependencies': ['error', {
+      devDependencies: false,
+      optionalDependencies: false,
+      peerDependencies: false,
+    }],
+
     'object-curly-newline': ['error', {
       ObjectExpression: { multiline: true },
       ObjectPattern: { multiline: true },

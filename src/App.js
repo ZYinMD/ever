@@ -1,6 +1,20 @@
-import React from 'react';
+import { connect } from 'react-redux';
+import React, { PureComponent } from 'react';
 import GeneralProfile from './components/GeneralProfile';
+import data from './mockData';
+import c from './redux/constants';
 
-const App = () => <GeneralProfile />;
+class App extends PureComponent {
+  componentDidMount = () => {
+    this.props.dispatch({
+      type: c.PUT_DATA_TO_STORE,
+      payload: data,
+    });
+  }
 
-export default App;
+  render() {
+    return <GeneralProfile />;
+  }
+}
+
+export default connect(null, null)(App);
