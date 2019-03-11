@@ -27,11 +27,15 @@ class NodeHeader extends Component {
         <div className={styles.dropdown} onClick={this.togglePopup}>
           <FontAwesomeIcon icon={faChevronCircleDown} />
         </div>
-        <div className={styles.button1} onClick={() => { alert('You clicked the info button!'); }}>
-          <FontAwesomeIcon icon={button1 ? faInfoCircle : null} />
+        <div className={styles.buttonWrapper}>
+          <div className={styles.button1}>
+            <FontAwesomeIcon icon={button1 ? faInfoCircle : null} />
+          </div>
         </div>
-        <div className={styles.button2} onClick={() => { alert('You clicked the contact button!'); }}>
-          <FontAwesomeIcon icon={button2 ? faAddressBook : null} />
+        <div className={styles.buttonWrapper}>
+          <div className={styles.button2}>
+            <FontAwesomeIcon icon={button2 ? faAddressBook : null} />
+          </div>
         </div>
         <div className={styles.nav}>
           {children}

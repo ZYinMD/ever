@@ -1,7 +1,6 @@
 /* this is a complicated sheet, so I switched to overkill mode */
 
 /* color↓ */
-.nodeHeader,
 .name,
 .dropdown:hover,
 .button1:hover,
@@ -9,6 +8,13 @@
   color: white;
 }
 
+.button1:hover,
+.button2:hover {
+  background-color: #1976d2;
+  border-radius: 50%;
+}
+
+.nodeHeader,
 .icon,
 .category,
 .dropdown,
@@ -27,8 +33,8 @@
   background-color: #0097A7;
 }
 
-.button1,
-.button2,
+.nodeHeader,
+.buttonWrapper,
 .nav {
   background-color: #00acc1;
 }
@@ -40,17 +46,32 @@
   box-sizing: border-box;
   display: grid;
     align-items: center;
-    grid-template-columns:[icon] 50px [text] max-content [dropdown] 43px [button1] 40px [button2] 25px [nav] auto;
+    grid-template-columns:[icon] 50px [text] max-content [dropdown] 41px [button1] 35px [button2] 30px [nav] auto;
 }
 
 .icon,
 .text,
 .dropdown,
+.buttonWrapper,
 .button1,
 .button2 {
   height: 100%;
   display: grid;
     place-items: center;
+}
+
+.button1 {
+  justify-self: right;
+  align-self: center;
+  height: 27px;
+  width: 27px;
+}
+
+.button2 {
+  justify-self: left;
+  align-self: center;
+  height: 27px;
+  width: 27px;
 }
 
 .icon {
@@ -65,16 +86,21 @@
 
 .name {
   align-self: end;
+  position: relative;
+  bottom: -1px;
 }
 
 .category {
   align-self: start;
+  position: relative;
+  top: -1px;
 }
 
 .nav {
   display: flex;
   justify-content: flex-end;
 }
+
 /* font-size & placement in the grid ↓ */
 .icon {
   grid-column: icon;

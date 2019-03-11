@@ -17,4 +17,6 @@
 
 .activeTab {
   border-bottom: 6px solid #c3e6ec;
+  color: white;
+  font-weight: 500;
 }
