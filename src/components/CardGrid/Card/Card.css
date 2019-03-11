@@ -1,21 +1,21 @@
 .card {
   background-color: white;
   display: grid;
-    grid-template-columns: 78px minmax(150px, 260px);
+    grid-template-columns: [left-side] 78px [right-side] auto;
   border-radius: 5px;
 }
 
 .left {
   min-height: 90px;
   width: 78px;
-  grid-column: 1;
+  grid-column: left-side;
   display: grid;
     place-items: center;
 }
 
 .left figure {
   height: 50;
-  width: 78px;
+  width: 100%;
   margin: 0;
   display: grid;
     place-items: center;
@@ -34,9 +34,9 @@
 }
 
 .right {
-  grid-column: 2;
+  grid-column: right-side;
   align-self: center;
-  padding: 3px 5px 3px 0;
+  padding: 4px 9px 4px 0;
 }
 
 .right p {
