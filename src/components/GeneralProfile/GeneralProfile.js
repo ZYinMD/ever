@@ -32,7 +32,7 @@ class GeneralProfile extends PureComponent {
     return (
       <div className={pcNodeContainer.nodeContentContainer}>
         <div className={styles.centerChild}>
-          <div className={styles.nonFluidContainer}>
+          <div className={styles.almostFluidContainer}>
             <TabContent data={data} />
           </div>
         </div>
