@@ -34,9 +34,9 @@ export default function prepareCards(data) {
     if (data.fbNumber.startDate)
       res['FB # START DATE'] = DateUtil.convertDateToMMDDYYYY(data.fbNumber.startDate);
     if (data.fbNumber.endDate) {
-      res['FB # END DATE'] = DateUtil.convertDateToMMDDYYYYBlank(data.fbNumber.endDate) || null;
+      res['FB # END DATE'] = DateUtil.convertDateToMMDDYYYYBlank(data.fbNumber.endDate) || ' ';
     }
-    res['FB # INACTIVE REASON'] = data.fbNumber.expirationReasonName || null;
+    res['FB # INACTIVE REASON'] = data.fbNumber.expirationReasonName || ' ';
   }
 
   if (data.federalTaxIdentifierNumber) {
@@ -46,7 +46,7 @@ export default function prepareCards(data) {
   }
   if (data.providerNPI)
     res['ACTIVE NPI(s)'] = data.providerNPI.map(i => i.npi + (i.npiTypeCode ? ` (${i.npiTypeCode})` : ''));
-  res['LANGUAGE(s) OTHER THAN ENGLISH'] = data.languages || null;
+  res['LANGUAGE(s) OTHER THAN ENGLISH'] = data.languages || ' ';
 
   return res;
 }

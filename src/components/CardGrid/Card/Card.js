@@ -6,8 +6,8 @@ import iconLookup from './iconLookup.js';
 
 export default class Card extends PureComponent {
   renderBody(body) {
-    // if body is empty, need an empty <p>, otherwise the title is centered
-    if (!body)
+    // if body is a string containing one space, need to render it properly, otherwise the title is centered
+    if (body === ' ')
       return <p className={styles.body}>&nbsp;</p>;
     // if body is array, return a <p> for each element
     if (Array.isArray(body))
