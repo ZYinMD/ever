@@ -4,6 +4,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: whitesmoke;
+  font-family: lato, "Segoe UI", "Roboto", "Ubuntu", "Helvetica", sans-serif;
 }
 
 code {
