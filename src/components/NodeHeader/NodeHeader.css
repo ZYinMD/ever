@@ -4,7 +4,8 @@
 .name,
 .dropdown:hover,
 .button1:hover,
-.button2:hover {
+.button2:hover,
+.nav {
   color: white;
 }
 

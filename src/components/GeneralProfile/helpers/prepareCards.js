@@ -14,6 +14,8 @@ export default function prepareCards(data) {
     return res;
   }
 
+  // note: if a card needs to be displayed when body is empty, return a ' '
+
   if (data.individualName)
     res.NAME = StringUtil.psvUpperCase(Helper.getFullName(data.individualName[0]));
   if (data.organizationName)
