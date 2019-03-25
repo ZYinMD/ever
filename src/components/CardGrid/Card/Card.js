@@ -1,7 +1,9 @@
 import React, { PureComponent } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEllipsisH as threeDots } from 'fa5-pro-regular';
 import styles from './Card.css';
 import iconLookup from './iconLookup.js';
+import ArrayInToolip from '../../ArrayInToolTip';
 
 export default class Card extends PureComponent {
   renderBody(body) {
@@ -9,9 +11,19 @@ export default class Card extends PureComponent {
     if (body === ' ')
       return <p className={styles.body}>&nbsp;</p>;
 
-    // if body is array, return a <p> for each element
-    if (Array.isArray(body))
-      return body.map((row, index) => <p key={index} className={styles.body}>{row}</p>);
+    // if body is array with less than 3 elements, return a <p> for each element. When there are more, display a tooltip
+    if (Array.isArray(body)) {
+      if (body.length < 3)
+        return body.map((row, index) => <p key={index} className={styles.body}>{row}</p>);
+      else {
+        return (
+          <p className={styles.body}>
+            {body[0]}
+            <FontAwesomeIcon icon={threeDots} />
+          </p>
+        );
+      }
+    }
 
     // otherwise just render whatever it is, usually a string
     else
