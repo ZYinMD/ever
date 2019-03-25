@@ -7,12 +7,10 @@ import styles from './CardGrid.css';
 
 export default class CardGrid extends PureComponent {
   render() {
-    const { numCol } = this.props;
-
     return (
       <div className={styles.hackZIndex}>
         <div className={styles.hackBorder}>
-          <div className={styles.cardGrid + ' ' + (numCol === 3 ? styles.col3 : '')}>
+          <div className={styles.cardGrid}>
             {this.props.children}
           </div>
         </div>
