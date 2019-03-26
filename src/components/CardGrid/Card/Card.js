@@ -18,7 +18,13 @@ export default class Card extends PureComponent {
         return (
           <div className={styles.body}>
             {body[0]}
-            <ExpandNPI data={body} />
+            {/* Per old production site (actually I think it was a bug), expanded windows doesn't show type 1 or type 2, just show the numbers */}
+            <ExpandNPI data={body.map((i) => {
+              if (i.slice(-7, -3) === 'Type')
+                return i.slice(0, -9);
+              return i;
+            })}
+            />
           </div>
         );
       }

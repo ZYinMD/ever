@@ -11,22 +11,34 @@ import styles from './ExpandNPI.css';
 export default class ExpandNPI extends Component {
   state = { isOpen: false }
 
-  toggle = () => {
-    this.setState({ isOpen: !this.state.isOpen });
+  componentDidMount() {
+    window.addEventListener('resize', this.close);
   }
 
-  open = (event) => {
-    this.toggle();
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.close);
+  }
+
+  open = () => {
+    this.setState({ isOpen: true });
+  }
+
+  close = () => {
+    this.setState({ isOpen: false });
+  }
+
+  handleOpen = (event) => {
     let rect = event.target.getBoundingClientRect();
     let { top, bottom, left, right } = rect;
     let x = (left + right) / 2;
     let y = (top + bottom) / 2;
     this.setState({ coord: { x, y } });
+    this.open();
   }
 
   renderClosed() {
     return (
-      <span className={styles.closed} onClick={this.open}>
+      <span className={styles.closed} onClick={this.handleOpen}>
         <FontAwesomeIcon icon={threeDots} />
       </span>
     );
@@ -38,15 +50,13 @@ export default class ExpandNPI extends Component {
         <span className={styles.open}>
           <FontAwesomeIcon icon={threeDots} />
         </span>
-        <Popup coord={this.state.coord} data={this.props.data} onCollapse={this.toggle} />
+        <Popup coord={this.state.coord} data={this.props.data} onClose={this.close} />
       </Fragment>
     );
   }
 
   render() {
-    if (this.state.isOpen)
-      return (this.renderOpen());
-    else
-      return (this.renderClosed());
+    return this.state.isOpen
+      ? this.renderOpen() : this.renderClosed();
   }
 }

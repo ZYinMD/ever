@@ -34,17 +34,27 @@ module.exports = {
     'class-methods-use-this': [0],
     'react/prop-types': [0],
     'prefer-const': [0],
+    'no-multi-assign': [0],
+    'jsx-a11y/click-events-have-key-events': [0],
+    'jsx-a11y/no-static-element-interactions': [0],
     'import/no-extraneous-dependencies': ['error', {
       devDependencies: false,
       optionalDependencies: false,
       peerDependencies: false,
     }],
-
     'object-curly-newline': ['error', {
-      ObjectExpression: { multiline: true },
-      ObjectPattern: { multiline: true },
+      ObjectExpression: { consistent: true },
+      ObjectPattern: { consistent: true },
       ImportDeclaration: { multiline: true },
       ExportDeclaration: { multiline: true },
+    }],
+    'react/sort-comp': ['1', {
+      order: [
+        'static-methods',
+        'lifecycle',
+        'everything-else',
+        'render',
+      ],
     }],
   },
 };
