@@ -1,0 +1,24 @@
+.closed,
+.open {
+  margin-left: 10px;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  display: inline-grid;
+  place-items: center;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  position: relative;
+  top: 2px;
+}
+
+.closed {
+  background-color: rgb(255, 167, 38);
+}
+
+.open {
+  background-color: rgb(66, 165, 245);
+  box-shadow: 0px 0px 0px 5px rgba(227,242,253,1);
+  position: relative;
+}

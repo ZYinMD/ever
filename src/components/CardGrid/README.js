@@ -16,22 +16,23 @@ To use:
       If omitted, default to reponsive and wraps around
   Props of <Card />
     title:
-      string, the title displayed on the card
+      String, the title displayed on the card
     body:
-      string, the text underneath the title.
-      if (!body), the whole card will not be displayed. If you want to display a card with empty body, pass in ' '
+      String, the text underneath the title.
+      Also supports array of strings. If you data is an array of strings, just pass in the array.
+      If (!body), the whole card will not be displayed. If you want to display a card with empty body, pass in ' '
     noAutoCap (optional):
-      boolean, default to false if omitted.
+      Boolean, default to false if omitted.
       Normally, the card title will be automatically rendered in all upper case. If false, will render what you pass in as is.
   The icon on the card:
     Each card will display an icon, which is determined by the title you provide.
     See '.Card/iconLookup.js' for details. Icon will be empty if it's not there.
 
-    Grid example below.
+    Example code below.
 */
 
 import React, { PureComponent } from 'react';
-import { CardGrid, Card } from "./";
+import { CardGrid, Card } from '.';
 
 export default class README extends PureComponent {
   render() {

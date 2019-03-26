@@ -1,15 +1,14 @@
 import React, { PureComponent } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEllipsisH as threeDots } from 'fa5-pro-regular';
 import styles from './Card.css';
 import iconLookup from './iconLookup.js';
-import ArrayInToolip from '../../ArrayInToolTip';
+import ExpandNPI from './ExpandNPI/ExpandNPI.js';
 
 export default class Card extends PureComponent {
   renderBody(body) {
     // if body is a string containing one space, need to render it properly, otherwise the title is centered
     if (body === ' ')
-      return <p className={styles.body}>&nbsp;</p>;
+      return <div className={styles.body}>&nbsp;</div>;
 
     // if body is array with less than 3 elements, return a <p> for each element. When there are more, display a tooltip
     if (Array.isArray(body)) {
@@ -17,17 +16,17 @@ export default class Card extends PureComponent {
         return body.map((row, index) => <p key={index} className={styles.body}>{row}</p>);
       else {
         return (
-          <p className={styles.body}>
+          <div className={styles.body}>
             {body[0]}
-            <FontAwesomeIcon icon={threeDots} />
-          </p>
+            <ExpandNPI data={body} />
+          </div>
         );
       }
     }
 
     // otherwise just render whatever it is, usually a string
     else
-      return <p className={styles.body}>{body}</p>;
+      return <div className={styles.body}>{body}</div>;
   }
 
   render() {
