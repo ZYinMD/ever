@@ -10,10 +10,10 @@ export default class Card extends PureComponent {
     if (body === ' ')
       return <div className={styles.body}>&nbsp;</div>;
 
-    // if body is array with less than 3 elements, return a <p> for each element. When there are more, display a button to expand
+    // if body is array with less than 3 elements, return a <p> for each element. When there are more, display a button to expand. This usually happens when there are multiple NPIs, so the expand component is called <ExpandNPI>, but it could handle any array.
     if (Array.isArray(body)) {
       if (body.length < 3)
-        return body.map((row, index) => <p key={index} className={styles.body}>{row}</p>);
+        return body.map((row, index) => <div key={index} className={styles.body}>{row}</div>);
       else {
         return (
           <div className={styles.body}>
@@ -25,8 +25,7 @@ export default class Card extends PureComponent {
     }
 
     // otherwise just render whatever it is, usually a string
-    else
-      return <div className={styles.body}>{body}</div>;
+    return <div className={styles.body}>{body}</div>;
   }
 
   render() {

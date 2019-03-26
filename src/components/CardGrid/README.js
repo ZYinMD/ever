@@ -31,27 +31,23 @@ To use:
     Example code below.
 */
 
-import React, { PureComponent } from 'react';
+import React from 'react';
 import { CardGrid, Card } from '.';
 
-export default class README extends PureComponent {
-  render() {
-    return (
-      <div style={{ paddingTop: '20px' }}>
-        <CardGrid>
-          <Card title="Degree" body="MD" />
-          <Card title="Gender" body="Male" />
-          <Card title="Eat" body="A lot of things" />
-          <Card title="Get Up At" body="5AM" />
-          <Card title="Allergies" body="None" />
-          <Card title="Degree" body="This guy has a very very  long degree" />
-          <Card title="Gender" body="Male" />
-          <Card title="Eat" body="A lot of things" />
-          <Card title="Get Up At" body="5AM" />
-          <Card title="Allergies" body="None" />
-          <Card title="Charging" body="Yes!" />
-        </CardGrid>
-      </div>
-    );
-  }
+export default function README() {
+  return (
+    <CardGrid>
+      <Card title="Degree" body="MD" />
+      <Card title="Gender" body="Male" />
+      <Card title="Eat" body="A lot of things" />
+      <Card title="Get Up At" body="5AM" />
+      <Card title="Allergies" body="None" />
+      <Card title="Degree" body="This guy has a very very  long degree" />
+      <Card title="Gender" body="Male" />
+      <Card title="Eat" body="A lot of things" />
+      <Card title="Get Up At" body="5AM" />
+      <Card title="Allergies" body="None" />
+      <Card title="Charging" body="Yes!" />
+    </CardGrid>
+  );
 }

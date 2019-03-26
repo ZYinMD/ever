@@ -10,17 +10,21 @@
 .card {
   border-radius: 12px;
   background-color: rgb(60, 61, 70);
-  color: rgb(199, 201, 214);
-  font-size: 16px;
   display: block;
   z-index: 6;
   padding: 14px 3px;
 }
 
+.card li {
+  font-size: 16px;
+  font-family: 'Segoe UI', 'Lato', 'sans-serif';
+  color: rgb(199, 201, 214);
+  font-weight: 400;
+}
+
 .triangle {
   width: 0;
   height: 0;
-
 }
 
 .scrollContainer {
@@ -46,6 +50,6 @@
 
 /* Handle */
 .scrollContainer::-webkit-scrollbar-thumb {
-  background: #888;
+  background: rgb(144, 144, 155);
   border-radius: 10px;
 }

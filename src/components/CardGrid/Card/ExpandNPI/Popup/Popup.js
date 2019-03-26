@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent, Fragment } from 'react';
 import styles from './Popup.css';
 
 export default class Popup extends PureComponent {
@@ -21,7 +21,7 @@ export default class Popup extends PureComponent {
     const card = this.card.current;
     let rect = card.getBoundingClientRect();
     // if the right side is touching the right border of viewport, relocate the card to underneath the button. This happens when the NPI happens to be in the last column
-    if (rect.right === innerWidth) {
+    if (rect.right === window.innerWidth) {
       this.setState({ popupLocation: 'bottom' });
     }
 
@@ -47,9 +47,7 @@ export default class Popup extends PureComponent {
         top: y + 23 + 'px',
       };
     }
-    const scrollContainerCSS = {
-      maxHeight: this.state.cardMaxHeight + 'px',
-    };
+    const scrollContainerCSS = { maxHeight: this.state.cardMaxHeight + 'px' };
 
     return (
       <span className={styles.card} ref={this.card} style={cardCSS}>
@@ -90,11 +88,11 @@ export default class Popup extends PureComponent {
 
   render() {
     return (
-      <>
+      <Fragment>
         <div className={styles.backdrop} onClick={this.props.onCollapse} />
         {this.renderCard()}
         {this.renderTriangle()}
-      </>
+      </Fragment>
     );
   }
 }
