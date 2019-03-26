@@ -20,8 +20,6 @@ export default class Popup extends PureComponent {
   checkBorder() {
     const card = this.card.current;
     let rect = card.getBoundingClientRect();
-    console.log('rect:\n    ', rect);
-
     // if the right side is touching the right border of viewport, relocate the card to underneath the button. This happens when the NPI happens to be in the last column
     if (rect.right === innerWidth) {
       this.setState({ popupLocation: 'bottom' });
@@ -29,15 +27,9 @@ export default class Popup extends PureComponent {
 
     // if the black card is taller than the viewport, make it shorter
     if (rect.bottom > window.innerHeight) {
-      console.log('window.innerHeight:\n    ', window.innerHeight);
-      console.log('window.innerWidth:\n    ', window.innerWidth);
-      console.log('this.state.cardMaxHeight:\n    ', this.state.cardMaxHeight);
-
       this.setState({ cardMaxHeight: window.innerHeight - rect.top - 40 });
-      console.log('this.state.cardMaxHeight:\n    ', this.state.cardMaxHeight);
     }
   }
-
 
   renderCard() {
     let { x, y } = this.props.coord;
@@ -97,7 +89,6 @@ export default class Popup extends PureComponent {
   }
 
   render() {
-    console.log('rerender!!!!!!!!!!!!');
     return (
       <>
         <div className={styles.backdrop} onClick={this.props.onCollapse} />

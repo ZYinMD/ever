@@ -1,3 +1,7 @@
+/* Z
+This file is the expand button on the card when the text body is an array. This is primarily to handle multiple NPIs. Example  FB#77125.
+*/
+
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEllipsisH as threeDots } from 'fa5-pro-regular';

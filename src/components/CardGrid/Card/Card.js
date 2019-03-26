@@ -10,7 +10,7 @@ export default class Card extends PureComponent {
     if (body === ' ')
       return <div className={styles.body}>&nbsp;</div>;
 
-    // if body is array with less than 3 elements, return a <p> for each element. When there are more, display a tooltip
+    // if body is array with less than 3 elements, return a <p> for each element. When there are more, display a button to expand
     if (Array.isArray(body)) {
       if (body.length < 3)
         return body.map((row, index) => <p key={index} className={styles.body}>{row}</p>);
